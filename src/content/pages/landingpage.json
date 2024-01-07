@@ -1,12 +1,13 @@
 {
   "title": "Welcome",
-  "content": [
+  "slug": "/",
+  "blocks": [
     {
-      "id": "2abCX3ynm628UdXU5TyRBeQDVfn",
+      "id": "2abUWFPadVTuoBd0Fci158uUBiu",
       "index": "a0",
       "type": "Banner",
       "fullWidth": false,
-      "background": null,
+      "background": "white",
       "content": [
         {
           "type": "heading",
@@ -15,7 +16,7 @@
           "content": [
             {
               "type": "text",
-              "text": "Justiz-Services"
+              "text": "Test"
             }
           ]
         },
@@ -25,7 +26,7 @@
           "content": [
             {
               "type": "text",
-              "text": "Rechtsinformationen und digitale Anwendungen, die bei der Lösung von Rechtsproblemen helfen"
+              "text": "Wie immer"
             }
           ]
         }
@@ -36,7 +37,6 @@
     "entryId": "2aP4lIjOEAQXv856WNuCPLjD0B4",
     "type": "Page",
     "index": "a0",
-    "seeded": true,
     "root": "pages"
   }
 }

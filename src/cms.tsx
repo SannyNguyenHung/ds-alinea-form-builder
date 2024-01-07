@@ -1,4 +1,5 @@
 import alinea, {createNextCMS} from 'alinea'
+import { BannerBlock } from './ui/blocks/banner';
 
 export const TextBlock = alinea.type('Text', {
   title: alinea.text('Title'),
@@ -21,24 +22,11 @@ export const Image =  alinea.object('Image', {
   })
 })
 
-export const BasicBlock = alinea.type('Block', {
-  fullWidth: alinea.check('Full width'),
-  background: alinea.select('Background', {
-      'white': 'White',
-      'green': 'Green',
-      'blue': 'Blue'
-  }),
-});
-
-export const BannerBlock = alinea.type('🚩 Banner', {
-  ...BasicBlock,
-  content: alinea.richText('Text'),
-});
 
 export const Page = alinea.type('Page', {
   title: alinea.text('Title'),
-  path: alinea.path('Path'),
-  content: alinea.list('Content', {
+  slug: alinea.text('Slug'),
+  blocks: alinea.list('Blocks', {
     schema: alinea.schema({
       Banner: BannerBlock,
       TextBlock: TextBlock
@@ -51,8 +39,8 @@ export const cms = createNextCMS({
     Page
   },
   workspaces: {
-    main: alinea.workspace('Example', {
-      pages: alinea.root('Example project', {
+    main: alinea.workspace('RAST', {
+      pages: alinea.root('RAST', {
         welcome: alinea.page(
           Page({
             title: 'Welcome'
