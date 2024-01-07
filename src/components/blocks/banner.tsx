@@ -1,6 +1,6 @@
 import alinea from 'alinea'
 import { BasicBlock, Block } from './basic';
-import { Content } from './components/content';
+import { Content } from './elements/content';
 
 
 export const BannerBlock = alinea.type('🚩 Banner', {

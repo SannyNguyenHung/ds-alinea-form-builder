@@ -1,6 +1,5 @@
 import alinea, {createNextCMS} from 'alinea'
-import { BannerBlock } from './ui/blocks/banner';
-import {PageSchema} from './ui/page';
+import {PageSchema} from '@/components/page';
 
 export const TextBlock = alinea.type('Text', {
   title: alinea.text('Title'),
