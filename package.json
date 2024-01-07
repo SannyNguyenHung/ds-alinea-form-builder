@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@digitalservice4germany/angie": "^1.1.0",
+    "@digitalservice4germany/style-dictionary": "^2.0.0",
     "alinea": "^0.4.3",
     "next": "14.0.4",
     "react": "^18",

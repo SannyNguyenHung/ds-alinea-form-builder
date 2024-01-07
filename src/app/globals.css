@@ -8,6 +8,13 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+@font-face { 
+  font-family: "BundesSans"; 
+  src: url('./fonts/BundesSansWeb-Bold.woff'); 
+  font-weight: normal; 
+  font-style: normal; 
+} 
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;

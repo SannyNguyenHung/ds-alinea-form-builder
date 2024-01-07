@@ -1,32 +1,36 @@
 {
-  "title": "Welcome",
+  "title": "Justiz-Services test",
   "slug": "/",
   "blocks": [
     {
-      "id": "2abUWFPadVTuoBd0Fci158uUBiu",
+      "id": "2abX4uBJdZ2HtZqnWUUyqk5x7mt",
       "index": "a0",
       "type": "Banner",
-      "fullWidth": false,
-      "background": "white",
+      "fullWidth": true,
+      "background": "bg-blue-100",
       "content": [
-        {
-          "type": "heading",
-          "textAlign": "left",
-          "level": 1,
-          "content": [
-            {
-              "type": "text",
-              "text": "Test"
-            }
-          ]
-        },
         {
           "type": "paragraph",
           "textAlign": "left",
           "content": [
             {
               "type": "text",
-              "text": "Wie immer"
+              "text": "Justiz-Services",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "data-id": null,
+                    "data-entry": null,
+                    "data-type": null,
+                    "href": "https://service.justiz.de/",
+                    "title": null
+                  }
+                },
+                {
+                  "type": "bold"
+                }
+              ]
             }
           ]
         }
@@ -34,9 +38,10 @@
     }
   ],
   "@alinea": {
-    "entryId": "2aP4lIjOEAQXv856WNuCPLjD0B4",
-    "type": "Page",
+    "entryId": "2abWtgqlRAWO0v8BZpIcPnENTED",
+    "type": "PageSchema",
     "index": "a0",
+    "seeded": true,
     "root": "pages"
   }
 }

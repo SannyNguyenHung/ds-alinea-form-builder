@@ -1,14 +1,16 @@
 import Image from 'next/image'
-import {cms, Page} from '../cms'
+import {cms} from '../cms'
+import Page, { PageSchema } from '@/ui/page';
+
 
 export default async function Home() {
-  const home = await cms.get(Page({slug: '/'}));
+  const [indexPage] = await cms.find(PageSchema({slug: '/'}));
 
-  console.log(home)
+  console.log(indexPage);
 
   return (
     <main className="">
-      { }
+      <Page page={indexPage}></Page>
     </main>
   )
 }

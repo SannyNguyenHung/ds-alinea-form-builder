@@ -1,6 +1,7 @@
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
+  presets: [require("@digitalservice4germany/style-dictionary/tailwind")],
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -15,6 +16,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("@digitalservice4germany/angie")],
 }
+
 export default config

@@ -1,5 +1,5 @@
 import alinea from 'alinea'
-import { BasicBlock } from './basic';
+import { BasicBlock, Block } from './basic';
 import { Content } from './components/content';
 
 
@@ -7,12 +7,13 @@ export const BannerBlock = alinea.type('🚩 Banner', {
     ...BasicBlock,
     content: alinea.richText('Text'),
 });
+
 export type BannerBlock = alinea.infer<typeof BannerBlock>;
 
-export function create(banner: BannerBlock) {
+export function Banner({block}:{block: BannerBlock}) {
     return (
-        <div>
-            <Content content={banner.content} />
-        </div>
+        <Block block={block}>
+            <Content content={block.content} />
+        </Block>
     )
 }
