@@ -27,13 +27,13 @@ export const TextSchema = alinea.type('🔤 Text', {
         'h3': 'h3',
         'h4': 'h4',
         'h5': 'h5',
-        'h6': 'h6',
+        'h6': 'h6',        
     })
 })
 
-export type Text = alinea.infer<typeof TextSchema>;
+export type TextSchema = alinea.infer<typeof TextSchema>;
   
-export function Text({look, text, tag} : Text) {
+export function Text({look, text, tag} : TextSchema) {
     const Tag = tag as keyof React.JSX.IntrinsicElements;
-    return <Tag className={look}>{text}</Tag>
+    return (<Tag className={look}>{text}</Tag>)
 }

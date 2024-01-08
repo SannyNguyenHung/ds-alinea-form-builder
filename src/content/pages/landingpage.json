@@ -67,11 +67,11 @@
           ]
         },
         {
-          "id": "2agrztF05sVTFgJBIQo6tW7lj3c",
+          "id": "2agxxm8mLURvZWUeFM9m93Ed9Fp",
           "type": "Text",
           "look": "ds-heading-01-reg",
           "text": "Test",
-          "tag": "h1"
+          "tag": "div"
         }
       ]
     },
