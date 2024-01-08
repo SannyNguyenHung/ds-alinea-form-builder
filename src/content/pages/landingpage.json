@@ -8,7 +8,7 @@
       "type": "Text",
       "fullWidth": true,
       "background": "bg-white",
-      "template": null,
+      "template": "ds-header",
       "content": [
         {
           "type": "paragraph",
@@ -43,7 +43,7 @@
       "type": "Text",
       "fullWidth": false,
       "background": "bg-blue-800",
-      "template": null,
+      "template": "ds-hero",
       "content": [
         {
           "type": "heading",
@@ -65,13 +65,6 @@
               "text": "Rechtsinformationen und digitale Anwendungen, die bei der Lösung von Rechtsproblemen helfen"
             }
           ]
-        },
-        {
-          "id": "2agxxm8mLURvZWUeFM9m93Ed9Fp",
-          "type": "Text",
-          "look": "ds-heading-01-reg",
-          "text": "Test",
-          "tag": "div"
         }
       ]
     },
@@ -81,7 +74,7 @@
       "type": "Text",
       "fullWidth": false,
       "background": "bg-yellow-300",
-      "template": null,
+      "template": "ds-banner",
       "content": [
         {
           "type": "paragraph",

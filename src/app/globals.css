@@ -2,21 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-
-@font-face { 
-  font-family: "BundesSans"; 
-  src: url('./fonts/BundesSansWeb-Bold.woff'); 
-  font-weight: normal; 
-  font-style: normal; 
+@font-face {
+  font-family: "BundesSans";
+  src: url("./fonts/BundesSansWeb-Bold.woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
-@font-face { 
-  font-family: "BundesSans"; 
-  src: url('./fonts/BundesSansWeb-Regular.woff'); 
-  font-weight: normal; 
-  font-style: normal; 
+@font-face {
+  font-family: "BundesSans";
+  src: url("./fonts/BundesSansWeb-Regular.woff");
+  font-weight: normal;
+  font-style: normal;
 }
-
 
 h1,
 h2,
@@ -188,4 +186,45 @@ svg {
 }
 .ds-tile input[type="radio"]:checked + label {
   background: var(--background-color-blue-200, #ecf1f4);
+}
+
+.ds-header a {
+  @apply ds-label-01-bold;
+  @apply no-underline;
+  @apply hover:underline;
+  @apply mr-8;
+  @apply text-black;
+  @apply focus:outline;
+  @apply active:underline;
+  @apply active:decoration-4;
+}
+
+.ds-header {
+  @apply py-20;
+  @apply px-16;
+}
+
+.ds-block > h1 {
+  @apply ds-heading-01-reg;
+}
+.ds-block > h2 {
+  @apply ds-heading-02-reg;
+}
+.ds-block > h3 {
+  @apply ds-heading-03-reg;
+}
+.ds-block > a {
+  @apply text-link;
+}
+.ds-block > p {
+  @apply text-lg;
+}
+
+.ds-hero {
+  @apply pt-56;
+  @apply pb-64;
+}
+
+.ds-banner a {
+  @apply text-black;
 }
