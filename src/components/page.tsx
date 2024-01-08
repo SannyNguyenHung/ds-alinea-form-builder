@@ -1,5 +1,5 @@
 import alinea from "alinea";
-import { TextBlock, Text } from "./blocks/text";
+import { TextBlock, Text } from "./blocks/textblock";
 
 export const PageSchema = alinea.type('Page', {
     title: alinea.text('Title'),

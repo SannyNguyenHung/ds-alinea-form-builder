@@ -1,11 +1,11 @@
 import alinea from 'alinea'
 import { BasicBlock, Block } from './block';
-import { Content } from './elements/content';
+import { Content, RichTextBox } from './elements/content';
 
 
 export const TextBlock = alinea.type('📝 Text', {
     ...BasicBlock,
-    content: alinea.richText('Text'),
+    content: RichTextBox
 });
 
 export type TextBlock = alinea.infer<typeof TextBlock>;

@@ -8,6 +8,7 @@
       "type": "Text",
       "fullWidth": true,
       "background": "bg-white",
+      "template": null,
       "content": [
         {
           "type": "paragraph",
@@ -42,6 +43,7 @@
       "type": "Text",
       "fullWidth": false,
       "background": "bg-blue-800",
+      "template": null,
       "content": [
         {
           "type": "heading",
@@ -63,6 +65,13 @@
               "text": "Rechtsinformationen und digitale Anwendungen, die bei der Lösung von Rechtsproblemen helfen"
             }
           ]
+        },
+        {
+          "id": "2agrztF05sVTFgJBIQo6tW7lj3c",
+          "type": "Text",
+          "look": "ds-heading-01-reg",
+          "text": "Test",
+          "tag": "h1"
         }
       ]
     },
@@ -72,6 +81,7 @@
       "type": "Text",
       "fullWidth": false,
       "background": "bg-yellow-300",
+      "template": null,
       "content": [
         {
           "type": "paragraph",
