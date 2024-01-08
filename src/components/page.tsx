@@ -1,12 +1,12 @@
 import alinea from "alinea";
-import { BannerBlock, Banner } from "./blocks/banner";
+import { TextBlock, Text } from "./blocks/text";
 
 export const PageSchema = alinea.type('Page', {
     title: alinea.text('Title'),
     slug: alinea.text('Slug'),
     blocks: alinea.list('Blocks', {
       schema: alinea.schema({
-        Banner: BannerBlock
+        Text: TextBlock
       })
     })
   });
@@ -18,8 +18,8 @@ export default function Page({page} : {page: Page}) {
         <main className="">
             {page.blocks.map(block => {
                 switch (block.type) {
-                    case 'Banner':
-                        return <Banner block={block} />
+                    case 'Text':
+                        return <Text block={block} />
                     default:
                         return null
                 }

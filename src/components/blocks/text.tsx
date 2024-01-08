@@ -1,16 +1,16 @@
 import alinea from 'alinea'
-import { BasicBlock, Block } from './basic';
+import { BasicBlock, Block } from './block';
 import { Content } from './elements/content';
 
 
-export const BannerBlock = alinea.type('🚩 Banner', {
+export const TextBlock = alinea.type('📝 Text', {
     ...BasicBlock,
     content: alinea.richText('Text'),
 });
 
-export type BannerBlock = alinea.infer<typeof BannerBlock>;
+export type TextBlock = alinea.infer<typeof TextBlock>;
 
-export function Banner({block}:{block: BannerBlock}) {
+export function Text({block}:{block: TextBlock}) {
     return (
         <Block block={block}>
             <Content content={block.content} />

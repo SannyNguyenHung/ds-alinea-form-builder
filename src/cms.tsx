@@ -1,12 +1,6 @@
 import alinea, {createNextCMS} from 'alinea'
 import {PageSchema} from '@/components/page';
 
-export const TextBlock = alinea.type('Text', {
-  title: alinea.text('Title'),
-  text: alinea.richText('Text'),
-});
-
-
 export const cms = createNextCMS({
   schema: {
     PageSchema
