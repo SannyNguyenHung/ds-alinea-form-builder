@@ -38,7 +38,6 @@ export function RichTextContent({
         [key: string]: any
     }
 }) {
-    console.log(blocks)
     return (<RichText
         p={p ?? <p className="text-lg" />}
         h1={h1 ?? <h1 className="ds-heading-01-reg" />}
@@ -49,7 +48,8 @@ export function RichTextContent({
         h6={h6 ?? <h6 className="ds-heading-06-reg" />}
         a={a ?? <a className="text-link" />}
         doc={content}
-
+        
+        // Custom extensions
         {...blocks}
 
     />);
