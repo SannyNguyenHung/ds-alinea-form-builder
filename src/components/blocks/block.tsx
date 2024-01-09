@@ -1,7 +1,7 @@
 import alinea from 'alinea'
 import { ReactNode } from 'react';
 
-export function Block({block, blockClassName, itemsClassName, children} : {block: BasicBlock, blockClassName?: string, itemsClassName?: string, children: ReactNode}) {
+export function Block({ block, blockClassName, itemsClassName, children }: { block: BasicBlock, blockClassName?: string, itemsClassName?: string, children: ReactNode }) {
     const background = block.background + " " + (block.background === "bg-blue-800" ? "text-white" : "");
     const cssBlock = ["ds-block", background, blockClassName].join(" ");
     const cssItems = ["ds-block-items", itemsClassName].join(" ");

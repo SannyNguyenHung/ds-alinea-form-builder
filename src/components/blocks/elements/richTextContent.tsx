@@ -1,37 +1,46 @@
-import { TextDoc } from 'alinea'
+import alinea, { TextDoc } from 'alinea'
 import { RichText } from 'alinea/ui'
-
 import { ReactElement } from 'react';
+import { CustomText, CustomTextExtensionSchema } from './customTextExtension';
 
+export const RichTextBox = alinea.richText('Text', {
+    schema: alinea.schema({
+        Text: CustomTextExtensionSchema,
+    }),
+})
+
+export const CustomTextExtension = {
+    CustomText: CustomText
+}
 
 export function RichTextContent({
-        content,
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        a,
-        p,
-        blocks
-    }: {
-        content: TextDoc<{}>,
-        h1?: ReactElement,
-        h2?: ReactElement,
-        h3?: ReactElement,
-        h4?: ReactElement,
-        h5?: ReactElement,
-        h6?: ReactElement,
-        a?: ReactElement,
-        p?: ReactElement,
-        blocks?: {
-            [key: string]: any
-        }
-    }) {
+    content,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    a,
+    p,
+    blocks
+}: {
+    content: TextDoc<{}>,
+    h1?: ReactElement,
+    h2?: ReactElement,
+    h3?: ReactElement,
+    h4?: ReactElement,
+    h5?: ReactElement,
+    h6?: ReactElement,
+    a?: ReactElement,
+    p?: ReactElement,
+    blocks?: {
+        [key: string]: any
+    }
+}) {
     console.log(blocks)
     return (<RichText
-        p={<p className="text-lg" />}
+        p={p ?? <p className="text-lg" />}
         h1={h1 ?? <h1 className="ds-heading-01-reg" />}
         h2={h2 ?? <h2 className="ds-heading-02-reg" />}
         h3={h3 ?? <h3 className="ds-heading-03-reg" />}

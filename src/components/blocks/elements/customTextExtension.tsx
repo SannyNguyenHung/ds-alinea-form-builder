@@ -1,7 +1,7 @@
 import alinea from 'alinea'
 
 
-export const TextExtensionSchema = alinea.type('🔤 Text', {
+export const CustomTextExtensionSchema = alinea.type('🔤 Text', {
     look: alinea.select('Look', {
         'default': 'Default',
         'ds-heading-01-reg': 'Heading 1',
@@ -32,9 +32,9 @@ export const TextExtensionSchema = alinea.type('🔤 Text', {
     })
 })
 
-export type TextExtensionSchema = alinea.infer<typeof TextExtensionSchema>;
+export type CustomTextExtensionSchema = alinea.infer<typeof CustomTextExtensionSchema>;
   
-export function Text({look, text, tag} : TextExtensionSchema) {
+export function CustomText({look, text, tag} : CustomTextExtensionSchema) {
     const Tag = tag as keyof React.JSX.IntrinsicElements;
     return (<Tag className={look}>{text}</Tag>)
 }
