@@ -13,7 +13,7 @@ export type CallToActionBlock = alinea.infer<typeof CallToActionBlock>;
 export function CallToAction({ block }: { block: CallToActionBlock }) {
   return (
     <Block
-      blockClassName='!pt-0 !pb-0'
+      blockClassName='overflow-x-hidden rounded-lg'
       itemsClassName='container !pt-16 !pb-16'
       block={block}>
       <RichTextContent
