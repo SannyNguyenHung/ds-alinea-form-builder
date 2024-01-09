@@ -2,6 +2,7 @@ import alinea from "alinea";
 import { ContentBlock, Content } from "./blocks/content";
 import { HeaderBlock, Header } from "./blocks/header";
 import { HeroBlock, Hero } from "./blocks/hero";
+import { LogoBanner, LogoBannerBlock } from "./blocks/logoBanner";
 
 export const PageSchema = alinea.type('Page', {
     title: alinea.text('Title'),
@@ -10,7 +11,8 @@ export const PageSchema = alinea.type('Page', {
       schema: alinea.schema({
         Text: ContentBlock,
         Header: HeaderBlock,
-        Hero: HeroBlock
+        Hero: HeroBlock,
+        LogoBanner: LogoBannerBlock
       })
     })
   });
@@ -28,6 +30,8 @@ export default function Page({page} : {page: Page}) {
                         return <Header block={block} />
                     case 'Hero':
                         return <Hero block={block} />
+                    case 'LogoBanner':
+                        return <LogoBanner block={block} />
                     default:
                         return null
                 }

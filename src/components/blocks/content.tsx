@@ -1,6 +1,6 @@
 import alinea from 'alinea'
 import { BasicBlock, Block } from './block';
-import { RichTextBox, RichTextContent, CustomTextExtension } from './elements/richTextContent';
+import { RichTextBox, RichTextContent, RichTextBoxExtension } from './elements/richTextContent';
 
 
 export const ContentBlock = alinea.type('📝 Text', {
@@ -18,7 +18,7 @@ export function Content({ block }: { block: ContentBlock }) {
       block={block}>
       <RichTextContent
         content={block.content}
-        blocks={CustomTextExtension}
+        blocks={RichTextBoxExtension}
       />
     </Block>
   )

@@ -1,26 +1,26 @@
-import alinea, {createNextCMS} from 'alinea'
-import {PageSchema} from '@/components/page';
+import alinea, {createNextCMS} from "alinea"
+import {PageSchema} from "@/components/page";
 
 export const cms = createNextCMS({
   schema: {
     PageSchema
   },
   workspaces: {
-    main: alinea.workspace('RAST', {
-      pages: alinea.root('RAST', {
+    main: alinea.workspace("RAST", {
+      pages: alinea.root("RAST", {
         landingpage: alinea.page(
           PageSchema({
-            title: 'Welcome'
+            title: "Welcome"
           })
         ),
         [alinea.meta]: {
-          contains: ['PageSchema']
+          contains: ["PageSchema"]
         }
       }),
       media: alinea.media(),
       [alinea.meta]: {
-        source: 'src/content',
-        mediaDir: 'public'
+        source: "src/content",
+        mediaDir: "public"
       }
     })
   }

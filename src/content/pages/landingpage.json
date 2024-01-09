@@ -81,6 +81,48 @@
           ]
         }
       ]
+    },
+    {
+      "id": "2aio8z8Mg6RQn2IN0OrSdKgn1qx",
+      "index": "a3",
+      "type": "LogoBanner",
+      "background": "bg-white",
+      "content": [
+        {
+          "type": "heading",
+          "textAlign": "start",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Ein Pilotprojekt des Bundesministeriums der Justiz und der Justizministerien der Länder.",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "In diesem Projekt geht es darum, den Zugang zum Recht zu verbessern. Beratungshilfe ist der erste Service, weitere Funktionen und Services werden mit der Zeit ergänzt."
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "title": "IM AUFTRAG DES",
+        "image": {
+          "id": "2aioAdGWtblbtpuk4hVES88MRsU",
+          "type": "image",
+          "entry": "2aio6gK9Onw5z9W2sRUm277kYig"
+        }
+      }
     }
   ],
   "@alinea": {

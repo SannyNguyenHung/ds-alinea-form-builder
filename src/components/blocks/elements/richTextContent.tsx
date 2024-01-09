@@ -1,16 +1,16 @@
 import alinea, { TextDoc } from 'alinea'
 import { RichText } from 'alinea/ui'
 import { ReactElement } from 'react';
-import { CustomText, CustomTextExtensionSchema } from './customTextExtension';
+import { TextElement, TextElementSchema } from './TextElement';
 
 export const RichTextBox = alinea.richText('Text', {
     schema: alinea.schema({
-        Text: CustomTextExtensionSchema,
+        Text: TextElementSchema,
     }),
 })
 
-export const CustomTextExtension = {
-    CustomText: CustomText
+export const RichTextBoxExtension = {
+    TextElement: TextElement
 }
 
 export function RichTextContent({
@@ -48,7 +48,7 @@ export function RichTextContent({
         h6={h6 ?? <h6 className="ds-heading-06-reg" />}
         a={a ?? <a className="text-link" />}
         doc={content}
-        
+
         // Custom extensions
         {...blocks}
 

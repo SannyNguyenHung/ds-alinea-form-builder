@@ -1,6 +1,6 @@
 import alinea from 'alinea'
 import { BasicBlock, Block } from './block';
-import { RichTextContent, RichTextBox, CustomTextExtension } from './elements/richTextContent';
+import { RichTextContent, RichTextBox, RichTextBoxExtension } from './elements/richTextContent';
 
 export const HeaderBlock = alinea.type('📰 Header', {
     ...BasicBlock,
@@ -18,7 +18,7 @@ export function Header({ block }: { block: HeaderBlock }) {
             <RichTextContent
                 a={<a className="ds-label-01-bold no-underline hover:underline mr-8 text-black focus:outline active:underline active:decoration-4"></a>}
                 content={block.content}
-                blocks={CustomTextExtension}
+                blocks={RichTextBoxExtension}
             />
         </Block>
     )
