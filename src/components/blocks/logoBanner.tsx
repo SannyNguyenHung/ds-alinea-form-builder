@@ -1,7 +1,6 @@
 import alinea from 'alinea'
 import { BasicBlock, Block } from './block';
 import { RichTextContent, RichTextBox, RichTextBoxExtension } from './elements/richTextContent';
-import Image from 'next/image'
 
 export const LogoBannerBlock = alinea.type('🖼️ Logo Banner', {
     ...BasicBlock,
@@ -22,7 +21,7 @@ function Logo({ block }: { block: LogoBannerBlock }) {
         <div className="ds-stack-16">
             <p className="ds-label-section pt-4 text-gray-800">{block.logo.title}</p>
             <a href="/">
-                <Image className="w-[160px]" src={block.logo.image.src} width="240" height="132" alt=""></Image>
+                <img className="w-[160px]" src={block.logo.image.src} width="240" height="132" alt="" />
             </a>
         </div>
     )

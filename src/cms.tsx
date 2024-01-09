@@ -5,10 +5,11 @@ export const cms = createNextCMS({
   schema: {
     PageSchema
   },
+  preview:'http://localhost:3000/api/preview',
   workspaces: {
     main: alinea.workspace("RAST", {
       pages: alinea.root("RAST", {
-        landingpage: alinea.page(
+        index: alinea.page(
           PageSchema({
             title: "Welcome"
           })
