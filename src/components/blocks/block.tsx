@@ -1,15 +1,16 @@
 import alinea from 'alinea'
 import { ReactNode } from 'react';
 
-export function Block({block, children} : {block: BasicBlock, children: ReactNode}) {
+export function Block({block, blockClassName, itemsClassName, children} : {block: BasicBlock, blockClassName?: string, itemsClassName?: string, children: ReactNode}) {
     const background = block.background + " " + (block.background === "bg-blue-800" ? "text-white" : "");
-    const template = block.template;
 
-    const css = ["ds-block", background, template].join(" ");
+    const css = ["ds-block", background, blockClassName].join(" ");
 
     return (
         <div className={css}>
-            {children}
+            <div className={["ds-block-items", itemsClassName].join(" ")}>
+                {children}
+            </div>
         </div>
     )
 }
@@ -24,12 +25,6 @@ export const BasicBlock = alinea.type('Block', {
         "bg-yellow-300": "Yellow", // before:bg-yellow-300
         "bg-green-200": "Green", // before:bg-green-200
         "bg-[#f9e5ec]": "Red", // before:bg-[#f9e5ec]
-    }),
-    template: alinea.select('Template', {
-        "ds-block": "Default",
-        "ds-hero": "Hero",
-        "ds-header": "Header",
-        "ds-banner": "Banner",
     }),
 });
 

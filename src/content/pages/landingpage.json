@@ -3,10 +3,10 @@
   "slug": "/",
   "blocks": [
     {
-      "id": "2abX4uBJdZ2HtZqnWUUyqk5x7mt",
+      "id": "2ai22xtiP6yHyU0AT3ShjkzqzeZ",
       "index": "a0",
-      "type": "Text",
-      "fullWidth": true,
+      "type": "Header",
+      "fullWidth": false,
       "background": "bg-white",
       "template": "ds-header",
       "content": [
@@ -65,6 +65,13 @@
               "text": "Rechtsinformationen und digitale Anwendungen, die bei der Lösung von Rechtsproblemen helfen"
             }
           ]
+        },
+        {
+          "id": "2ai0Xr0tNcOXcBCKbROQNuEJX3n",
+          "type": "Text",
+          "look": "ds-heading-01-reg",
+          "text": "TEST",
+          "tag": "h1"
         }
       ]
     },

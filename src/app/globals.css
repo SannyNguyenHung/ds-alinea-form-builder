@@ -188,6 +188,7 @@ svg {
   background: var(--background-color-blue-200, #ecf1f4);
 }
 
+/* 
 .ds-header a {
   @apply ds-label-01-bold;
   @apply no-underline;
@@ -204,22 +205,6 @@ svg {
   @apply px-16;
 }
 
-.ds-block > h1 {
-  @apply ds-heading-01-reg;
-}
-.ds-block > h2 {
-  @apply ds-heading-02-reg;
-}
-.ds-block > h3 {
-  @apply ds-heading-03-reg;
-}
-.ds-block > a {
-  @apply text-link;
-}
-.ds-block > p {
-  @apply text-lg;
-}
-
 .ds-hero {
   @apply pt-56;
   @apply pb-64;
@@ -227,4 +212,4 @@ svg {
 
 .ds-banner a {
   @apply text-black;
-}
+} */
