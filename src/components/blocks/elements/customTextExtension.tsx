@@ -36,5 +36,5 @@ export type CustomTextExtensionSchema = alinea.infer<typeof CustomTextExtensionS
   
 export function CustomText({look, text, tag} : CustomTextExtensionSchema) {
     const Tag = tag as keyof React.JSX.IntrinsicElements;
-    return (<Tag className={look}>{text}</Tag>)
+    return (<Tag className={look ?? ""}>{text}</Tag>)
 }
