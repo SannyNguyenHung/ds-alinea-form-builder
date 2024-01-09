@@ -3,18 +3,20 @@ import { BasicBlock, Block } from './block';
 import { RichTextContent } from './elements/richTextContent';
 import { RichTextBox, RichTextTextExtension } from './content';
 
-export const HeaderBlock = alinea.type('📰 Header', {
+export const HeroBlock = alinea.type('🦸 Hero', {
     ...BasicBlock,
     content: RichTextBox
 });
 
-export type HeaderBlock = alinea.infer<typeof HeaderBlock>;
+export type HeroBlock = alinea.infer<typeof HeroBlock>;
 
-export function Header({ block }: { block: HeaderBlock }) {
+export function Hero({ block }: { block: HeroBlock }) {
+
     return (
         <Block
             block={block}
-            blockClassName='py-20 px-16'
+            blockClassName='py-20 px-16 !pt-56 !pb-64'
+            itemsClassName='ds-stack-16 container !pt-0 !pb-0'
         >
             <RichTextContent
                 a={<a className="ds-label-01-bold no-underline hover:underline mr-8 text-black focus:outline active:underline active:decoration-4"></a>}

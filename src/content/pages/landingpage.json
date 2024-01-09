@@ -6,9 +6,7 @@
       "id": "2ai22xtiP6yHyU0AT3ShjkzqzeZ",
       "index": "a0",
       "type": "Header",
-      "fullWidth": false,
       "background": "bg-white",
-      "template": "ds-header",
       "content": [
         {
           "type": "paragraph",
@@ -38,12 +36,10 @@
       ]
     },
     {
-      "id": "2adfcBP5Fkjy8LcoEq0mCy4icQ4",
-      "index": "a1",
-      "type": "Text",
-      "fullWidth": false,
+      "id": "2ai6jZfdINXy1tc0PqLbqLYP5zg",
+      "index": "a0V",
+      "type": "Hero",
       "background": "bg-blue-800",
-      "template": "ds-hero",
       "content": [
         {
           "type": "heading",
@@ -65,13 +61,6 @@
               "text": "Rechtsinformationen und digitale Anwendungen, die bei der Lösung von Rechtsproblemen helfen"
             }
           ]
-        },
-        {
-          "id": "2ai0Xr0tNcOXcBCKbROQNuEJX3n",
-          "type": "Text",
-          "look": "ds-heading-01-reg",
-          "text": "TEST",
-          "tag": "h1"
         }
       ]
     },
@@ -79,9 +68,7 @@
       "id": "2adgHGmfOKfMVuyQCRTTLDD05ag",
       "index": "a2",
       "type": "Text",
-      "fullWidth": false,
       "background": "bg-yellow-300",
-      "template": "ds-banner",
       "content": [
         {
           "type": "paragraph",

@@ -187,29 +187,3 @@ svg {
 .ds-tile input[type="radio"]:checked + label {
   background: var(--background-color-blue-200, #ecf1f4);
 }
-
-/* 
-.ds-header a {
-  @apply ds-label-01-bold;
-  @apply no-underline;
-  @apply hover:underline;
-  @apply mr-8;
-  @apply text-black;
-  @apply focus:outline;
-  @apply active:underline;
-  @apply active:decoration-4;
-}
-
-.ds-header {
-  @apply py-20;
-  @apply px-16;
-}
-
-.ds-hero {
-  @apply pt-56;
-  @apply pb-64;
-}
-
-.ds-banner a {
-  @apply text-black;
-} */

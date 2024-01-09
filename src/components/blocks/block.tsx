@@ -3,12 +3,12 @@ import { ReactNode } from 'react';
 
 export function Block({block, blockClassName, itemsClassName, children} : {block: BasicBlock, blockClassName?: string, itemsClassName?: string, children: ReactNode}) {
     const background = block.background + " " + (block.background === "bg-blue-800" ? "text-white" : "");
-
-    const css = ["ds-block", background, blockClassName].join(" ");
+    const cssBlock = ["ds-block", background, blockClassName].join(" ");
+    const cssItems = ["ds-block-items", itemsClassName].join(" ");
 
     return (
-        <div className={css}>
-            <div className={["ds-block-items", itemsClassName].join(" ")}>
+        <div className={cssBlock}>
+            <div className={cssItems}>
                 {children}
             </div>
         </div>
@@ -16,7 +16,6 @@ export function Block({block, blockClassName, itemsClassName, children} : {block
 }
 
 export const BasicBlock = alinea.type('Block', {
-    fullWidth: alinea.check('Full width'),
     background: alinea.select('Background', {
         "bg-white": "White", // before:bg-white
         "bg-blue-100": "Blue", // before:bg-blue-100
