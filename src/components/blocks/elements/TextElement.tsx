@@ -33,7 +33,7 @@ export const TextElementSchema = alinea.type('🔤 Text', {
 
 export type TextElementSchema = alinea.infer<typeof TextElementSchema>;
   
-export function TextElement({look, text, tag} : TextElementSchema) {
+export function TextElement({look, text, tag = "p"} : TextElementSchema) {
     const Tag = tag as keyof React.JSX.IntrinsicElements;
     return (<Tag className={look ?? ""}>{text}</Tag>)
 }

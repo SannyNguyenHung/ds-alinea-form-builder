@@ -2,15 +2,18 @@ import alinea, { TextDoc } from 'alinea'
 import { RichText } from 'alinea/ui'
 import { ReactElement } from 'react';
 import { TextElement, TextElementSchema } from './TextElement';
+import { ButtonElement, ButtonElementSchema } from './ButtonElement';
 
 export const RichTextBox = alinea.richText('Text', {
     schema: alinea.schema({
         Text: TextElementSchema,
+        Button: ButtonElementSchema,
     }),
 })
 
 export const RichTextBoxExtension = {
-    TextElement: TextElement,
+    Text: TextElement,
+    Button: ButtonElement,
 }
 
 export function RichTextContent({

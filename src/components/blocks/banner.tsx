@@ -2,19 +2,18 @@ import alinea from 'alinea'
 import { BasicBlock, Block } from './block';
 import { RichTextBox, RichTextContent, RichTextBoxExtension } from './elements/richTextContent';
 
-
-export const ContentBlock = alinea.type('📝 Text', {
+export const BannerBlock = alinea.type('🏳 Banner', {
   ...BasicBlock,
   content: RichTextBox
 });
 
-export type ContentBlock = alinea.infer<typeof ContentBlock>;
+export type BannerBlock = alinea.infer<typeof BannerBlock>;
 
-export function Content({ block }: { block: ContentBlock }) {
+export function Banner({ block }: { block: BannerBlock }) {
   return (
     <Block
       blockClassName='!pt-0 !pb-0'
-      itemsClassName='container !pt-32 !pb-40 ds-stack-8'
+      itemsClassName='container !pt-16 !pb-16 ds-stack-8'
       block={block}>
       <RichTextContent
         content={block.content}

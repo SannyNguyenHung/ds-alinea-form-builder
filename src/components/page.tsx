@@ -5,12 +5,14 @@ import { HeroBlock, Hero } from "./blocks/hero";
 import { LogoBanner, LogoBannerBlock } from "./blocks/logoBanner";
 import { CallToAction, CallToActionBlock } from "./blocks/callToAction";
 import { v4 as uuidv4 } from "uuid";
+import { Banner, BannerBlock } from "./blocks/banner";
 
 export const PageSchema = alinea.type('Page', {
     title: alinea.text('Title'),
     slug: alinea.text('Slug'),
     blocks: alinea.list('Blocks', {
       schema: alinea.schema({
+        Banner: BannerBlock,
         Text: ContentBlock,
         Header: HeaderBlock,
         Hero: HeroBlock,
@@ -27,6 +29,8 @@ export default function Page({page} : {page: Page}) {
         <main className="">
             {page.blocks.map(block => {
                 switch (block.type) {
+                    case 'Banner':
+                        return <Banner key={uuidv4()} block={block} />
                     case 'Text':
                         return <Content key={uuidv4()} block={block} />
                     case 'Header':

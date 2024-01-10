@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "alinea dev -- next dev",
     "build": "alinea build -- next build",
+    "designer": "alinea dev -- next dev & ungit",
     "start": "next start",
     "lint": "next lint"
   },
