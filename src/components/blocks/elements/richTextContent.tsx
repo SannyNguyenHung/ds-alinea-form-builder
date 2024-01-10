@@ -10,7 +10,7 @@ export const RichTextBox = alinea.richText('Text', {
 })
 
 export const RichTextBoxExtension = {
-    TextElement: TextElement
+    TextElement: TextElement,
 }
 
 export function RichTextContent({

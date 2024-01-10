@@ -187,3 +187,8 @@ svg {
 .ds-tile input[type="radio"]:checked + label {
   background: var(--background-color-blue-200, #ecf1f4);
 }
+
+.call-to-action-block {
+  margin-left:clamp(1rem, 5vw, 3rem);
+  margin-right:clamp(1rem, 5vw, 3rem);
+}

@@ -37,13 +37,13 @@
     },
     {
       "id": "2ai6jZfdINXy1tc0PqLbqLYP5zg",
-      "index": "a0V",
+      "index": "a1",
       "type": "Hero",
       "background": "bg-blue-800",
       "content": [
         {
           "type": "heading",
-          "textAlign": "start",
+          "textAlign": "left",
           "level": 1,
           "content": [
             {
@@ -90,7 +90,7 @@
       "content": [
         {
           "type": "heading",
-          "textAlign": "start",
+          "textAlign": "left",
           "level": 2,
           "content": [
             {
@@ -123,6 +123,105 @@
           "entry": "2aio6gK9Onw5z9W2sRUm277kYig"
         }
       }
+    },
+    {
+      "id": "2ajvyMraq5cT4K5BvydTvkOcRzH",
+      "index": "a4",
+      "type": "CallToAction",
+      "background": "bg-white",
+      "actionBackground": "bg-blue-100",
+      "content": [
+        {
+          "type": "heading",
+          "textAlign": "start",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Beratungshilfe"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "start",
+          "content": [
+            {
+              "type": "text",
+              "text": "Wenn Sie wenig Geld haben, kann das Amtsgericht die Kosten für eine Beratung bei einer Anwältin oder einem Anwalt Ihrer Wahl übernehmen."
+            }
+          ]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Überprüfen Sie im Vorab-Check, ob Sie für Beratungshilfe berechtigt sind"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Erfahren Sie, welche Unterlagen Sie für einen Antrag benötigen"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2ajxnA9ujRKeuiFEwfZ7lANjhGZ",
+      "index": "a5",
+      "type": "Text",
+      "content": [
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "Für Angelegenheiten, für die Sie auf dieser Seite keine Hilfe finden, schauen Sie bitte auf "
+            },
+            {
+              "type": "text",
+              "text": "www.justiz.de",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "data-id": null,
+                    "data-entry": null,
+                    "data-type": null,
+                    "href": "https://www.justiz.de/",
+                    "target": "_blank",
+                    "title": null
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "@alinea": {
