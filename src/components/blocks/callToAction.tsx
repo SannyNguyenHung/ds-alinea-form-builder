@@ -16,7 +16,7 @@ export function CallToAction({ block }: { block: CallToActionBlock }) {
   return (
     <Block
       blockClassName='call-to-action-block !pt-0 !pb-0 mt-16 mb-16'
-      itemsClassName={(block.actionBackground ?? '') + ' container py-14 !pt-16 !pb-16 rounded-lg -right-32 -left-32 inset-y-0'}
+      itemsClassName={(block.actionBackground ?? '') + ' container py-14 !pt-40 !pb-48 rounded-lg -right-32 -left-32 inset-y-0'}
       block={block}>
         <div className="ds-stack-8">
           <RichTextContent
