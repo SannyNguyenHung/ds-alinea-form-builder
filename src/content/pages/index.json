@@ -3,39 +3,6 @@
   "slug": "/",
   "blocks": [
     {
-      "id": "2ai22xtiP6yHyU0AT3ShjkzqzeZ",
-      "index": "a0",
-      "type": "Header",
-      "background": "bg-white",
-      "content": [
-        {
-          "type": "paragraph",
-          "textAlign": "left",
-          "content": [
-            {
-              "type": "text",
-              "text": "Justiz-Services",
-              "marks": [
-                {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "https://service.justiz.de/",
-                    "title": null
-                  }
-                },
-                {
-                  "type": "bold"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "2ai6jZfdINXy1tc0PqLbqLYP5zg",
       "index": "a1",
       "type": "Hero",
@@ -66,7 +33,7 @@
     },
     {
       "id": "2amfh9HVodTeoJoarAD3ZBS58Jp",
-      "index": "a2V",
+      "index": "a2",
       "type": "Banner",
       "background": "bg-yellow-300",
       "content": [
@@ -277,6 +244,42 @@
       ]
     }
   ],
+  "header": [
+    {
+      "id": "2amjHzE8P8EPnmmqJ8KvF31QUnx",
+      "index": "a0",
+      "type": "Header",
+      "background": "bg-white",
+      "content": [
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "Justiz-Services",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "data-id": null,
+                    "data-entry": null,
+                    "data-type": null,
+                    "href": "https://service.justiz.de/",
+                    "title": null
+                  }
+                },
+                {
+                  "type": "bold"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": [],
   "@alinea": {
     "entryId": "2abWtgqlRAWO0v8BZpIcPnENTED",
     "type": "PageSchema",

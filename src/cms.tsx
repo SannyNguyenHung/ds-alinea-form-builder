@@ -15,7 +15,7 @@ export const cms = createNextCMS({
           })
         ),
         [alinea.meta]: {
-          contains: ["PageSchema"]
+          contains: ["Page", "PageSchema"]
         }
       }),
       media: alinea.media(),

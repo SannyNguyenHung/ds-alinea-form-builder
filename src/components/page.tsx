@@ -19,32 +19,52 @@ export const PageSchema = alinea.type('Page', {
         LogoBanner: LogoBannerBlock,
         CallToAction: CallToActionBlock
       })
-    })
+    }),
+    header: alinea.list('Header (parent)', {
+        schema: alinea.schema({
+          Banner: BannerBlock,
+          Text: ContentBlock,
+          Header: HeaderBlock,
+        })
+    }),
+    footer: alinea.list('Footer (parent)', {
+        schema: alinea.schema({
+          Banner: BannerBlock,
+          Text: ContentBlock,
+          Header: HeaderBlock,
+        })
+    }),
   });
 
 export type Page = alinea.infer<typeof PageSchema>;
 
-export default function Page({page} : {page: Page}) {
+function MapBlock({block} : {block: any}) {
+    switch (block.type) {
+        case 'Banner':
+            return <Banner block={block} />
+        case 'Text':
+            return <Content block={block} />
+        case 'Header':
+            return <Header block={block} />
+        case 'Hero':
+            return <Hero block={block} />
+        case 'LogoBanner':
+            return <LogoBanner block={block} />
+        case 'CallToAction':
+            return <CallToAction block={block} />
+    }
+    return <>Error</>
+}
+
+export default function Blocks({page, indexPage} : {page: Page, indexPage?: Page}) {
+    const header = page.header ?? indexPage?.header;
+    const footer = page.footer ?? indexPage?.footer;
+
     return (
         <main className="">
-            {page.blocks.map(block => {
-                switch (block.type) {
-                    case 'Banner':
-                        return <Banner key={uuidv4()} block={block} />
-                    case 'Text':
-                        return <Content key={uuidv4()} block={block} />
-                    case 'Header':
-                        return <Header key={uuidv4()} block={block} />
-                    case 'Hero':
-                        return <Hero key={uuidv4()} block={block} />
-                    case 'LogoBanner':
-                        return <LogoBanner key={uuidv4()} block={block} />
-                    case 'CallToAction':
-                        return <CallToAction key={uuidv4()} block={block} />
-                    default:
-                        return null
-                }
-            })}
+            {header?.map(block => <MapBlock key={uuidv4()} block={block} />)}
+            {page.blocks?.map(block => <MapBlock key={uuidv4()} block={block} />)}            
+            {footer?.map(block => <MapBlock key={uuidv4()} block={block} />)}
         </main>
     )
 }
