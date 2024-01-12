@@ -2,7 +2,7 @@ import alinea from 'alinea'
 import { BasicBlock, Block } from './block';
 import { RichTextContent, RichTextBox, RichTextBoxExtension } from './elements/richTextContent';
 
-export const HeaderBlock = alinea.type('📰 Header', {
+export const HeaderBlock = alinea.type('🤠 Header', {
     ...BasicBlock,
     content: RichTextBox
 });

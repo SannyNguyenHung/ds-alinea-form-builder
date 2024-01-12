@@ -7,13 +7,8 @@ export const cms = createNextCMS({
   },
   preview:'http://localhost:3000/api/preview',
   workspaces: {
-    main: alinea.workspace("RAST", {
-      pages: alinea.root("RAST", {
-        index: alinea.page(
-          PageSchema({
-            title: "Welcome"
-          })
-        ),
+    main: alinea.workspace("Static Pages", {
+      pages: alinea.root("Page", {
         [alinea.meta]: {
           contains: ["Page", "PageSchema"]
         }

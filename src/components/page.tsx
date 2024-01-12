@@ -6,6 +6,7 @@ import { LogoBanner, LogoBannerBlock } from "./blocks/logoBanner";
 import { CallToAction, CallToActionBlock } from "./blocks/callToAction";
 import { v4 as uuidv4 } from "uuid";
 import { Banner, BannerBlock } from "./blocks/banner";
+import { FooterBlock, Footer } from "./blocks/footer";
 
 export const PageSchema = alinea.type('Page', {
     title: alinea.text('Title'),
@@ -14,7 +15,6 @@ export const PageSchema = alinea.type('Page', {
       schema: alinea.schema({
         Banner: BannerBlock,
         Text: ContentBlock,
-        Header: HeaderBlock,
         Hero: HeroBlock,
         LogoBanner: LogoBannerBlock,
         CallToAction: CallToActionBlock
@@ -31,7 +31,7 @@ export const PageSchema = alinea.type('Page', {
         schema: alinea.schema({
           Banner: BannerBlock,
           Text: ContentBlock,
-          Header: HeaderBlock,
+          Footer: FooterBlock,
         })
     }),
   });
@@ -52,19 +52,21 @@ function MapBlock({block} : {block: any}) {
             return <LogoBanner block={block} />
         case 'CallToAction':
             return <CallToAction block={block} />
+        case 'Footer':
+            return <Footer block={block} />
     }
     return <>Error</>
 }
 
 export default function Blocks({page, indexPage} : {page: Page, indexPage?: Page}) {
-    const header = page.header ?? indexPage?.header;
-    const footer = page.footer ?? indexPage?.footer;
+    const header = page?.header.length > 0 ? page?.header : indexPage?.header;
+    const footer = page?.footer.length > 0 ? page?.footer : indexPage?.footer;
 
     return (
-        <main className="">
+        <div className="">
             {header?.map(block => <MapBlock key={uuidv4()} block={block} />)}
-            {page.blocks?.map(block => <MapBlock key={uuidv4()} block={block} />)}            
+            {page?.blocks?.map(block => <MapBlock key={uuidv4()} block={block} />)}            
             {footer?.map(block => <MapBlock key={uuidv4()} block={block} />)}
-        </main>
+        </div>
     )
 }

@@ -5,8 +5,9 @@
   "header": [],
   "footer": [],
   "@alinea": {
-    "entryId": "2amii9yqemrQjRr4vee4yFszhOz",
+    "entryId": "2ar3B40X0u6zOz52kI9OxlaIzTf",
     "type": "PageSchema",
-    "index": "a0"
+    "index": "a0",
+    "root": "pages"
   }
 }

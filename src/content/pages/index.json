@@ -279,12 +279,223 @@
       ]
     }
   ],
-  "footer": [],
+  "footer": [
+    {
+      "id": "2arAOC9YdtuVtTB8IsdglId7Loo",
+      "index": "a0",
+      "type": "Footer",
+      "content": [
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "Ein Online Dienst der "
+            },
+            {
+              "type": "text",
+              "text": "DigitalService GmbH des Bundes",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "data-id": null,
+                    "data-entry": null,
+                    "data-type": null,
+                    "href": "https://digitalservice.bund.de/",
+                    "target": "_blank",
+                    "title": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "Im Auftrag des "
+            },
+            {
+              "type": "text",
+              "text": "Bundesministerium der Justiz",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "data-id": null,
+                    "data-entry": null,
+                    "data-type": null,
+                    "href": "https://www.bmj.de/",
+                    "target": "_blank",
+                    "title": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Impressum",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://service.justiz.de/impressum",
+                            "title": null
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Datenschutzbestimmung",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://service.justiz.de/datenschutz",
+                            "title": null
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Cookie-Einstellungen",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://service.justiz.de/cookie-einstellungen",
+                            "title": null
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Barrierefreiheit",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://service.justiz.de/barrierefreiheit",
+                            "title": null
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Open Source Code",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://service.justiz.de/opensource",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "logo": {
+        "title": "",
+        "image": {
+          "id": "2arAQTeRhJGgKZe59UCzzT06lU7",
+          "type": "image",
+          "entry": "2aio6gK9Onw5z9W2sRUm277kYig"
+        },
+        "alt": ""
+      }
+    }
+  ],
   "@alinea": {
     "entryId": "2abWtgqlRAWO0v8BZpIcPnENTED",
     "type": "PageSchema",
     "index": "a0",
-    "seeded": true,
     "root": "pages"
   }
 }
