@@ -4,7 +4,7 @@
   "blocks": [
     {
       "id": "2ai6jZfdINXy1tc0PqLbqLYP5zg",
-      "index": "a1",
+      "index": "a0",
       "type": "Hero",
       "background": "bg-blue-800",
       "content": [
@@ -33,7 +33,7 @@
     },
     {
       "id": "2amfh9HVodTeoJoarAD3ZBS58Jp",
-      "index": "a2",
+      "index": "a1",
       "type": "Banner",
       "background": "bg-yellow-300",
       "content": [
@@ -51,7 +51,7 @@
     },
     {
       "id": "2aio8z8Mg6RQn2IN0OrSdKgn1qx",
-      "index": "a3",
+      "index": "a2",
       "type": "LogoBanner",
       "background": "bg-white",
       "content": [
@@ -93,7 +93,7 @@
     },
     {
       "id": "2ajvyMraq5cT4K5BvydTvkOcRzH",
-      "index": "a4",
+      "index": "a3",
       "type": "CallToAction",
       "background": "bg-white",
       "actionBackground": "bg-blue-100",
@@ -158,7 +158,11 @@
           "id": "2amZ2uwCrd4XXI0kUqEXSljBpV6",
           "type": "Button",
           "text": "Zur Beratungshilfe",
-          "href": "/beratungshilfe",
+          "href": {
+            "id": "2b6Na9mtyoXdYgvr4qIED883seB",
+            "type": "entry",
+            "entry": "2ar3B40X0u6zOz52kI9OxlaIzTf"
+          },
           "look": "",
           "size": "ds-button-large"
         }
@@ -166,7 +170,7 @@
     },
     {
       "id": "2ajxnA9ujRKeuiFEwfZ7lANjhGZ",
-      "index": "a5",
+      "index": "a4",
       "type": "Text",
       "content": [
         {
@@ -200,7 +204,7 @@
     },
     {
       "id": "2amd0YRVCFmsd1tBriGZLzInetJ",
-      "index": "a6",
+      "index": "a5",
       "type": "Text",
       "background": "bg-blue-300",
       "content": [
@@ -284,6 +288,13 @@
       "id": "2arAOC9YdtuVtTB8IsdglId7Loo",
       "index": "a0",
       "type": "Footer",
+      "logo": {
+        "image": {
+          "id": "2b6R03tsimi6BYr03uEYRllhJo0",
+          "type": "image",
+          "entry": "2aio6gK9Onw5z9W2sRUm277kYig"
+        }
+      },
       "content": [
         {
           "type": "paragraph",
@@ -338,158 +349,48 @@
               ]
             }
           ]
-        },
-        {
-          "type": "bulletList",
-          "content": [
-            {
-              "type": "listItem",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "textAlign": "left",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Impressum",
-                      "marks": [
-                        {
-                          "type": "link",
-                          "attrs": {
-                            "data-id": null,
-                            "data-entry": null,
-                            "data-type": null,
-                            "href": "https://service.justiz.de/impressum",
-                            "title": null
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "listItem",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "textAlign": "left",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Datenschutzbestimmung",
-                      "marks": [
-                        {
-                          "type": "link",
-                          "attrs": {
-                            "data-id": null,
-                            "data-entry": null,
-                            "data-type": null,
-                            "href": "https://service.justiz.de/datenschutz",
-                            "title": null
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "listItem",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "textAlign": "left",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Cookie-Einstellungen",
-                      "marks": [
-                        {
-                          "type": "link",
-                          "attrs": {
-                            "data-id": null,
-                            "data-entry": null,
-                            "data-type": null,
-                            "href": "https://service.justiz.de/cookie-einstellungen",
-                            "title": null
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "listItem",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "textAlign": "left",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Barrierefreiheit",
-                      "marks": [
-                        {
-                          "type": "link",
-                          "attrs": {
-                            "data-id": null,
-                            "data-entry": null,
-                            "data-type": null,
-                            "href": "https://service.justiz.de/barrierefreiheit",
-                            "title": null
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "listItem",
-              "content": [
-                {
-                  "type": "paragraph",
-                  "textAlign": "left",
-                  "content": [
-                    {
-                      "type": "text",
-                      "text": "Open Source Code",
-                      "marks": [
-                        {
-                          "type": "link",
-                          "attrs": {
-                            "data-id": null,
-                            "data-entry": null,
-                            "data-type": null,
-                            "href": "https://service.justiz.de/opensource",
-                            "target": "_blank",
-                            "title": null
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
-      "logo": {
-        "title": "",
-        "image": {
-          "id": "2arAQTeRhJGgKZe59UCzzT06lU7",
-          "type": "image",
-          "entry": "2aio6gK9Onw5z9W2sRUm277kYig"
+      "linkList": [
+        {
+          "id": "2b6QSgn9hpxcm7pUMnIm7sV7FVW",
+          "index": "a0",
+          "type": "entry",
+          "entry": "2ar3B40X0u6zOz52kI9OxlaIzTf"
         },
-        "alt": ""
-      }
+        {
+          "id": "2b6RyYNjVDYo3BwPb5Jl2WlIs9K",
+          "index": "a1",
+          "type": "url",
+          "url": "/datenschutzbestimmung",
+          "title": "Datenschutzbestimmung",
+          "target": "_blank"
+        },
+        {
+          "id": "2b6S0A9aGNFvMRTENr2AkBHvBlV",
+          "index": "a2",
+          "type": "url",
+          "url": "/cookie",
+          "title": "Cookie-Einstellungen",
+          "target": "_blank"
+        },
+        {
+          "id": "2b6S22TIZTHcWXj6VNmRw9HJ0H2",
+          "index": "a3",
+          "type": "url",
+          "url": "/barrierefreiheit",
+          "title": "Barrierefreiheit",
+          "target": "_blank"
+        },
+        {
+          "id": "2b6S3qQIJ7TVwaBwXqg27CBhuMK",
+          "index": "a4",
+          "type": "url",
+          "url": "/open-source",
+          "title": "Open Source Code",
+          "target": "_blank"
+        }
+      ]
     }
   ],
   "@alinea": {

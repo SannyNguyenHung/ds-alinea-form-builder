@@ -19,7 +19,7 @@ export type LogoBannerBlock = alinea.infer<typeof LogoBannerBlock>;
 function Logo({ block }: { block: LogoBannerBlock }) {
     return (
         <div className="ds-stack-16">
-            <p className="ds-label-section pt-4 text-gray-800">{block.logo.title}</p>
+            { block.logo.title && <p className="ds-label-section  text-gray-800">{block.logo.title}</p>}
             <a href="/">
                 <img className="w-[160px]" src={block.logo.image.src} width="240" height="132" alt="" />
             </a>

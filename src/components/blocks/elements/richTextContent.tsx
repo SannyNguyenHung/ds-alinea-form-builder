@@ -1,13 +1,15 @@
-import alinea, { TextDoc } from 'alinea'
-import { RichText } from 'alinea/ui'
-import { ReactElement } from 'react';
-import { TextElement, TextElementSchema } from './TextElement';
-import { ButtonElement, ButtonElementSchema } from './ButtonElement';
+import alinea, { TextDoc } from "alinea"
+import { RichText } from "alinea/ui"
+import { ReactElement } from "react";
+import { TextElement, TextElementSchema } from "./TextElement";
+import { ButtonElement, ButtonElementSchema } from "./ButtonElement";
+import { ImageElement, ImageElementSchema } from "./ImageElement";
 
-export const RichTextBox = alinea.richText('Text', {
+export const RichTextBox = alinea.richText("Text", {
     schema: alinea.schema({
         Text: TextElementSchema,
         Button: ButtonElementSchema,
+        Image: ImageElementSchema,
     }),
 })
 
@@ -57,7 +59,6 @@ export function RichTextContent({
         li={li ?? <li />}
         a={a ?? <a className="text-link" />}
         doc={content}
-
         // Custom extensions
         {...blocks}
 
