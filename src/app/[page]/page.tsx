@@ -1,5 +1,5 @@
-import {cms} from '@/cms'
-import Page, { PageSchema } from '@/components/page';
+import {cms} from "@/cms"
+import Page, { PageSchema } from "@/components/page";
 
 // How often should the page be revalidated (in seconds) on prod?
 export const revalidate = 0;

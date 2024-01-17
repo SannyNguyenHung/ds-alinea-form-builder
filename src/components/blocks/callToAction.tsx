@@ -1,12 +1,12 @@
-import alinea from 'alinea'
-import { BasicBlock, Block } from './block';
-import { RichTextBox, RichTextContent, RichTextBoxExtension } from './elements/richTextContent';
-import { BlockBackgroundColors } from './elements/colors';
+import alinea from "alinea"
+import { BasicBlock, Block } from "./block";
+import { RichTextBox, RichTextContent, RichTextBoxExtension } from "./elements/richTextContent";
+import { BlockBackgroundColors } from "./elements/colors";
 
 
-export const CallToActionBlock = alinea.type('💥 Call to action', {
+export const CallToActionBlock = alinea.type("💥 Call to action", {
   ...BasicBlock,
-  actionBackground: alinea.select('Action Background', BlockBackgroundColors),
+  actionBackground: alinea.select("Action Background", BlockBackgroundColors),
   content: RichTextBox
 });
 
@@ -15,8 +15,8 @@ export type CallToActionBlock = alinea.infer<typeof CallToActionBlock>;
 export function CallToAction({ block }: { block: CallToActionBlock }) {
   return (
     <Block
-      blockClassName='call-to-action-block !pt-0 !pb-0 mt-16 mb-16'
-      itemsClassName={(block.actionBackground ?? '') + ' container py-14 !pt-40 !pb-48 rounded-lg -right-32 -left-32 inset-y-0'}
+      blockClassName="call-to-action-block !pt-0 !pb-0 mt-16 mb-16"
+      itemsClassName={(block.actionBackground ?? "") + " container py-14 !pt-40 !pb-48 rounded-lg -right-32 -left-32 inset-y-0"}
       block={block}>
         <div className="ds-stack-8">
           <RichTextContent

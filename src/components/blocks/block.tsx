@@ -1,6 +1,6 @@
-import alinea from 'alinea'
-import { ReactNode } from 'react';
-import { BlockBackgroundColors } from './elements/colors';
+import alinea from "alinea"
+import { ReactNode } from "react";
+import { BlockBackgroundColors } from "./elements/colors";
 
 export function Block({ block, blockClassName, itemsClassName, children }: { block: BasicBlock, blockClassName?: string, itemsClassName?: string, children: ReactNode }) {
     const background = (block.background ?? "") + (block.background === "bg-blue-800" ? " text-white" : "");
@@ -16,8 +16,8 @@ export function Block({ block, blockClassName, itemsClassName, children }: { blo
     )
 }
 
-export const BasicBlock = alinea.type('Block', {
-    background: alinea.select('Background', BlockBackgroundColors),
+export const BasicBlock = alinea.type("Block", {
+    background: alinea.select("Background", BlockBackgroundColors),
 });
 
 export type BasicBlock = alinea.infer<typeof BasicBlock>;

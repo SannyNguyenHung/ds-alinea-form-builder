@@ -5,7 +5,7 @@ export const cms = createNextCMS({
   schema: {
     PageSchema
   },
-  preview:'http://localhost:3000/api/preview',
+  preview:"http://localhost:3000/api/preview",
   workspaces: {
     main: alinea.workspace("Static Pages", {
       pages: alinea.root("Page", {

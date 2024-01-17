@@ -1,15 +1,15 @@
-import alinea from 'alinea'
-import { BasicBlock, Block } from './block';
-import { RichTextContent, RichTextBox, RichTextBoxExtension } from './elements/richTextContent';
+import alinea from "alinea"
+import { BasicBlock, Block } from "./block";
+import { RichTextContent, RichTextBox, RichTextBoxExtension } from "./elements/richTextContent";
 
-export const LogoBannerBlock = alinea.type('🖼️ Logo Banner', {
+export const LogoBannerBlock = alinea.type("🖼️ Logo Banner", {
     ...BasicBlock,
     content: RichTextBox,
-    logo: alinea.object('Logo', {
-        fields: alinea.type('Parameters', {
-            title: alinea.text('Title'),
-            image: alinea.image('Image'),
-            alt: alinea.text('Alt Text'),
+    logo: alinea.object("Logo", {
+        fields: alinea.type("Parameters", {
+            title: alinea.text("Title"),
+            image: alinea.image("Image"),
+            alt: alinea.text("Alt Text"),
         })
     })
 });
@@ -32,8 +32,8 @@ export function LogoBanner({ block }: { block: LogoBannerBlock }) {
     return (
         <Block
             block={block}
-            blockClassName='py-20 px-16 !pt-64 !pb-64'
-            itemsClassName='ds-stack-16 container !pt-0 !pb-0'
+            blockClassName="py-20 px-16 !pt-64 !pb-64"
+            itemsClassName="ds-stack-16 container !pt-0 !pb-0"
         >
             <div className="flex flex-row items-start gap-32 max-[499px]:flex-col">
                 <Logo block={block}></Logo>

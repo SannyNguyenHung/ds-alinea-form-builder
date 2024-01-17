@@ -8,10 +8,10 @@ import { v4 as uuidv4 } from "uuid";
 import { Banner, BannerBlock } from "./blocks/banner";
 import { FooterBlock, Footer } from "./blocks/footer";
 
-export const PageSchema = alinea.type('Page', {
-    title: alinea.text('Title'),
-    slug: alinea.text('Slug'),
-    blocks: alinea.list('Blocks', {
+export const PageSchema = alinea.type("Page", {
+    title: alinea.text("Title"),
+    slug: alinea.text("Slug"),
+    blocks: alinea.list("Blocks", {
       schema: alinea.schema({
         Banner: BannerBlock,
         Text: ContentBlock,
@@ -20,14 +20,14 @@ export const PageSchema = alinea.type('Page', {
         CallToAction: CallToActionBlock
       })
     }),
-    header: alinea.list('Header (parent)', {
+    header: alinea.list("Header (parent)", {
         schema: alinea.schema({
           Banner: BannerBlock,
           Text: ContentBlock,
           Header: HeaderBlock,
         })
     }),
-    footer: alinea.list('Footer (parent)', {
+    footer: alinea.list("Footer (parent)", {
         schema: alinea.schema({
           Banner: BannerBlock,
           Text: ContentBlock,
@@ -40,19 +40,19 @@ export type Page = alinea.infer<typeof PageSchema>;
 
 function MapBlock({block} : {block: any}) {
     switch (block.type) {
-        case 'Banner':
+        case "Banner":
             return <Banner block={block} />
-        case 'Text':
+        case "Text":
             return <Content block={block} />
-        case 'Header':
+        case "Header":
             return <Header block={block} />
-        case 'Hero':
+        case "Hero":
             return <Hero block={block} />
-        case 'LogoBanner':
+        case "LogoBanner":
             return <LogoBanner block={block} />
-        case 'CallToAction':
+        case "CallToAction":
             return <CallToAction block={block} />
-        case 'Footer':
+        case "Footer":
             return <Footer block={block} />
     }
     return <>Error</>
