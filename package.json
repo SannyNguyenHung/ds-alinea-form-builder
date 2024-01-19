@@ -13,7 +13,7 @@
     "@digitalservice4germany/angie": "^1.1.0",
     "@digitalservice4germany/style-dictionary": "^2.0.0",
     "alinea": "^0.5.9",
-    "next": "14.0.4",
+    "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
     "ungit": "^1.5.25",
