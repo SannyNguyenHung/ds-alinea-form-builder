@@ -218,71 +218,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "2amd0YRVCFmsd1tBriGZLzInetJ",
-      "index": "a5",
-      "type": "Text",
-      "background": "bg-blue-300",
-      "content": [
-        {
-          "id": "2amd16XA3lNwWmOPoAL0mDBiyNG",
-          "type": "Text",
-          "look": "ds-label-01-bold",
-          "text": "Haben Sie Fragen oder Anmerkungen?",
-          "tag": "h2"
-        },
-        {
-          "type": "paragraph",
-          "textAlign": "left",
-          "content": [
-            {
-              "type": "text",
-              "text": "Diese Seite ist im Aufbau. Schreiben Sie uns an "
-            },
-            {
-              "type": "text",
-              "text": "feedback-justiz-services@digitalservice.bund.de",
-              "marks": [
-                {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "mailto:feedback-justiz-services@digitalservice.bund.de?subject=Justiz-Services",
-                    "title": null
-                  }
-                }
-              ]
-            },
-            {
-              "type": "text",
-              "text": ", wenn Ihnen etwas fehlt, oder etwas nicht funktioniert. Ihr Feedback trägt dazu bei, Informationen und Gestaltung der Webseite für alle Nutzenden zu verbessern."
-            },
-            {
-              "type": "text",
-              "text": "feedback-justiz-services@digitalservice.bund.de",
-              "marks": [
-                {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "mailto:feedback-justiz-services@digitalservice.bund.de?subject=Justiz-Services",
-                    "title": null
-                  }
-                }
-              ]
-            },
-            {
-              "type": "text",
-              "text": ", wenn Ihnen etwas fehlt, oder etwas nicht funktioniert. Ihr Feedback trägt dazu bei, Informationen und Gestaltung der Webseite für alle Nutzenden zu verbessern."
-            }
-          ]
-        }
-      ]
     }
   ],
   "header": [
@@ -321,6 +256,51 @@
     }
   ],
   "footer": [
+    {
+      "id": "2bBv1QPbCM8bdP3H6YRHFcPtlNf",
+      "index": "Zz",
+      "type": "Text",
+      "background": "bg-blue-300",
+      "content": [
+        {
+          "id": "2bBv456lYFVqk4aufl7W7rEhZdl",
+          "type": "Text",
+          "look": "ds-label-01-bold",
+          "text": "Haben Sie Fragen oder Anmerkungen?",
+          "tag": "h2"
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "Diese Seite ist im Aufbau. Schreiben Sie uns an "
+            },
+            {
+              "type": "text",
+              "text": "feedback-justiz-services@digitalservice.bund.de",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "data-id": null,
+                    "data-entry": null,
+                    "data-type": null,
+                    "href": "mailto:feedback-justiz-services@digitalservice.bund.de?subject=Datenschutzbestimmung%20-%20Justiz-Services",
+                    "title": null
+                  }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", wenn Ihnen etwas fehlt, oder etwas nicht funktioniert. Ihr Feedback trägt dazu bei, Informationen und Gestaltung der Webseite für alle Nutzenden zu verbessern."
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "2arAOC9YdtuVtTB8IsdglId7Loo",
       "index": "a0",
@@ -390,22 +370,20 @@
       ],
       "linkList": [
         {
-          "id": "2bBdCrVcbUnQXY0rMRJwnABpkZG",
+          "id": "2bBvDbWHYGyaalRbgYIBlAeu5r3",
           "index": "a0",
           "type": "entry",
           "entry": "2b8gxhNDaofTfSzR0dAeZCR6fp2"
         },
         {
-          "id": "2b6RyYNjVDYo3BwPb5Jl2WlIs9K",
-          "index": "a1",
-          "type": "url",
-          "url": "/datenschutzbestimmung",
-          "title": "Datenschutzbestimmung",
-          "target": "_blank"
+          "id": "2bBvDXgfGbuHzj2vBpf46N6Sr0B",
+          "index": "a0G",
+          "type": "entry",
+          "entry": "2bBsc8MRbAvnG7uGQ24X1CFDjL1"
         },
         {
           "id": "2b6S0A9aGNFvMRTENr2AkBHvBlV",
-          "index": "a2",
+          "index": "a0V",
           "type": "url",
           "url": "/cookie",
           "title": "Cookie-Einstellungen",
@@ -413,19 +391,17 @@
         },
         {
           "id": "2b6S22TIZTHcWXj6VNmRw9HJ0H2",
-          "index": "a3",
+          "index": "a1",
           "type": "url",
           "url": "/barrierefreiheit",
           "title": "Barrierefreiheit",
           "target": "_blank"
         },
         {
-          "id": "2b6S3qQIJ7TVwaBwXqg27CBhuMK",
-          "index": "a4",
-          "type": "url",
-          "url": "/open-source",
-          "title": "Open Source Code",
-          "target": "_blank"
+          "id": "2bBvDcYAlyXDIqhRxyVvCUwam8J",
+          "index": "a1V",
+          "type": "entry",
+          "entry": "2bBuhNPvSsELZp61jvL0vZyBHF7"
         }
       ]
     }

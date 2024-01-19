@@ -1,0 +1,1634 @@
+{
+  "title": "Open Source",
+  "slug": "opensource",
+  "blocks": [
+    {
+      "id": "2bBujSagBqfkytXZlPMcAgHymIw",
+      "index": "a0",
+      "type": "PageHeader",
+      "title": "Open Source"
+    },
+    {
+      "id": "2bBurYBAztqfWzGFWh7YrLQ4ofZ",
+      "index": "a1",
+      "type": "Text",
+      "content": [
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "Open Source bedeutet für uns Transparenz, Vertrauen, Sicherheit, Qualität und Flexibilität. Die Wiederverwendung von quell-offener Softwarebibliotheken erlaubt es uns schneller zu iterieren und bessere Services zu entwickeln."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "Deswegen ist unser Arbeit unter permissiver MIT Lizenz in unserem "
+            },
+            {
+              "type": "text",
+              "text": "Github Repository",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "data-id": null,
+                    "data-entry": null,
+                    "data-type": null,
+                    "href": "https://github.com/digitalservicebund/a2j-rechtsantragstelle",
+                    "title": null
+                  }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " frei einsehbar und offen zur Mitarbeit. Selbstverständlich lassen wir Verbesserung in die von uns verwendeten Bibliotheken zurückfließen und beteiligen uns am Austausch mit anderen Entwickler*innen."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "Kurz: Wir sind stolz darauf, Teil der Open-Source Community zu sein 💙"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "textAlign": "left",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Verwendete Software Bibliotheken"
+            }
+          ]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "@digitalservice4germany/angie",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/digitalservicebund/angie",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "@digitalservice4germany/style-dictionary by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Joschka de Cuveland",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "@digitalservicebund/icons",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/digitalservicebund/icons",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Joschka de Cuveland",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "@react-pdf/renderer",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/diegomura/react-pdf",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Diego Muracciole",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "@remix-run/express",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/remix-run/remix",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "@remix-run/node",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/remix-run/remix",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "@remix-run/react",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/remix-run/remix",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "@remix-run/serve",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/remix-run/remix",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "@remix-validated-form/with-zod",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/airjp73/remix-validated-form",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "@sentry/remix",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/getsentry/sentry-javascript",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Sentry",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "@xstate/graph",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/statelyai/xstate",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "David Khourshid",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "axios",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/axios/axios",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Matt Zabriskie",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "classnames",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/JedWatson/classnames",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Jed Watson",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "dotenv",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/motdotla/dotenv",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: BSD-2-Clause"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "express",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/expressjs/express",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "TJ Holowaychuk",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "fflate",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/101arrowz/fflate",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Arjun Barrett",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "ioredis",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/luin/ioredis",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Zihua Li",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "isbot",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/omrilotan/isbot",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: Unlicense"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "license-checker-rseidelsohn",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/RSeidelsohn/license-checker-rseidelsohn",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Roman Seidelsohn",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: BSD-3-Clause"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "lodash",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/lodash/lodash",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "John-David Dalton",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "marked",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/markedjs/marked",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Christopher Jeffrey",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "mustache",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/janl/mustache.js",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "mustache.js Authors",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "pdf-lib",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/Hopding/pdf-lib",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Andrew Dillon",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "posthog-js",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/PostHog/posthog-js",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "hey@posthog.com",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "posthog-node",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/PostHog/posthog-js-lite",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "PostHog",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "quicktype-core",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/quicktype/quicktype",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: Apache-2.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "react-dom",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/facebook/react",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "react-dropzone",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/react-dropzone/react-dropzone",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Param Aggarwal",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "react-imask",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/uNmAnNeR/imaskjs.git#master",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Alexey Kryazhev",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "react",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/facebook/react",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "remix-validated-form",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/airjp73/remix-validated-form",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Aaron Pettengill",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "tiny-invariant",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/alexreardon/tiny-invariant",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Alex Reardon",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "validator",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/validatorjs/validator.js",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Chris O'Hara",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "xstate",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/statelyai/xstate",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "David Khourshid",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "zod",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/colinhacks/zod",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Colin McDonnell",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: MIT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "pako",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/nodeca/pako",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: (MIT AND Zlib)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "spdx-exceptions",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/kemitchell/spdx-exceptions.json",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "The Linux Foundation",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: CC-BY-3.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "textAlign": "left",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "spdx-ranges",
+                      "marks": [
+                        {
+                          "type": "link",
+                          "attrs": {
+                            "data-id": null,
+                            "data-entry": null,
+                            "data-type": null,
+                            "href": "https://github.com/kemitchell/spdx-ranges.js",
+                            "target": "_blank",
+                            "title": null
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by "
+                    },
+                    {
+                      "type": "text",
+                      "text": "The Linux Foundation",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " - License: (MIT AND CC-BY-3.0)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "header": [],
+  "footer": [],
+  "@alinea": {
+    "entryId": "2bBuhNPvSsELZp61jvL0vZyBHF7",
+    "type": "PageSchema",
+    "index": "Zx"
+  }
+}

@@ -1330,51 +1330,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "2bBtOwftRaXSGpG5p0JoSarCpvR",
-      "index": "a2",
-      "type": "Text",
-      "background": "bg-blue-300",
-      "content": [
-        {
-          "id": "2bBtPzT55yGezz39KWPXH9proES",
-          "type": "Text",
-          "look": "ds-label-01-bold",
-          "text": "Haben Sie Fragen oder Anmerkungen?",
-          "tag": "h2"
-        },
-        {
-          "type": "paragraph",
-          "textAlign": "left",
-          "content": [
-            {
-              "type": "text",
-              "text": "Diese Seite ist im Aufbau. Schreiben Sie uns an "
-            },
-            {
-              "type": "text",
-              "text": "feedback-justiz-services@digitalservice.bund.de",
-              "marks": [
-                {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "mailto:feedback-justiz-services@digitalservice.bund.de?subject=Datenschutzbestimmung%20-%20Justiz-Services",
-                    "title": null
-                  }
-                }
-              ]
-            },
-            {
-              "type": "text",
-              "text": ", wenn Ihnen etwas fehlt, oder etwas nicht funktioniert. Ihr Feedback trägt dazu bei, Informationen und Gestaltung der Webseite für alle Nutzenden zu verbessern."
-            }
-          ]
-        }
-      ]
     }
   ],
   "header": [],
