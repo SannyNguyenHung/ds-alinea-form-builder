@@ -7,6 +7,7 @@ import { CallToAction, CallToActionBlock } from "./blocks/callToAction";
 import { v4 as uuidv4 } from "uuid";
 import { Banner, BannerBlock } from "./blocks/banner";
 import { FooterBlock, Footer } from "./blocks/footer";
+import { PageHeader, PageHeaderBlock } from "./blocks/pageHeader";
 
 export const PageSchema = alinea.type("Page", {
     title: alinea.text("Title"),
@@ -14,6 +15,7 @@ export const PageSchema = alinea.type("Page", {
     blocks: alinea.list("Blocks", {
       schema: alinea.schema({
         Banner: BannerBlock,
+        PageHeader: PageHeaderBlock,
         Text: ContentBlock,
         Hero: HeroBlock,
         LogoBanner: LogoBannerBlock,
@@ -34,10 +36,15 @@ export const PageSchema = alinea.type("Page", {
           Footer: FooterBlock,
         })
     }),
+    [alinea.meta]: {
+      contains: ["PageSchema"],
+      isContainer: true
+    }
   });
 
 export type Page = alinea.infer<typeof PageSchema>;
 
+// Refactor this to use a map of components
 function MapBlock({block} : {block: any}) {
     switch (block.type) {
         case "Banner":
@@ -54,6 +61,8 @@ function MapBlock({block} : {block: any}) {
             return <CallToAction block={block} />
         case "Footer":
             return <Footer block={block} />
+        case "PageHeader":
+            return <PageHeader block={block} />
     }
     return <>Error</>
 }
@@ -61,7 +70,7 @@ function MapBlock({block} : {block: any}) {
 export default function Blocks({page, indexPage} : {page: Page, indexPage?: Page}) {
     const header = page?.header.length > 0 ? page?.header : indexPage?.header;
     const footer = page?.footer.length > 0 ? page?.footer : indexPage?.footer;
-
+    
     return (
         <div className="">
             {header?.map(block => <MapBlock key={uuidv4()} block={block} />)}

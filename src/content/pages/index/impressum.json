@@ -1,0 +1,364 @@
+{
+  "title": "Impressum",
+  "slug": "impressum",
+  "blocks": [
+    {
+      "id": "2bBcdO7N5C5pHrulP3sR4eJYtB1",
+      "index": "a0",
+      "type": "PageHeader",
+      "title": "Impressum"
+    },
+    {
+      "id": "2bBdom3ajRTvyG2ExbtE83ACUt6",
+      "index": "a1",
+      "type": "Text",
+      "content": [
+        {
+          "type": "heading",
+          "textAlign": "left",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Anbieter"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "Bundesministerium der Justiz (BMJ)"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "Mohrenstraße 37"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "10117 Berlin"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Telefon: 030/ 18 580 0"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "Fax: 030/ 18 580 - 95 25"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "E-Mail: "
+            },
+            {
+              "type": "text",
+              "text": "poststelle@bmj.bund.de",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "data-id": null,
+                    "data-entry": null,
+                    "data-type": null,
+                    "href": "mailto:poststelle@bmj.bund.de",
+                    "title": null
+                  }
+                }
+              ]
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "type": "text",
+              "text": "www.bmj.de",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "data-id": null,
+                    "data-entry": null,
+                    "data-type": null,
+                    "href": "https://www.bmj.de/DE/Startseite/Startseite_node.html",
+                    "target": "_blank",
+                    "title": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left"
+        },
+        {
+          "type": "horizontalRule"
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left"
+        },
+        {
+          "type": "heading",
+          "textAlign": "left",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Gesetzlicher Vertreter"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "Das Ministerium wird durch den Bundesminister der Justiz vertreten."
+            }
+          ]
+        },
+        {
+          "type": "horizontalRule"
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left"
+        },
+        {
+          "type": "heading",
+          "textAlign": "left",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Verantwortlich"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "Malte Büttner – Referat DB 1"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left"
+        },
+        {
+          "type": "horizontalRule"
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left"
+        },
+        {
+          "type": "heading",
+          "textAlign": "left",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Redaktion"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "Referat DB 1"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left"
+        },
+        {
+          "type": "horizontalRule"
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left"
+        },
+        {
+          "type": "heading",
+          "textAlign": "left",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Technische Umsetzung"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "DigitalService GmbH des Bundes"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left"
+        },
+        {
+          "type": "horizontalRule"
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left"
+        },
+        {
+          "type": "heading",
+          "textAlign": "left",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Hosting und Betrieb"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "DigitalService GmbH des Bundes"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left"
+        },
+        {
+          "type": "horizontalRule"
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left"
+        },
+        {
+          "type": "heading",
+          "textAlign": "left",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Rechtliche Hinweise"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "Alle Angaben unseres Internetangebotes wurden sorgfältig geprüft. Wir bemühen uns, dieses Informationsangebot aktuell und inhaltlich richtig sowie vollständig anzubieten. Dennoch ist das Auftreten von Fehlern nicht völlig auszuschließen. Eine Garantie für die Vollständigkeit, Richtigkeit und letzte Aktualität kann daher nicht übernommen werden. Der Herausgeber kann diese Website nach eigenem Ermessen jederzeit ohne Ankündigung verändern und / oder deren Betrieb einstellen. Er ist nicht verpflichtet, Inhalte dieser Website zu aktualisieren. Der Zugang und die Benutzung dieser Website geschieht auf eigene Gefahr des Benutzers. Das Bundesministerium der Justiz ist nicht verantwortlich und übernimmt keinerlei Haftung für Schäden, u.a. für direkte, indirekte, zufällige, vorab konkret zu bestimmende oder Folgeschäden, die angeblich durch den oder in Verbindung mit dem Zugang und/oder der Benutzung dieser Website aufgetreten sind. Der Betreiber übernimmt keine Verantwortung für die Inhalte und die Verfügbarkeit von Websites Dritter, die über externe Links dieses Informationsangebotes erreicht werden. Der Herausgeber distanziert sich ausdrücklich von allen Inhalten, die möglicherweise straf- oder haftungsrechtlich relevant sind oder gegen die guten Sitten verstoßen."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "Bei der Anforderung von Inhalten aus diesem Internetangebot werden Zugriffsdaten gespeichert. Das sind Daten über die Seite, von der aus die Datei angefordert wurde, der Name der angeforderten Datei, das Datum, Uhrzeit und Dauer der Anforderung, die übertragene Datenmenge sowie der Zugriffsstatus (z.B. Datei übertragen, Datei nicht gefunden). Diese gespeicherten Daten werden ausschließlich zu statistischen Zwecken ausgewertet und auf keinen Fall an Dritte weitergeleitet. Sofern innerhalb des Internetangebotes die Möglichkeit zur Eingabe persönlicher oder geschäftlicher Daten (E-Mail Adressen, Namen, Anschriften) besteht, so erfolgt die Preisgabe dieser Daten seitens des Nutzers auf ausdrücklich freiwilliger Basis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2bBeJ5KYxSnQFsD7y3r59xJYzIk",
+      "index": "a2",
+      "type": "Text",
+      "background": "bg-blue-300",
+      "content": [
+        {
+          "id": "2bBeN8o1zQdhusbslEVTPRp0lVM",
+          "type": "Text",
+          "look": "ds-label-01-bold",
+          "text": "Haben Sie Fragen oder Anmerkungen?",
+          "tag": "h2"
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "Diese Seite ist im Aufbau. Schreiben Sie uns an "
+            },
+            {
+              "type": "text",
+              "text": "feedback-justiz-services@digitalservice.bund.de",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "data-id": null,
+                    "data-entry": null,
+                    "data-type": null,
+                    "href": "mailto:feedback-justiz-services@digitalservice.bund.de?subject=Impressum%20-%20Justiz-Services",
+                    "title": null
+                  }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", wenn Ihnen etwas fehlt, oder etwas nicht funktioniert. Ihr Feedback trägt dazu bei, Informationen und Gestaltung der Webseite für alle Nutzenden zu verbessern."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "header": [],
+  "footer": [],
+  "@alinea": {
+    "entryId": "2b8gxhNDaofTfSzR0dAeZCR6fp2",
+    "type": "PageSchema",
+    "index": "Zz"
+  }
+}

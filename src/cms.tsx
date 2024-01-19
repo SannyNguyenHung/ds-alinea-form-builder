@@ -10,7 +10,7 @@ export const cms = createNextCMS({
     main: alinea.workspace("Static Pages", {
       pages: alinea.root("Page", {
         [alinea.meta]: {
-          contains: ["Page", "PageSchema"]
+          contains: ["PageSchema"]
         }
       }),
       media: alinea.media(),

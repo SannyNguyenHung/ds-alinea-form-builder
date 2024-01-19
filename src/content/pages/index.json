@@ -197,6 +197,23 @@
                   }
                 }
               ]
+            },
+            {
+              "type": "text",
+              "text": "www.justiz.de",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "data-id": null,
+                    "data-entry": null,
+                    "data-type": null,
+                    "href": "https://www.justiz.de/",
+                    "target": "_blank",
+                    "title": null
+                  }
+                }
+              ]
             }
           ]
         }
@@ -222,6 +239,26 @@
             {
               "type": "text",
               "text": "Diese Seite ist im Aufbau. Schreiben Sie uns an "
+            },
+            {
+              "type": "text",
+              "text": "feedback-justiz-services@digitalservice.bund.de",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "data-id": null,
+                    "data-entry": null,
+                    "data-type": null,
+                    "href": "mailto:feedback-justiz-services@digitalservice.bund.de?subject=Justiz-Services",
+                    "title": null
+                  }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": ", wenn Ihnen etwas fehlt, oder etwas nicht funktioniert. Ihr Feedback trägt dazu bei, Informationen und Gestaltung der Webseite für alle Nutzenden zu verbessern."
             },
             {
               "type": "text",
@@ -320,6 +357,23 @@
                   }
                 }
               ]
+            },
+            {
+              "type": "text",
+              "text": "DigitalService GmbH des Bundes",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "data-id": null,
+                    "data-entry": null,
+                    "data-type": null,
+                    "href": "https://digitalservice.bund.de/",
+                    "target": "_blank",
+                    "title": null
+                  }
+                }
+              ]
             }
           ]
         },
@@ -347,16 +401,33 @@
                   }
                 }
               ]
+            },
+            {
+              "type": "text",
+              "text": "Bundesministerium der Justiz",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "data-id": null,
+                    "data-entry": null,
+                    "data-type": null,
+                    "href": "https://www.bmj.de/",
+                    "target": "_blank",
+                    "title": null
+                  }
+                }
+              ]
             }
           ]
         }
       ],
       "linkList": [
         {
-          "id": "2b6QSgn9hpxcm7pUMnIm7sV7FVW",
-          "index": "a0",
+          "id": "2bBdCrVcbUnQXY0rMRJwnABpkZG",
+          "index": "Zz",
           "type": "entry",
-          "entry": "2ar3B40X0u6zOz52kI9OxlaIzTf"
+          "entry": "2b8gxhNDaofTfSzR0dAeZCR6fp2"
         },
         {
           "id": "2b6RyYNjVDYo3BwPb5Jl2WlIs9K",
@@ -396,7 +467,7 @@
   "@alinea": {
     "entryId": "2abWtgqlRAWO0v8BZpIcPnENTED",
     "type": "PageSchema",
-    "index": "a0",
+    "index": "Zz",
     "root": "pages"
   }
 }
