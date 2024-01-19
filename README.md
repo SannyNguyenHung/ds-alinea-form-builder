@@ -38,6 +38,6 @@ npm run build
 ## TODO
 
 * Form Pages beside Static Pages
-* Research for a component library (accessible, tested, standardized blocks without content in another repo)
+* Research for a component library (accessible, tested, documented, standardized blocks without content in another repo)
 * Research for a workflow (questionnaire flows, gather data from user - one thing per page, process data)
 * Research for theming

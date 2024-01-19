@@ -357,23 +357,6 @@
                   }
                 }
               ]
-            },
-            {
-              "type": "text",
-              "text": "DigitalService GmbH des Bundes",
-              "marks": [
-                {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "https://digitalservice.bund.de/",
-                    "target": "_blank",
-                    "title": null
-                  }
-                }
-              ]
             }
           ]
         },
@@ -401,23 +384,6 @@
                   }
                 }
               ]
-            },
-            {
-              "type": "text",
-              "text": "Bundesministerium der Justiz",
-              "marks": [
-                {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "https://www.bmj.de/",
-                    "target": "_blank",
-                    "title": null
-                  }
-                }
-              ]
             }
           ]
         }
@@ -425,7 +391,7 @@
       "linkList": [
         {
           "id": "2bBdCrVcbUnQXY0rMRJwnABpkZG",
-          "index": "Zz",
+          "index": "a0",
           "type": "entry",
           "entry": "2b8gxhNDaofTfSzR0dAeZCR6fp2"
         },
