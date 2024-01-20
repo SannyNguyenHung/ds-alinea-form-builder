@@ -258,7 +258,7 @@
   "footer": [
     {
       "id": "2bBv1QPbCM8bdP3H6YRHFcPtlNf",
-      "index": "Zz",
+      "index": "a0",
       "type": "Text",
       "background": "bg-blue-300",
       "content": [
@@ -303,7 +303,7 @@
     },
     {
       "id": "2arAOC9YdtuVtTB8IsdglId7Loo",
-      "index": "a0",
+      "index": "a1",
       "type": "Footer",
       "logo": {
         "image": {
@@ -370,38 +370,36 @@
       ],
       "linkList": [
         {
-          "id": "2bBvDbWHYGyaalRbgYIBlAeu5r3",
+          "id": "2bE3SLxK7ZKhf2fagghUxHjqFM3",
           "index": "a0",
           "type": "entry",
           "entry": "2b8gxhNDaofTfSzR0dAeZCR6fp2"
         },
         {
-          "id": "2bBvDXgfGbuHzj2vBpf46N6Sr0B",
-          "index": "a0G",
+          "id": "2bE3SODwCibjfccAejU2d0Im4zQ",
+          "index": "a1",
           "type": "entry",
           "entry": "2bBsc8MRbAvnG7uGQ24X1CFDjL1"
         },
         {
           "id": "2b6S0A9aGNFvMRTENr2AkBHvBlV",
-          "index": "a0V",
+          "index": "a2",
           "type": "url",
           "url": "/cookie",
           "title": "Cookie-Einstellungen",
           "target": "_blank"
         },
         {
-          "id": "2b6S22TIZTHcWXj6VNmRw9HJ0H2",
-          "index": "a1",
-          "type": "url",
-          "url": "/barrierefreiheit",
-          "title": "Barrierefreiheit",
-          "target": "_blank"
-        },
-        {
-          "id": "2bBvDcYAlyXDIqhRxyVvCUwam8J",
-          "index": "a1V",
+          "id": "2bE3SLO7c6dxDNEB1RA7iOhpKHQ",
+          "index": "a3",
           "type": "entry",
           "entry": "2bBuhNPvSsELZp61jvL0vZyBHF7"
+        },
+        {
+          "id": "2bE3SMpDGwFcWRH33gVAB5mNPli",
+          "index": "a4",
+          "type": "entry",
+          "entry": "2bBvc120X0MfHh3mlbK1OhP0bJn"
         }
       ]
     }
