@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@digitalservice4germany/angie": "^1.1.0",
+    "@digitalservice4germany/angie": "^1.1.1",
     "@digitalservice4germany/style-dictionary": "^2.0.0",
     "alinea": "^0.5.9",
     "next": "14.1.0",
