@@ -1,11 +1,13 @@
 import alinea, {createNextCMS} from "alinea"
 import {PageSchema, Page} from "@/components/page";
 import { Entry } from "alinea/core";
+import { FormPage, FormPageSchema } from "./components/formPage";
 
 export const cms = createNextCMS({
-  schema: {
-    PageSchema
-  },
+  schema: alinea.schema({
+    PageSchema,
+    FormPageSchema,    
+  }),
   preview:"http://localhost:3000/api/preview",
   workspaces: {
     main: alinea.workspace("Static Pages", {
@@ -19,11 +21,25 @@ export const cms = createNextCMS({
         source: "src/content",
         mediaDir: "public"
       }
+    }),
+    formPages: alinea.workspace("Form Pages", {
+      formPages: alinea.root("FormPage", {
+        [alinea.meta]: {
+          contains: ["FormPageSchema"]
+        }
+      }),
+      media: alinea.media(),
+      [alinea.meta]: {
+        source: "src/content",
+        mediaDir: "public"
+      }
     })
   }
 })
 
-export async function getParent(page: Page) {
+
+// --- Find a better way to do this ---
+export async function getPageParent(page: Page) {
   
   const parentEntry = await cms.maybeGet(PageSchema({slug: page.slug})
     .select({

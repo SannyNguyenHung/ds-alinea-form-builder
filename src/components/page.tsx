@@ -8,7 +8,7 @@ import { v4 as uuidv4 } from "uuid";
 import { Banner, BannerBlock } from "./blocks/banner";
 import { FooterBlock, Footer } from "./blocks/footer";
 import { PageHeader, PageHeaderBlock } from "./blocks/pageHeader";
-import { getParent } from "@/cms";
+import { getPageParent } from "@/cms";
 
 export const PageSchema = alinea.type("Page", {
     title: alinea.text("Title"),
@@ -69,7 +69,7 @@ function MapBlock({block} : {block: any}) {
 }
 
 export async function Blocks({page} : {page: Page}) {
-    const parent = await getParent(page);
+    const parent = await getPageParent(page);
     const header = page?.header.length > 0 ? page?.header : parent?.page?.header;
     const footer = page?.footer.length > 0 ? page?.footer :parent?.page?.footer;
     

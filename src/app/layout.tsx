@@ -1,17 +1,6 @@
-import type { Metadata } from "next"
-
 import "./globals.css"
-
 import { cms } from "@/cms"
-import { PageSchema } from "@/components/page";
 
-export async function generateMetadata({ params }: { params: { page: string } }): Promise<Metadata> {
-  const [indexPage] = await cms.find(PageSchema({slug: params.page ?? "/"}));
-
-  return {
-    title: indexPage.title,
-  }
-}
 
 export default async function RootLayout({
   children,

@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: { params: { page: string } })
   }
 }
 
-export default async function Page({ params }: { params: { page: string } }) {  
+export default async function FormPage({ params }: { params: { page: string } }) {  
   const [page] = await cms.find(PageSchema({slug: params.page ?? "/"}));
 
   return (
