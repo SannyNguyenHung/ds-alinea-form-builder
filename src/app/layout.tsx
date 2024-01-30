@@ -13,7 +13,7 @@ export default async function RootLayout({
       <body>
         {children}
       </body>
-      <cms.previews />
+      <cms.previews widget/>
     </html>
   )
 }
