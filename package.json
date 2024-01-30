@@ -12,10 +12,12 @@
   "dependencies": {
     "@digitalservice4germany/angie": "^1.1.1",
     "@digitalservice4germany/style-dictionary": "^2.0.0",
+    "@rjsf/core": "^5.16.1",
     "alinea": "^0.6.3",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
+    "sequential-workflow-designer-react": "^0.18.1",
     "ungit": "^1.5.25",
     "uuid": "^9.0.1"
   },

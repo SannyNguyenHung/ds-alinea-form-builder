@@ -1,5 +1,6 @@
 import alinea, {createNextCMS} from "alinea"
-import {PageSchema} from "@/components/page";
+import {PageSchema, Page} from "@/components/page";
+import { Entry } from "alinea/core";
 
 export const cms = createNextCMS({
   schema: {
@@ -21,3 +22,19 @@ export const cms = createNextCMS({
     })
   }
 })
+
+export async function getParent(page: Page) {
+  
+  const parentEntry = await cms.maybeGet(PageSchema({slug: page.slug})
+    .select({
+      parent: Entry.parent
+    })
+  );
+
+  return cms.find(Entry({entryId: parentEntry?.parent ?? ""})
+  .select({
+    page: PageSchema
+    })
+  .first()
+  );
+}

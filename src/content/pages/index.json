@@ -183,24 +183,7 @@
             },
             {
               "type": "text",
-              "text": "www.justiz.de",
-              "marks": [
-                {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "https://www.justiz.de/",
-                    "target": "_blank",
-                    "title": null
-                  }
-                }
-              ]
-            },
-            {
-              "type": "text",
-              "text": "www.justiz.de",
+              "text": "www.justiz.dewww.justiz.de",
               "marks": [
                 {
                   "type": "link",
