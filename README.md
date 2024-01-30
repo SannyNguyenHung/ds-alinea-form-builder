@@ -11,11 +11,15 @@ with ungit:
 npm run designer
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Services
 
-Open [http://localhost:4500](http://localhost:4500) with your browser to see alinea cms.
+### `npm run dev` will make the following services available
 
-If you start designer:
+* [http://localhost:3000](http://localhost:3000) to see the app.
+* [http://localhost:3000/flow](http://localhost:3000/flow) to see our workflow editor.
+* [http://localhost:4500](http://localhost:4500) to see alinea cms.
+
+### If you start with `npm run designer`
 
 Open [http://localhost:8448/](http://localhost:8448/) with your browser to see ungit.
 
@@ -25,9 +29,9 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 ### Alinea doesn't load
 
-- Use a private window or clean your cache & cookies
-- Are there any errors in the logs?
-- Delete .next & node_modules folder
+* Use a private window or clean your cache & cookies
+* Are there any errors in the logs?
+* Delete .next & node_modules folder
 
 or
 
