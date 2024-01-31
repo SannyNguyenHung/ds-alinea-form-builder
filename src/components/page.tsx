@@ -68,7 +68,7 @@ function MapBlock({block} : {block: any}) {
     return <>Error</>
 }
 
-export async function Blocks({page} : {page: Page}) {
+export async function PageBlocks({page} : {page: Page}) {
     const parent = await getPageParent(page);
     const header = page?.header.length > 0 ? page?.header : parent?.page?.header;
     const footer = page?.footer.length > 0 ? page?.footer :parent?.page?.footer;

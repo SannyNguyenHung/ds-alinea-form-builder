@@ -1,1 +1,25 @@
-export { default, generateMetadata } from "@/app/[page]/page"
+import {cms} from "@/cms"
+import { PageBlocks, PageSchema } from "@/components/page";
+import { Metadata } from "next";
+
+// How often should the page be revalidated (in seconds) on prod?
+export const revalidate = 0;
+
+export async function generateMetadata({ params }: { params: { page: string } }): Promise<Metadata> {
+  const [indexPage] = await cms.find(PageSchema({slug: params.page ?? "/"}));
+
+  return {
+    title: indexPage.title,
+  }
+}
+
+export default async function Page({ params }: { params: { page: string } }) {  
+  console.log(params.page ?? "/")
+  const [page] = await cms.find(PageSchema({slug: params.page ?? "/"}));
+
+  return (
+    <main>
+      <PageBlocks page={page}></PageBlocks>
+    </main>
+  )
+}

@@ -25,13 +25,13 @@ export const cms = createNextCMS({
     formPages: alinea.workspace("Form Pages", {
       formPages: alinea.root("FormPage", {
         [alinea.meta]: {
-          contains: ["FormPageSchema"]
+          contains: ["FormPageSchema"],
         }
       }),
       media: alinea.media(),
       [alinea.meta]: {
         source: "src/content",
-        mediaDir: "public"
+        mediaDir: "public",
       }
     })
   }

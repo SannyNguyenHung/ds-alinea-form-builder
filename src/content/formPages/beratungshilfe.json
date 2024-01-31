@@ -1,0 +1,11 @@
+{
+  "title": "beratungshilfe",
+  "slug": "beratungshilfe",
+  "blocks": [],
+  "@alinea": {
+    "entryId": "2bhFNIgkZNmgKHhax2hxirefXEy",
+    "type": "FormPageSchema",
+    "index": "a0",
+    "root": "formPages"
+  }
+}

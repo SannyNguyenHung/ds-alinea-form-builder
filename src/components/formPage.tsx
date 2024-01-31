@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from "uuid";
 
 export const FormPageSchema = alinea.type("FormPage", {
     title: alinea.text("Title"),
-    slug: alinea.text("Slug"),
+    slug: alinea.path("Slug"),
     blocks: alinea.list("Blocks", {
       schema: alinea.schema({
         Text: ContentBlock,
@@ -14,7 +14,11 @@ export const FormPageSchema = alinea.type("FormPage", {
     }),
     [alinea.meta]: {
       contains: ["FormPageSchema"],
-      isContainer: true
+      isContainer: true,
+      entryUrl(meta) {
+        console.log(`/form/${meta.path}`)
+        return `/form/${meta.path}`;
+      },
     }
 });
 
