@@ -1,0 +1,63 @@
+{
+  "title": "Geld-Einklagen",
+  "slug": "geld-einklagen",
+  "blocks": [
+    {
+      "id": "2bjljrouzbxKLjjfn55J1jwgYRN",
+      "index": "a0",
+      "type": "PageHeader",
+      "title": "Geld einklagen"
+    },
+    {
+      "id": "2bjll4k4CTw7MHgFgKHq2yLlA8R",
+      "index": "a1",
+      "type": "Text",
+      "background": "bg-blue-100",
+      "content": [
+        {
+          "type": "paragraph",
+          "textAlign": "start",
+          "content": [
+            {
+              "type": "text",
+              "text": "Jemand schuldet Ihnen Geld? Wenn Sie außergerichtlich mit einer Aufforderung zur Zahlung keinen Erfolg hatten, können Sie mit einer Klage gerichtliche Hilfe in Anspruch nehmen. Ein Gericht entscheidet dann, ob Ihnen das Geld wirklich zusteht. Dieser Onlinedienst richtet sich an Personen, die ohne anwaltliche Hilfe klagen wollen."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "start",
+          "content": [
+            {
+              "type": "text",
+              "text": "Onlinedienst aktuell nur an 11 Amtsgerichten in Deutschland nutzbar",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2bjlrKq8073JVYzDmsdABJ8Vcc8",
+          "type": "Button",
+          "text": "Vorab-Check starten",
+          "href": {
+            "id": "2bjltILIYD6hK8KwrGZe3fwUXKi",
+            "type": "entry",
+            "entry": "2bjkcdmzSnhleWThH1cPgaPZTkS"
+          },
+          "size": "ds-button-large"
+        }
+      ]
+    }
+  ],
+  "header": [],
+  "footer": [],
+  "@alinea": {
+    "entryId": "2bjlFvP9rVPQOSKJB6RBOmxaqfD",
+    "type": "PageSchema",
+    "index": "Zu"
+  }
+}

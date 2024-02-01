@@ -1,17 +1,25 @@
-import { Workflow } from "./workflow";
+import {cms} from "@/cms"
+import { FlowPageSchema, FlowPageBlocks } from "@/components/flowPage";
+//import { Blocks, PageSchema } from "@/components/page";
+import { Metadata } from "next";
 
-import "./flow.css";
-import "sequential-workflow-designer/css/designer.css";
-import "sequential-workflow-designer/css/designer-light.css";
-import "sequential-workflow-designer/css/designer-dark.css";
-
+// How often should the page be revalidated (in seconds) on prod?
 export const revalidate = 0;
 
-export default async function Flow({ params }: { params: { page: string } }) {
-  
+export async function generateMetadata({ params }: { params: { page: string } }): Promise<Metadata> {
+  const [page] = await cms.find(FlowPageSchema({slug: params.page}));
+
+  return {
+    title: page.title,
+  }
+}
+
+export default async function FlowPage({ params }: { params: { page: string } }) {  
+  const [page] = await cms.find(FlowPageSchema({slug: params.page}));
+
   return (
-    <main className="">
-      <Workflow></Workflow>
+    <main>
+      <FlowPageBlocks page={page}></FlowPageBlocks>
     </main>
   )
 }

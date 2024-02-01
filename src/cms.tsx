@@ -1,19 +1,19 @@
 import alinea, {createNextCMS} from "alinea"
 import {PageSchema, Page} from "@/components/page";
 import { Entry } from "alinea/core";
-import { FormPage, FormPageSchema } from "./components/formPage";
+import { FlowPageSchema } from "./components/flowPage";
 
 export const cms = createNextCMS({
   schema: alinea.schema({
     PageSchema,
-    FormPageSchema,    
+    FlowPageSchema
   }),
   preview:"http://localhost:3000/api/preview",
   workspaces: {
-    main: alinea.workspace("Static Pages", {
+    main: alinea.workspace("RAST", {
       pages: alinea.root("Page", {
         [alinea.meta]: {
-          contains: ["PageSchema"]
+          contains: ["PageSchema", "FlowPageSchema"]
         }
       }),
       media: alinea.media(),
@@ -22,32 +22,38 @@ export const cms = createNextCMS({
         mediaDir: "public"
       }
     }),
-    formPages: alinea.workspace("Form Pages", {
-      formPages: alinea.root("FormPage", {
-        [alinea.meta]: {
-          contains: ["FormPageSchema"],
-        }
-      }),
-      media: alinea.media(),
-      [alinea.meta]: {
-        source: "src/content",
-        mediaDir: "public",
-      }
-    })
   }
 })
+
+export async function getFlowPage(path: string[]) {
+  const pageName = path.pop();
+  const parents = path;
+
+  const entries = await cms.find(FlowPageSchema(
+    {
+      slug: pageName ?? "index",
+    }
+  ).select({
+    parent: Entry.parent,
+    page: FlowPageSchema
+  }));
+
+  return entries.filter(entry => {
+    return true; // TODO: Filter by parents
+  }).map(entry => entry.page);
+}
 
 
 // --- Find a better way to do this ---
 export async function getPageParent(page: Page) {
   
-  const parentEntry = await cms.maybeGet(PageSchema({slug: page.slug})
+  const parentEntry = await cms.maybeGet(PageSchema({slug: page?.slug})
     .select({
       parent: Entry.parent
     })
   );
 
-  return cms.find(Entry({entryId: parentEntry?.parent ?? ""})
+  return cms.find(Entry({entryId: parentEntry?.parent ?? "index"})
   .select({
     page: PageSchema
     })

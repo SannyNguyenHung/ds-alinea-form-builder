@@ -12,7 +12,9 @@ import { getPageParent } from "@/cms";
 
 export const PageSchema = alinea.type("Page", {
     title: alinea.text("Title"),
-    slug: alinea.text("Slug"),
+    slug: alinea.path("Slug", {
+        required: true,
+    }),
     blocks: alinea.list("Blocks", {
       schema: alinea.schema({
         Banner: BannerBlock,
@@ -38,7 +40,7 @@ export const PageSchema = alinea.type("Page", {
         })
     }),
     [alinea.meta]: {
-      contains: ["PageSchema"],
+      contains: ["PageSchema", "FlowPageSchema"],
       isContainer: true
     }
   });
@@ -46,7 +48,7 @@ export const PageSchema = alinea.type("Page", {
 export type Page = alinea.infer<typeof PageSchema>;
 
 // Refactor this to use a map of components
-function MapBlock({block} : {block: any}) {
+export function MapBlock({block} : {block: any}) {
     switch (block.type) {
         case "Banner":
             return <Banner block={block} />

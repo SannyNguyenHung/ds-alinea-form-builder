@@ -666,7 +666,11 @@
           "id": "2bBwgv9itrT2tqHpDylW1T5aBbj",
           "type": "Button",
           "text": "Vorab-Check starten",
-          "href": {},
+          "href": {
+            "id": "2bjnZPsgUr1kjHQprQdYgtNAZKr",
+            "type": "entry",
+            "entry": "2bjkcdmzSnhleWThH1cPgaPZTkS"
+          },
           "look": "",
           "size": "ds-button-large"
         }
