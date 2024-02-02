@@ -12,7 +12,7 @@
   "dependencies": {
     "@digitalservice4germany/angie": "^1.1.1",
     "@digitalservice4germany/style-dictionary": "^2.0.0",
-    "@rjsf/core": "^5.16.1",
+    "@rjsf/core": "^5.17.0",
     "alinea": "^0.6.4",
     "next": "14.1.0",
     "react": "^18",
