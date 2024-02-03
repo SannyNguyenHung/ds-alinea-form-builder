@@ -1,9 +1,10 @@
-import alinea, {createNextCMS} from "alinea"
+import alinea from "alinea"
+import { createCMS } from "alinea/next";
 import {PageSchema, Page} from "@/components/page";
 import { Entry } from "alinea/core";
 import { FlowPageSchema } from "./components/flowPage";
 
-export const cms = createNextCMS({
+export const cms = createCMS({
   schema: alinea.schema({
     PageSchema,
     FlowPageSchema
@@ -39,7 +40,7 @@ export async function getFlowPage(path: string[]) {
   }));
 
   return entries.filter(entry => {
-    return true; // TODO: Filter by parents
+    return parents.filter(parent => parent.includes(entry.parent ?? "")).length === parents.length;
   }).map(entry => entry.page);
 }
 

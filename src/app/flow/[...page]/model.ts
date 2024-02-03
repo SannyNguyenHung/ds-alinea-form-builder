@@ -21,6 +21,12 @@ export interface YesNoStep extends BranchedStep {
 	};
 }
 
+export interface FlowStep extends Step {
+	componentType: "task";
+	type: "flowStep";
+	properties: {};
+}
+
 export interface TaskStep extends Step {
 	componentType: "task";
 	type: "task";
