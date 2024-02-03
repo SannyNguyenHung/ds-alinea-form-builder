@@ -1,4 +1,4 @@
-import { Workflow } from "./workflow";
+import { WorkflowEditor } from "./workflow";
 
 import "./flow.css";
 import "sequential-workflow-designer/css/designer.css";
@@ -10,8 +10,6 @@ export const revalidate = 0;
 export default async function Flow({ params }: { params: { page: string } }) {
   
   return (
-    <main className="">
-      <Workflow></Workflow>
-    </main>
+    <WorkflowEditor></WorkflowEditor>
   )
 }

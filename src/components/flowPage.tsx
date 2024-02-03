@@ -9,7 +9,7 @@ export const FlowPageSchema = alinea.type("Flow Page", {
     required: true,
   }),
   [alinea.meta]: {
-    contains: ["FlowPageSchema"],
+    contains: ["PageSchema", "FlowPageSchema"],
     isContainer: true,
     entryUrl(entry) {
       return `/flow/${entry.parentPaths.filter(path => path !== "index").join("/")}/${entry.path}`

@@ -16,7 +16,7 @@ const startDefinition: FlowDefinition = {
 	sequence: [createTaskStep(), createSwitchStep()]
 };
 
-export function Workflow() {
+export function WorkflowEditor() {
 	const controller = useSequentialWorkflowDesignerController();
 	const toolboxConfiguration: ToolboxConfiguration = useMemo(
 		() => ({
@@ -108,31 +108,9 @@ export function Workflow() {
 					isEditorCollapsed={isEditorCollapsed}
 					onIsEditorCollapsedChanged={setIsEditorCollapsed}
 					controller={controller}
+					
 				/>
 			)}
-
-			<ul>
-				<li>Definition: {definitionJson.length} bytes</li>
-				<li>Selected step: {selectedStepId}</li>
-				<li>Is readonly: {yesOrNo(isReadonly)}</li>
-				<li>Is valid: {definition.isValid === undefined ? "?" : yesOrNo(definition.isValid)}</li>
-				<li>Is toolbox collapsed: {yesOrNo(isToolboxCollapsed)}</li>
-				<li>Is editor collapsed: {yesOrNo(isEditorCollapsed)}</li>
-			</ul>
-
-			<div>
-				<button onClick={toggleVisibilityClicked}>Toggle visibility</button>
-				<button onClick={reloadDefinitionClicked}>Reload definition</button>
-				<button onClick={toggleSelectionClicked}>Toggle selection</button>
-				<button onClick={toggleIsReadonlyClicked}>Toggle readonly</button>
-				<button onClick={toggleToolboxClicked}>Toggle toolbox</button>
-				<button onClick={toggleEditorClicked}>Toggle editor</button>
-				<button onClick={moveViewportToFirstStepClicked}>Move viewport to first step</button>
-			</div>
-
-			<div>
-				<textarea value={definitionJson} readOnly={true} cols={100} rows={15} />
-			</div>
 		</>
 	);
 }
