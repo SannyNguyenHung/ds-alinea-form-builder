@@ -16,7 +16,6 @@ npm run designer
 ### `npm run dev` will make the following services available
 
 * [http://localhost:3000](http://localhost:3000) to see the app.
-* [http://localhost:3000/flow](http://localhost:3000/flow) to see our workflow editor.
 * [http://localhost:4500](http://localhost:4500) to see alinea cms.
 
 ### If you start with `npm run designer`
