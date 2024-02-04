@@ -1,9 +1,10 @@
 import alinea from "alinea"
 import { createCMS } from "alinea/next";
-import {PageSchema, type Page} from "@/components/page";
 import { Entry } from "alinea/core";
-import { FlowPage, FlowPageSchema } from "./components/flowPage";
-import { FormPage, FormPageSchema } from "./components/formPage";
+
+import { PageSchema} from "@/components/page";
+import { FlowPageSchema } from "./components/flowPage";
+import { FormPageSchema } from "./components/formPage";
 
 export const cms = createCMS({
   schema: alinea.schema({
@@ -29,30 +30,31 @@ export const cms = createCMS({
 })
 
 export async function getFlowPageChildren(path: string[]) {
-  return cms.find(Entry({parent: (await getFlowPage(path))?.entryId}).select({
+  return cms.find(Entry({parent: (await getPage(FlowPageSchema, path))?.entryId}).select({
     page: FormPageSchema
   }));
 }
 
-async function getFlowPage(path: string[]) {
-  const entrySlug = path.reverse()[0];
-  const flowPath = path.reverse().slice(0, path.length - 1);
+type CmsPageSchema = typeof FlowPageSchema | typeof PageSchema | typeof FormPageSchema;
 
-  const flowPages = (await cms.find(FlowPageSchema({slug: entrySlug}).select({
-    page: PageSchema,
+// --- Find a better way to do this ---
+export async function getPage(schema: CmsPageSchema, path: string[]) {
+  const entrySlug = path.reverse()[0];
+  const pagePath = path.reverse().slice(0, path.length - 1);
+
+  const pages = (await cms.find(schema({slug: entrySlug}).select({
+    page: schema,
     parentDir: Entry.parentDir,
     parent: Entry.parent,
     entryId: Entry.entryId
-  }))).filter(page => page.parentDir === `/${flowPath.join("/")}`);
+  }))).filter(page => page.parentDir === `/${pagePath.join("/")}`);
 
-  return flowPages?.[0];
+  return pages?.[0];
 }
 
-
 // --- Find a better way to do this ---
-export async function getPageParent(page: Page) {
-  
-  const parentEntry = await cms.maybeGet(PageSchema({slug: page?.slug})
+export async function getPageParent(page: string) {  
+  const parentEntry = await cms.maybeGet(PageSchema({slug: page})
     .select({
       parent: Entry.parent,
     })

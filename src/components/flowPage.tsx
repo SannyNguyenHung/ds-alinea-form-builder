@@ -1,6 +1,7 @@
 import alinea from "alinea";
+import { GoWorkflow } from "react-icons/go";
 
-export const FlowPageSchema = alinea.type("Flow Page", {
+export const FlowPageSchema = alinea.type("🛠️ Flow Page", {
   title: alinea.text("Title"),
   slug: alinea.path("Slug", {
     required: true,
@@ -10,7 +11,8 @@ export const FlowPageSchema = alinea.type("Flow Page", {
     isContainer: true,
     entryUrl(entry) {
       return `/flow/${entry.parentPaths.join("/")}/${entry.path}`
-    }
+    },
+    icon: GoWorkflow
   }
 });
 

@@ -11,6 +11,7 @@ import { getFlowPageChildren } from "@/cms";
 export const revalidate = 0;
 
 export default async function Flow({ params }: { params: { page: string[] | undefined } }) {
+  console.log("Flow", params.page);
   const children = await getFlowPageChildren(params.page ?? []);
   
   return (

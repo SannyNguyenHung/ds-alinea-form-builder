@@ -9,8 +9,9 @@ import { Banner, BannerBlock } from "./blocks/banner";
 import { FooterBlock, Footer } from "./blocks/footer";
 import { PageHeader, PageHeaderBlock } from "./blocks/pageHeader";
 import { getPageParent } from "@/cms";
+import { RiPagesLine } from "react-icons/ri";
 
-export const PageSchema = alinea.type("Page", {
+export const PageSchema = alinea.type("📃 Page", {
     title: alinea.text("Title"),
     slug: alinea.path("Slug", {
         required: true,
@@ -41,7 +42,8 @@ export const PageSchema = alinea.type("Page", {
     }),
     [alinea.meta]: {
       contains: ["PageSchema", "FlowPageSchema", "FormPageSchema"],
-      isContainer: true
+      isContainer: true,
+      icon: RiPagesLine
     }
   });
 
@@ -71,7 +73,7 @@ export function MapBlock({block} : {block: any}) {
 }
 
 export async function PageBlocks({page} : {page: Page}) {
-    const parent = await getPageParent(page);
+    const parent = await getPageParent(page?.slug);
     const header = page?.header.length > 0 ? page?.header : parent?.page?.header;
     const footer = page?.footer.length > 0 ? page?.footer :parent?.page?.footer;
     

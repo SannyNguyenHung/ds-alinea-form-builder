@@ -1,8 +1,46 @@
 {
   "title": "Verklagt",
   "slug": "wurde-verklagt",
-  "blocks": [],
-  "header": [],
+  "blocks": [
+    {
+      "id": "2buEBPdmJfLVWsYsnnHdxcQZQ4W",
+      "index": "a0",
+      "type": "Text",
+      "content": [
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "Hallo"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "header": [
+    {
+      "id": "2buF7IEZhgWZlejW6F4zj2oZj4n",
+      "index": "a0",
+      "type": "Header",
+      "background": "bg-white",
+      "content": [
+        {
+          "type": "heading",
+          "textAlign": "left",
+          "level": 1,
+          "content": [
+            {
+              "type": "text",
+              "text": "Justiz-Services"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "footer": [],
   "@alinea": {
     "entryId": "2bshF9uQbUxXEpGZZW4ng2mZuka",
