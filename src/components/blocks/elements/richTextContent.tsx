@@ -4,12 +4,14 @@ import { ReactElement } from "react";
 import { TextElement, TextElementSchema } from "./TextElement";
 import { ButtonElement, ButtonElementSchema } from "./ButtonElement";
 import { HintElement, HintElementSchema } from "./HintElement";
+import { RadioElement, RadioElementSchema } from "./RadioElement";
 
 export const RichTextBox = alinea.richText("Text", {
     schema: alinea.schema({
         Text: TextElementSchema,
         Button: ButtonElementSchema,
-        Hint: HintElementSchema
+        Hint: HintElementSchema,
+        Radio: RadioElementSchema
     }),
 })
 
@@ -17,7 +19,12 @@ export const RichTextBoxExtension = {
     Text: TextElement,
     Button: ButtonElement,
     Hint: HintElement,
+    Radio: RadioElement
 }
+
+// export const RichInputBoxExtension = {
+//     Input: InputElement    
+// }
 
 export function RichTextContent({
     content,

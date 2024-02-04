@@ -1,15 +1,16 @@
 import alinea from "alinea";
-import { ContentBlock, Content } from "./blocks/content";
-import { HeaderBlock, Header } from "./blocks/header";
-import { HeroBlock, Hero } from "./blocks/hero";
-import { LogoBanner, LogoBannerBlock } from "./blocks/logoBanner";
-import { CallToAction, CallToActionBlock } from "./blocks/callToAction";
+import { ContentBlock } from "./blocks/content";
+import { HeaderBlock } from "./blocks/header";
+import { HeroBlock } from "./blocks/hero";
+import { LogoBannerBlock } from "./blocks/logoBanner";
+import { CallToActionBlock } from "./blocks/callToAction";
 import { v4 as uuidv4 } from "uuid";
-import { Banner, BannerBlock } from "./blocks/banner";
-import { FooterBlock, Footer } from "./blocks/footer";
-import { PageHeader, PageHeaderBlock } from "./blocks/pageHeader";
+import { BannerBlock } from "./blocks/banner";
+import { FooterBlock } from "./blocks/footer";
+import { PageHeaderBlock } from "./blocks/pageHeader";
 import { getPageParent } from "@/cms";
 import { RiPagesLine } from "react-icons/ri";
+import { MapBlock } from "./contentBlockMap";
 
 export const PageSchema = alinea.type("📃 Page", {
     title: alinea.text("Title"),
@@ -48,29 +49,6 @@ export const PageSchema = alinea.type("📃 Page", {
   });
 
 export type Page = alinea.infer<typeof PageSchema>;
-
-// Refactor this to use a map of components
-export function MapBlock({block} : {block: any}) {
-    switch (block.type) {
-        case "Banner":
-            return <Banner block={block} />
-        case "Text":
-            return <Content block={block} />
-        case "Header":
-            return <Header block={block} />
-        case "Hero":
-            return <Hero block={block} />
-        case "LogoBanner":
-            return <LogoBanner block={block} />
-        case "CallToAction":
-            return <CallToAction block={block} />
-        case "Footer":
-            return <Footer block={block} />
-        case "PageHeader":
-            return <PageHeader block={block} />
-    }
-    return <>Error</>
-}
 
 export async function PageBlocks({page} : {page: Page}) {
     const parent = await getPageParent(page?.slug);

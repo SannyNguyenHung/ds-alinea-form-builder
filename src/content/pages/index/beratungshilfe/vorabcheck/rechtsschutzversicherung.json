@@ -44,6 +44,24 @@
           "type": "Hint",
           "title": "Hinweis",
           "text": "Sie können den Vorab-Check unterbrechen und später fortsetzen. Ihre Daten werden 24 Stunden lang gespeichert."
+        },
+        {
+          "id": "ja",
+          "type": "Radio",
+          "text": "Ja"
+        },
+        {
+          "id": "nein",
+          "type": "Radio",
+          "text": "Nein"
+        },
+        {
+          "id": "2butqDbkBwxrGpJtyXHgmgse4ig",
+          "type": "Button",
+          "text": "Übernehmen & weiter",
+          "href": {},
+          "apiFunction": "next",
+          "size": "ds-button-large"
         }
       ]
     }
