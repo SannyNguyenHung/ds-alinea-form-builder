@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
-import { ObjectCloner, Step, StepsConfiguration, ToolboxConfiguration, ValidatorConfiguration } from "sequential-workflow-designer";
+import { FormEvent, useEffect, useMemo, useState } from "react";
+import { Step, StepsConfiguration, ToolboxConfiguration, ValidatorConfiguration } from "sequential-workflow-designer";
 import { SequentialWorkflowDesigner, wrapDefinition } from "sequential-workflow-designer-react";
 import { RootEditor } from "./rootEditor";
 import { StepEditor } from "./stepEditor";
@@ -9,18 +9,19 @@ import { createSwitchStep, createTaskStep } from "./stepUtils";
 import { useSequentialWorkflowDesignerController } from "sequential-workflow-designer-react";
 import { FlowDefinition } from "./model";
 
-const startDefinition: FlowDefinition = {
-	properties: {
-		alfa: "bravo"
-	},
-	sequence: [createTaskStep(), createSwitchStep()]
-};
+// const startDefinition: FlowDefinition = {
+// 	properties: {
+// 		alfa: "bravo"
+// 	},
+// 	sequence: [createTaskStep(), createSwitchStep()]
+// };
 
-export function WorkflowEditor() {
+export function WorkflowEditor({steps, path}: {steps: string[], path: string}) {
 	const controller = useSequentialWorkflowDesignerController();
+
 	const toolboxConfiguration: ToolboxConfiguration = useMemo(
 		() => ({
-			groups: [{ name: "Steps", steps: [createTaskStep(), createSwitchStep()] }]
+			groups: [{ name: "Flow Pages", steps: steps.map(step => createTaskStep(step)) }]
 		}),
 		[]
 	);
@@ -38,79 +39,54 @@ export function WorkflowEditor() {
 		[]
 	);
 
-	const [isVisible, setIsVisible] = useState(true);
-	const [isToolboxCollapsed, setIsToolboxCollapsed] = useState(false);
-	const [isEditorCollapsed, setIsEditorCollapsed] = useState(false);
-	const [definition, setDefinition] = useState(() => wrapDefinition(startDefinition));
-	const [selectedStepId, setSelectedStepId] = useState<string | null>(null);
-	const [isReadonly, setIsReadonly] = useState(false);
-	const definitionJson = JSON.stringify(definition.value, null, 2);
-
+	const [definition, setDefinition] = useState(() => wrapDefinition({
+		properties: {
+			alfa: "bravo"
+		},
+		sequence: steps.map(step => createTaskStep(step)),
+	}));
+	
 	useEffect(() => {
 		console.log(`definition updated, isValid=${definition.isValid}`);
 	}, [definition]);
 
-	function toggleVisibilityClicked() {
-		setIsVisible(!isVisible);
-	}
-
-	function toggleSelectionClicked() {
-		const id = definition.value.sequence[0].id;
-		setSelectedStepId(selectedStepId ? null : id);
-	}
-
-	function toggleIsReadonlyClicked() {
-		setIsReadonly(!isReadonly);
-	}
-
-	function toggleToolboxClicked() {
-		setIsToolboxCollapsed(!isToolboxCollapsed);
-	}
-
-	function toggleEditorClicked() {
-		setIsEditorCollapsed(!isEditorCollapsed);
-	}
-
-	function moveViewportToFirstStepClicked() {
-		const fistStep = definition.value.sequence[0];
-		if (fistStep) {
-			controller.moveViewportToStep(fistStep.id);
-		}
-	}
-
-	function reloadDefinitionClicked() {
-		const newDefinition = ObjectCloner.deepClone(startDefinition);
-		setDefinition(wrapDefinition(newDefinition));
-	}
-
-	function yesOrNo(value: boolean) {
-		return value ? "✅ Yes" : "⛔ No";
+	async function onSubmit(event: FormEvent<HTMLFormElement>) {
+		event.preventDefault()
+	
+		const response = await fetch('/api/flow', {
+			method: 'POST',
+			headers: {
+			  'Content-Type': 'application/json',
+			},
+			body: JSON.stringify({
+				path: path,
+				definition
+			}),
+		})
+		/// const result = await response.json()
+		// Handle response if necessary
+		//const data = await response.json()
+		// ...
 	}
 
 	return (
 		<>
-			{isVisible && (
-				<SequentialWorkflowDesigner
+			<form onSubmit={onSubmit}>
+				<button className="ds-button" type="submit">Speichern</button>
+			</form>
+			<SequentialWorkflowDesigner
 					undoStackSize={10}
 					definition={definition}
 					onDefinitionChange={setDefinition}
-					selectedStepId={selectedStepId}
-					isReadonly={isReadonly}
-					onSelectedStepIdChanged={setSelectedStepId}
 					toolboxConfiguration={toolboxConfiguration}
-					isToolboxCollapsed={isToolboxCollapsed}
-					onIsToolboxCollapsedChanged={setIsToolboxCollapsed}
 					stepsConfiguration={stepsConfiguration}
 					validatorConfiguration={validatorConfiguration}
 					controlBar={true}
 					rootEditor={<RootEditor />}
 					stepEditor={<StepEditor />}
-					isEditorCollapsed={isEditorCollapsed}
-					onIsEditorCollapsedChanged={setIsEditorCollapsed}
 					controller={controller}
 					
-				/>
-			)}
+			/>
 		</>
 	);
 }

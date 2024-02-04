@@ -10,7 +10,7 @@ import { FooterBlock, Footer } from "./blocks/footer";
 import { PageHeader, PageHeaderBlock } from "./blocks/pageHeader";
 import { getPageParent } from "@/cms";
 
-export const PageSchema = alinea.type("Page", {
+export const FormPageSchema = alinea.type("Form Page", {
     title: alinea.text("Title"),
     slug: alinea.path("Slug", {
         required: true,
@@ -40,12 +40,12 @@ export const PageSchema = alinea.type("Page", {
         })
     }),
     [alinea.meta]: {
-      contains: ["PageSchema", "FlowPageSchema", "FormPageSchema"],
+      contains: ["FormPageSchema", "FlowPageSchema", "PageSchema"],
       isContainer: true
     }
   });
 
-export type Page = alinea.infer<typeof PageSchema>;
+export type FormPage = alinea.infer<typeof FormPageSchema>;
 
 // Refactor this to use a map of components
 export function MapBlock({block} : {block: any}) {
@@ -70,7 +70,7 @@ export function MapBlock({block} : {block: any}) {
     return <>Error</>
 }
 
-export async function PageBlocks({page} : {page: Page}) {
+export async function FormPageBlocks({page} : {page: FormPage}) {
     const parent = await getPageParent(page);
     const header = page?.header.length > 0 ? page?.header : parent?.page?.header;
     const footer = page?.footer.length > 0 ? page?.footer :parent?.page?.footer;

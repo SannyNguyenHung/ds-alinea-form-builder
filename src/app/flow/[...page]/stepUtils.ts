@@ -1,12 +1,12 @@
 import { Uid } from "sequential-workflow-designer";
 import { SwitchStep, TaskStep } from "./model";
 
-export function createTaskStep(): TaskStep {
+export function createTaskStep(name: string): TaskStep {
 	return {
 		id: Uid.next(),
 		componentType: "task",
 		type: "task",
-		name: "test",
+		name: name,
 		properties: {}
 	};
 }
