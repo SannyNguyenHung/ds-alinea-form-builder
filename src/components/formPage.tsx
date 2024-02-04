@@ -11,6 +11,7 @@ import { PageHeader, PageHeaderBlock } from "./blocks/pageHeader";
 import { getPage } from "@/cms";
 import { AiOutlineForm } from "react-icons/ai";
 import { Page, PageSchema } from "./page";
+import { Hint, HintBlock } from "./blocks/hint";
 
 export const FormPageSchema = alinea.type("📝 Form Page", {
     title: alinea.text("Title"),
@@ -24,22 +25,9 @@ export const FormPageSchema = alinea.type("📝 Form Page", {
         Text: ContentBlock,
         Hero: HeroBlock,
         LogoBanner: LogoBannerBlock,
-        CallToAction: CallToActionBlock
+        CallToAction: CallToActionBlock,
+        Hint: HintBlock
       })
-    }),
-    header: alinea.list("Header (parent)", {
-        schema: alinea.schema({
-          Banner: BannerBlock,
-          Text: ContentBlock,
-          Header: HeaderBlock,
-        })
-    }),
-    footer: alinea.list("Footer (parent)", {
-        schema: alinea.schema({
-          Banner: BannerBlock,
-          Text: ContentBlock,
-          Footer: FooterBlock,
-        })
     }),
     [alinea.meta]: {
       contains: ["FormPageSchema", "FlowPageSchema", "PageSchema"],
@@ -72,6 +60,8 @@ export function MapBlock({block} : {block: any}) {
             return <Footer block={block} />
         case "PageHeader":
             return <PageHeader block={block} />
+        case "Hint":
+            return <Hint block={block} />
     }
     return <>Error</>
 }

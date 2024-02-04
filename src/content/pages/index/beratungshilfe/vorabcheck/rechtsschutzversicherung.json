@@ -1,9 +1,66 @@
 {
   "title": "Rechtsschutz­versicherung",
   "slug": "rechtsschutzversicherung",
-  "blocks": [],
-  "header": [],
-  "footer": [],
+  "blocks": [
+    {
+      "id": "2bugdrvr6VpM3uVEmRkuCRG0U2p",
+      "index": "a0",
+      "type": "Text",
+      "background": "bg-blue-100",
+      "content": [
+        {
+          "id": "2bugfsc6bvAtJQUlC0jxNGuyqzK",
+          "type": "Text",
+          "look": "ds-heading-02-reg",
+          "text": "Haben Sie eine Rechtsschutz­versicherung für diese Angelegenheit?",
+          "tag": "h1"
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left"
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "Eine Rechtsschutzversicherung bezahlt Anwaltskosten. Je nach Bedingungen der Versicherung können unterschiedliche Tätigkeiten bezahlt werden."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "Eine Rechtsschutzversicherung ist keine Pflicht-Versicherung. Sie müssen sie extra abgeschlossen haben."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2bugjI8VlzLAlMO8PpW975zcJXU",
+      "index": "a1",
+      "type": "Hint",
+      "background": "bg-blue-100",
+      "content": [
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "Sie können den Vorab-Check unterbrechen und später fortsetzen. Ihre Daten werden 24 Stunden lang gespeichert."
+            }
+          ]
+        }
+      ],
+      "title": "Hinweis"
+    }
+  ],
   "@alinea": {
     "entryId": "2bsfnpZCEb7V4nWhEZmWZbbSx5G",
     "type": "FormPageSchema",
