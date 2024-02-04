@@ -53,7 +53,7 @@ export function Footer({ block }: { block: FooterBlock }) {
             itemsClassName="container !pt-48 !pb-48 !pr-0"
         >
             <div className="flex flex-wrap items-start justify-between gap-y-32">
-                <div className="flex flex-col flex-col-reverse sm:flex-row gap-y-8 gap-x-16">
+                <div className="flex flex-col-reverse sm:flex-row gap-y-8 gap-x-16">
                     <Logo block={block}></Logo>
                     <div className="ds-stack-8">
                         <RichTextContent

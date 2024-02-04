@@ -22,7 +22,7 @@ export type ButtonElementSchema = alinea.infer<typeof ButtonElementSchema>;
 
 export function ButtonElement({ look, text, href, apiFunction, size }: ButtonElementSchema) {
     return (
-        <div className="flex flex-wrap gap-24 pt-16">
+        <div className="flex flex-wrap gap-24 pt-32">
             {apiFunction ?
                 <button type="submit" name="_action" value={apiFunction} className={["ds-button", look, size].join(" ")}>
                     <span className="ds-button-label">{text}</span>

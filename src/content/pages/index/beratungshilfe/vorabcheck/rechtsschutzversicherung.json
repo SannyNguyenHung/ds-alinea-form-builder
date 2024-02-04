@@ -3,21 +3,17 @@
   "slug": "rechtsschutzversicherung",
   "blocks": [
     {
-      "id": "2bugdrvr6VpM3uVEmRkuCRG0U2p",
-      "index": "a0",
+      "id": "2bvFyjh0J55qqadQBBIkAkIlssQ",
+      "index": "Zz",
       "type": "Text",
       "background": "bg-blue-100",
       "content": [
         {
-          "id": "2bugfsc6bvAtJQUlC0jxNGuyqzK",
+          "id": "2bvG0gbzDykP5bS3vOSqOHa9aYQ",
           "type": "Text",
           "look": "ds-heading-02-reg",
           "text": "Haben Sie eine Rechtsschutz­versicherung für diese Angelegenheit?",
           "tag": "h1"
-        },
-        {
-          "type": "paragraph",
-          "textAlign": "left"
         },
         {
           "type": "paragraph",
@@ -31,7 +27,7 @@
         },
         {
           "type": "paragraph",
-          "textAlign": "left",
+          "textAlign": "start",
           "content": [
             {
               "type": "text",
@@ -40,23 +36,35 @@
           ]
         },
         {
-          "id": "2bumwNByTZfzVE7CX5c91PnikXY",
+          "id": "2bvG3ldnek3LyA8w2NyhPaYlHLT",
           "type": "Hint",
           "title": "Hinweis",
           "text": "Sie können den Vorab-Check unterbrechen und später fortsetzen. Ihre Daten werden 24 Stunden lang gespeichert."
-        },
+        }
+      ]
+    },
+    {
+      "id": "2buxv8UqfddtcG0DGigeRGNzhAr",
+      "index": "a0",
+      "type": "Input",
+      "background": "bg-blue-100",
+      "content": [
         {
-          "id": "ja",
+          "id": "2buy2urZbw2RsVHVxiwLy6DcErU",
           "type": "Radio",
-          "text": "Ja"
+          "name": "ja",
+          "text": "Ja",
+          "group": "rechtschutzversicherung"
         },
         {
-          "id": "nein",
+          "id": "2buy3yBmkAMl5yIQFyqQJiNSBKG",
           "type": "Radio",
-          "text": "Nein"
+          "name": "nein",
+          "text": "Nein",
+          "group": "rechtschutzversicherung"
         },
         {
-          "id": "2butqDbkBwxrGpJtyXHgmgse4ig",
+          "id": "2buy8h54YpssKsIkMVibixu1ELB",
           "type": "Button",
           "text": "Übernehmen & weiter",
           "href": {},

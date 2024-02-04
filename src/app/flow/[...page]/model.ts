@@ -2,7 +2,7 @@ import { Step, BranchedStep, Definition } from "sequential-workflow-designer";
 
 export interface FlowDefinition extends Definition {
 	properties: {
-		alfa?: string;
+		//alfa?: string;
 	};	
 }
 

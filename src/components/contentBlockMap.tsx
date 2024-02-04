@@ -6,6 +6,7 @@ import { Header } from "./blocks/header"
 import { Hero } from "./blocks/hero"
 import { LogoBanner } from "./blocks/logoBanner"
 import { PageHeader } from "./blocks/pageHeader"
+import { Input } from "./blocks/input"
 
 // Refactor this to use a map
 export function MapBlock({block} : {block: any}) {
@@ -26,6 +27,8 @@ export function MapBlock({block} : {block: any}) {
             return <Footer block={block} />
         case "PageHeader":
             return <PageHeader block={block} />
+        case "Input":
+            return <Input block={block} />
     }
     return <>Error: Block not found</>
 }

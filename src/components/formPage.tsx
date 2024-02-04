@@ -1,7 +1,5 @@
 import alinea from "alinea";
 import { ContentBlock } from "./blocks/content";
-import { HeroBlock } from "./blocks/hero";
-import { LogoBannerBlock } from "./blocks/logoBanner";
 import { CallToActionBlock } from "./blocks/callToAction";
 import { v4 as uuidv4 } from "uuid";
 import { BannerBlock } from "./blocks/banner";
@@ -10,6 +8,7 @@ import { getPage } from "@/cms";
 import { AiOutlineForm } from "react-icons/ai";
 import { Page, PageSchema } from "./page";
 import { MapBlock } from "./contentBlockMap";
+import { InputBlock } from "./blocks/input";
 
 export const FormPageSchema = alinea.type("📝 Form Page", {
     title: alinea.text("Title"),
@@ -22,6 +21,7 @@ export const FormPageSchema = alinea.type("📝 Form Page", {
         PageHeader: PageHeaderBlock,
         Text: ContentBlock,
         CallToAction: CallToActionBlock,
+        Input: InputBlock
       })
     }),
     [alinea.meta]: {
@@ -41,10 +41,12 @@ export async function FormPageBlocks({page} : {page: FormPage}) {
     const parent = (await getPage(PageSchema, ["index"])).page as Page;
     
     return (
-        <div className="">
+      <div className="!pt-0 !pb-0">
+        <div className="min-h-screen bg-blue-100">
             {parent?.header?.map(block => <MapBlock key={uuidv4()} block={block} />)}
-            {page?.blocks?.map(block => <MapBlock key={uuidv4()} block={block} />)}            
-            {parent?.footer?.map(block => <MapBlock key={uuidv4()} block={block} />)}
+            {page?.blocks?.map(block => <MapBlock key={uuidv4()} block={block} />)}
         </div>
+            {parent?.footer?.map(block => <MapBlock key={uuidv4()} block={block} />)}
+      </div>
     )
 }

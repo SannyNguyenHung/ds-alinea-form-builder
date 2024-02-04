@@ -1,23 +1,17 @@
 "use client";
 
-import { FormEvent, useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Step, StepsConfiguration, ToolboxConfiguration, ValidatorConfiguration } from "sequential-workflow-designer";
 import { SequentialWorkflowDesigner, wrapDefinition } from "sequential-workflow-designer-react";
 import { RootEditor } from "./rootEditor";
 import { StepEditor } from "./stepEditor";
-import { createSwitchStep, createTaskStep } from "./stepUtils";
+import {  createTaskStep } from "./stepUtils";
 import { useSequentialWorkflowDesignerController } from "sequential-workflow-designer-react";
 import { FlowDefinition } from "./model";
 
-// const startDefinition: FlowDefinition = {
-// 	properties: {
-// 		alfa: "bravo"
-// 	},
-// 	sequence: [createTaskStep(), createSwitchStep()]
-// };
-
-export function WorkflowEditor({steps, path}: {steps: string[], path: string}) {
+export function WorkflowEditor({steps, flowDefinition, path}: {steps: string[], flowDefinition: FlowDefinition, path: string}) {
 	const controller = useSequentialWorkflowDesignerController();
+	console.log("FlowDefinition", flowDefinition);
 
 	const toolboxConfiguration: ToolboxConfiguration = useMemo(
 		() => ({
@@ -34,46 +28,19 @@ export function WorkflowEditor({steps, path}: {steps: string[], path: string}) {
 	const validatorConfiguration: ValidatorConfiguration = useMemo(
 		() => ({
 			step: (step: Step) => Boolean(step.name),
-			root: (definition: FlowDefinition) => Boolean(definition.properties.alfa)
+			root: (definition: FlowDefinition) => Boolean(definition.properties)
 		}),
 		[]
 	);
 
-	const [definition, setDefinition] = useState(() => wrapDefinition({
-		properties: {
-			alfa: "bravo"
-		},
-		sequence: steps.map(step => createTaskStep(step)),
-	}));
+	const [definition, setDefinition] = useState(() => wrapDefinition(flowDefinition));
 	
 	useEffect(() => {
 		console.log(`definition updated, isValid=${definition.isValid}`);
 	}, [definition]);
-
-	async function onSubmit(event: FormEvent<HTMLFormElement>) {
-		event.preventDefault()
 	
-		const response = await fetch('/api/flow', {
-			method: 'POST',
-			headers: {
-			  'Content-Type': 'application/json',
-			},
-			body: JSON.stringify({
-				path: path,
-				definition
-			}),
-		})
-		/// const result = await response.json()
-		// Handle response if necessary
-		//const data = await response.json()
-		// ...
-	}
-
 	return (
 		<>
-			<form onSubmit={onSubmit}>
-				<button className="ds-button" type="submit">Speichern</button>
-			</form>
 			<SequentialWorkflowDesigner
 					undoStackSize={10}
 					definition={definition}
@@ -82,7 +49,7 @@ export function WorkflowEditor({steps, path}: {steps: string[], path: string}) {
 					stepsConfiguration={stepsConfiguration}
 					validatorConfiguration={validatorConfiguration}
 					controlBar={true}
-					rootEditor={<RootEditor />}
+					rootEditor={<RootEditor path={path} definition={definition} />}
 					stepEditor={<StepEditor />}
 					controller={controller}
 					
