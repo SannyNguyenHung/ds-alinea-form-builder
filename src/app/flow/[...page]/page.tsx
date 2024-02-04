@@ -12,8 +12,6 @@ export const revalidate = 0;
 
 export default async function Flow({ params }: { params: { page: string[] | undefined } }) {
   const children = await getFlowPageChildren(params.page ?? []);
-
-  console.log("WTF!");
   
   return (
     <WorkflowEditor steps={children.map(entry => entry.page.title)} path={params.page?.join("/") ?? ""}></WorkflowEditor>
