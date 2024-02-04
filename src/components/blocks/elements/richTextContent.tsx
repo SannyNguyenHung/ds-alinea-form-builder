@@ -3,19 +3,20 @@ import { RichText } from "alinea/ui"
 import { ReactElement } from "react";
 import { TextElement, TextElementSchema } from "./TextElement";
 import { ButtonElement, ButtonElementSchema } from "./ButtonElement";
-import { ImageElement, ImageElementSchema } from "./ImageElement";
+import { HintElement, HintElementSchema } from "./HintElement";
 
 export const RichTextBox = alinea.richText("Text", {
     schema: alinea.schema({
         Text: TextElementSchema,
         Button: ButtonElementSchema,
-        Image: ImageElementSchema,
+        Hint: HintElementSchema
     }),
 })
 
 export const RichTextBoxExtension = {
     Text: TextElement,
     Button: ButtonElement,
+    Hint: HintElement,
 }
 
 export function RichTextContent({

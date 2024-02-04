@@ -38,27 +38,14 @@
               "text": "Eine Rechtsschutzversicherung ist keine Pflicht-Versicherung. Sie müssen sie extra abgeschlossen haben."
             }
           ]
+        },
+        {
+          "id": "2bumwNByTZfzVE7CX5c91PnikXY",
+          "type": "Hint",
+          "title": "Hinweis",
+          "text": "Sie können den Vorab-Check unterbrechen und später fortsetzen. Ihre Daten werden 24 Stunden lang gespeichert."
         }
       ]
-    },
-    {
-      "id": "2bugjI8VlzLAlMO8PpW975zcJXU",
-      "index": "a1",
-      "type": "Hint",
-      "background": "bg-blue-100",
-      "content": [
-        {
-          "type": "paragraph",
-          "textAlign": "left",
-          "content": [
-            {
-              "type": "text",
-              "text": "Sie können den Vorab-Check unterbrechen und später fortsetzen. Ihre Daten werden 24 Stunden lang gespeichert."
-            }
-          ]
-        }
-      ],
-      "title": "Hinweis"
     }
   ],
   "@alinea": {
