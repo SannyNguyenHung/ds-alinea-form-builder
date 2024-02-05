@@ -6,7 +6,7 @@ import { Header } from "./blocks/header"
 import { Hero } from "./blocks/hero"
 import { LogoBanner } from "./blocks/logoBanner"
 import { PageHeader } from "./blocks/pageHeader"
-import { Input } from "./blocks/input"
+import { Input } from "./blocks/inputBlock"
 
 // Refactor this to use a map
 export function MapBlock({block} : {block: any}) {

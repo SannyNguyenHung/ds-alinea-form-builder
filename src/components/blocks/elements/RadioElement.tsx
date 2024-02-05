@@ -11,7 +11,7 @@ export type RadioElementSchema = alinea.infer<typeof RadioElementSchema>;
 export function RadioElement({name, text, group} : RadioElementSchema) {
     return (
         <div className="flex flex-wrap pt-8">
-            <input type="radio" id={name} name={group} className="ds-radio"></input>
+            <input type="radio" id={group} name={group} value={name} className="ds-radio"></input>
             <label htmlFor={name}>{text}</label>
         </div>
     )

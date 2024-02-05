@@ -9,18 +9,3 @@ export const InputBlock = alinea.type("✍🏿 Input", {
 
 export type InputBlock = alinea.infer<typeof InputBlock>;
 
-export function Input({ block }: { block: InputBlock }) {
-
-    return (
-        <Block
-            block={block}
-            blockClassName="!pt-0 !pb-0"
-            itemsClassName="ds-stack-8 container !pt-0 !pb-0"
-        >
-            <RichTextContent
-                content={block.content}
-                blocks={RichTextBoxExtension}
-            />
-        </Block>
-    )
-}
