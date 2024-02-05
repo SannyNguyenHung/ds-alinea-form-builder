@@ -18,7 +18,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.0.1",
-    "sequential-workflow-designer-react": "^0.18.3",
+    "sequential-workflow-designer-react": "^0.18.4",
     "ungit": "^1.5.25",
     "uuid": "^9.0.1"
   },
