@@ -8,7 +8,6 @@ import { v4 as uuidv4 } from "uuid";
 import { BannerBlock } from "./blocks/banner";
 import { FooterBlock } from "./blocks/footer";
 import { PageHeaderBlock } from "./blocks/pageHeader";
-import { getPageParent } from "@/cms";
 import { RiPagesLine } from "react-icons/ri";
 import { MapBlock } from "./contentBlockMap";
 
@@ -50,10 +49,9 @@ export const PageSchema = alinea.type("📃 Page", {
 
 export type Page = alinea.infer<typeof PageSchema>;
 
-export async function PageBlocks({page} : {page: Page}) {
-    const parent = await getPageParent(page?.slug);
-    const header = page?.header.length > 0 ? page?.header : parent?.page?.header;
-    const footer = page?.footer.length > 0 ? page?.footer :parent?.page?.footer;
+export async function PageBlocks({page, parent} : {page: Page, parent: Page}) {
+    const header = page?.header.length > 0 ? page?.header : parent?.header;
+    const footer = page?.footer.length > 0 ? page?.footer : parent?.footer;
     
     return (
         <div className="">

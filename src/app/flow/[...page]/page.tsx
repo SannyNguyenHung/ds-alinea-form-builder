@@ -1,10 +1,5 @@
-import { WorkflowEditor } from "./workflow"
-
-import "./flow.css";
-import "sequential-workflow-designer/css/designer.css";
-import "sequential-workflow-designer/css/designer-light.css";
-import "sequential-workflow-designer/css/designer-dark.css";
-import { getFlowDefinition } from "./flow";
+import { WorkflowEditor } from "@/workflow/workflow"
+import { getFlowDefinition } from "../../../workflow/flow";
 
 export const revalidate = 0;
 

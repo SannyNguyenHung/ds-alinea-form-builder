@@ -1,5 +1,6 @@
 import { getPage } from "@/cms"
 import { FormPage, FormPageBlocks, FormPageSchema } from "@/components/formPage";
+import { Page, PageSchema } from "@/components/page";
 import { Metadata } from "next";
 
 // How often should the page be revalidated (in seconds) on prod?
@@ -16,10 +17,11 @@ export async function generateMetadata({ params }: { params: { page: string[] | 
 export default async function Page({ params }: { params: { page: string[] | undefined } }) {
     console.log("Form", params.page);
     const page = (await getPage(FormPageSchema, params.page ?? []))?.page as FormPage
+    const parent = (await getPage(PageSchema, ["index"])).page as Page;
 
     return (
         <main>
-            <FormPageBlocks page={page}></FormPageBlocks>
+            <FormPageBlocks page={page} parent={parent}></FormPageBlocks>
         </main>
     )
 }

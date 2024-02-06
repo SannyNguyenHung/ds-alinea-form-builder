@@ -9,6 +9,11 @@ import {  createTaskStep } from "./stepUtils";
 import { useSequentialWorkflowDesignerController } from "sequential-workflow-designer-react";
 import { FlowDefinition } from "./model";
 
+import "./flow.css";
+import "sequential-workflow-designer/css/designer.css";
+import "sequential-workflow-designer/css/designer-light.css";
+import "sequential-workflow-designer/css/designer-dark.css";
+
 export function WorkflowEditor({steps, flowDefinition, path}: {steps: string[], flowDefinition: FlowDefinition, path: string}) {
 	const controller = useSequentialWorkflowDesignerController();
 	console.log("FlowDefinition", flowDefinition);

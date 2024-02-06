@@ -9,7 +9,6 @@ import { AiOutlineForm } from "react-icons/ai";
 import { Page, PageSchema } from "./page";
 import { MapBlock } from "./contentBlockMap";
 import { InputBlock } from "./blocks/input";
-import { FormEvent } from "react";
 
 export const FormPageSchema = alinea.type("📝 Form Page", {
   title: alinea.text("Title"),
@@ -38,9 +37,7 @@ export const FormPageSchema = alinea.type("📝 Form Page", {
 export type FormPage = alinea.infer<typeof FormPageSchema>;
 
 
-export async function FormPageBlocks({ page }: { page: FormPage }) {
-  const parent = (await getPage(PageSchema, ["index"])).page as Page;
-
+export async function FormPageBlocks({ page, parent }: { page: FormPage, parent: Page }) {
   return (
     <div className="!pt-0 !pb-0">
       {parent?.header?.map(block => <MapBlock key={uuidv4()} block={block} />)}
