@@ -1,10 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 
 
-export async function POST(request: NextRequest) {    
-    const formData = await request.formData();
-    console.log(formData);
-    console.log(request.nextUrl)
+export async function POST(request: NextRequest) {
+  const formData = await request.formData();
 
-    return NextResponse.json({ message: "OK" });
-  }
+  return NextResponse.json({ message: "OK" });
+}
