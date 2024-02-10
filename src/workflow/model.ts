@@ -13,15 +13,7 @@ export interface FlowStep extends Step {
 	};
 }
 
-export interface YesNoStep extends BranchedStep {
-	componentType: "yesNo";
-	type: "yesNo";
-	properties: {
-		yesNo?: string;
-	};
-}
-
-export interface FlowStep extends Step {
+export interface FlowStep extends BranchedStep {
 	componentType: "task";
 	type: "flowStep";
 	properties: {};

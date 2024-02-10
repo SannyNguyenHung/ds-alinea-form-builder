@@ -1,7 +1,6 @@
 import alinea from "alinea"
 import { createCMS } from "alinea/next";
 import { Entry } from "alinea/core";
-
 import { PageSchema} from "@/components/page";
 import { FlowPageSchema } from "./components/flowPage";
 import { FormPageSchema } from "./components/formPage";
@@ -37,7 +36,6 @@ export async function getFlowPageChildren(path: string[]) {
 
 type CmsPageSchema = typeof FlowPageSchema | typeof PageSchema | typeof FormPageSchema;
 
-// --- Find a better way to do this ---
 export async function getPage(schema: CmsPageSchema, path: string[]) {
   const entrySlug = path.reverse()[0];
   const pagePath = path.reverse().slice(0, path.length - 1);
@@ -52,7 +50,6 @@ export async function getPage(schema: CmsPageSchema, path: string[]) {
   return pages?.[0];
 }
 
-// --- Find a better way to do this ---
 export async function getPageParent(page: string) {  
   const parentEntry = await cms.maybeGet(PageSchema({slug: page})
     .select({

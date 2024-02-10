@@ -8,40 +8,46 @@
       "type": "Text",
       "content": [
         {
+          "id": "2c9ajxsrv730vhG0OikqKTir4SM",
+          "type": "Text",
+          "look": "ds-heading-02-reg",
+          "text": "Läuft in dieser Sache ein Gerichtsverfahren gegen Sie?",
+          "tag": "h1"
+        },
+        {
           "type": "paragraph",
           "textAlign": "left",
           "content": [
             {
               "type": "text",
-              "text": "Hallo"
+              "text": "Wurden Sie beispielsweise verklagt, oder sind Sie in einem Scheidungsverfahren? Klagen werden üblicherweise in gelben Umschlägen verschickt. Sie werden immer von einem Gericht abgesendet. Sie enthalten ein „Aktenzeichen“ mit Zahlen und Buchstaben (zum Beispiel: 1 F 1/23)."
             }
           ]
         }
       ]
-    }
-  ],
-  "header": [
+    },
     {
-      "id": "2buF7IEZhgWZlejW6F4zj2oZj4n",
-      "index": "a0",
-      "type": "Header",
-      "background": "bg-white",
+      "id": "2c9anFy1kUjRyUtGmb8vTT31C3b",
+      "index": "a1",
+      "type": "Input",
       "content": [
         {
-          "type": "heading",
-          "textAlign": "left",
-          "level": 1,
-          "content": [
-            {
-              "type": "text",
-              "text": "Justiz-Services"
-            }
-          ]
+          "id": "2c9anpkiu7WVwLOgb9UHndw5c75",
+          "type": "Radio",
+          "name": "Ja",
+          "text": "Ja",
+          "group": "wurde-verklagt"
+        },
+        {
+          "id": "2c9asNGgapLETRhAmn7CXZz2XK0",
+          "type": "Radio",
+          "name": "Nein",
+          "text": "Nein",
+          "group": ""
         }
       ]
     }
   ],
-  "footer": [],
   "@alinea": {
     "entryId": "2bshF9uQbUxXEpGZZW4ng2mZuka",
     "type": "FormPageSchema",

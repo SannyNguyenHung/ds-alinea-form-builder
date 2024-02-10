@@ -11,12 +11,12 @@ export function createTaskStep(name: string): TaskStep {
 	};
 }
 
-export function createSwitchStep(): SwitchStep {
+export function createSwitchStep(name: string): SwitchStep {
 	return {
 		id: Uid.next(),
 		componentType: "switch",
 		type: "switch",
-		name: "switch",
+		name: name,
 		properties: {},
 		branches: {
 			true: [],
