@@ -5,7 +5,6 @@ import { Step, StepsConfiguration, ToolboxConfiguration, ValidatorConfiguration 
 import { SequentialWorkflowDesigner, wrapDefinition } from "sequential-workflow-designer-react";
 import { RootEditor } from "./rootEditor";
 import { StepEditor } from "./stepEditor";
-import { createTaskStep } from "./stepUtils";
 import { useSequentialWorkflowDesignerController } from "sequential-workflow-designer-react";
 import { FlowDefinition } from "./model";
 
