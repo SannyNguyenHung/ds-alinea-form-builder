@@ -1,6 +1,7 @@
 import alinea from "alinea"
 import { BasicBlock, Block } from "./block";
 import { RichTextContent, RichTextBox, RichTextBoxExtension } from "./elements/richTextContent";
+import { Meta } from "../contentBlockMap";
 
 export const LogoBannerBlock = alinea.type("🖼️ Logo Banner", {
     ...BasicBlock,
@@ -27,13 +28,14 @@ function Logo({ block }: { block: LogoBannerBlock }) {
     )
 }
 
-export function LogoBanner({ block }: { block: LogoBannerBlock }) {
+export function LogoBanner({ block, meta }: { block: LogoBannerBlock, meta: Meta }) {
 
     return (
         <Block
             block={block}
             blockClassName="py-20 px-16 !pt-64 !pb-64"
             itemsClassName="ds-stack-16 container !pt-0 !pb-0"
+            meta={meta}
         >
             <div className="flex flex-row items-start gap-32 max-[499px]:flex-col">
                 <Logo block={block}></Logo>

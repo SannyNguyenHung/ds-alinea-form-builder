@@ -4,8 +4,9 @@ import { FormEvent } from "react"
 import { Block } from "./block"
 import { RichTextContent, RichTextBoxExtension } from "./elements/richTextContent"
 import { InputBlock } from "./input"
+import { Meta } from "../contentBlockMap"
 
-export function Input({ block }: { block: InputBlock }) {
+export function Input({ block, meta }: { block: InputBlock, meta: Meta}) {
     async function onSubmit(event: FormEvent<HTMLFormElement>) {
 		event.preventDefault()
 
@@ -23,6 +24,7 @@ export function Input({ block }: { block: InputBlock }) {
     return (
         <Block
             block={block}
+            meta={meta}
             blockClassName="!pt-0 !pb-0"
             itemsClassName="ds-stack-8 container !pt-0 !pb-0"
         >

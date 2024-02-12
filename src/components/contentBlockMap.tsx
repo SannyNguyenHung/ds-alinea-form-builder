@@ -8,27 +8,33 @@ import { LogoBanner } from "./blocks/logoBanner"
 import { PageHeader } from "./blocks/pageHeader"
 import { Input } from "./blocks/inputBlock"
 
+export type Meta = {
+    type: "Page" | "FlowPage" | "FormPage",
+    slug: string,
+    index?: string,
+  }
+
 // Refactor this to use a map
-export function MapBlock({block} : {block: any}) {
+export function MapBlock({block, meta} : {block: any, meta: Meta}) {
     switch (block.type) {
         case "Banner":
-            return <Banner block={block} />
+            return <Banner block={block} meta={meta} />
         case "Text":
-            return <Content block={block} />
+            return <Content block={block} meta={meta} />
         case "Header":
-            return <Header block={block} />
+            return <Header block={block} meta={meta} />
         case "Hero":
-            return <Hero block={block} />
+            return <Hero block={block} meta={meta} />
         case "LogoBanner":
-            return <LogoBanner block={block} />
+            return <LogoBanner block={block} meta={meta} />
         case "CallToAction":
-            return <CallToAction block={block} />
+            return <CallToAction block={block} meta={meta} />
         case "Footer":
-            return <Footer block={block} />
+            return <Footer block={block} meta={meta} />
         case "PageHeader":
-            return <PageHeader block={block} />
+            return <PageHeader block={block} meta={meta} />
         case "Input":
-            return <Input block={block} />
+            return <Input block={block} meta={meta} />
     }
     return <>Error: Block not found</>
 }

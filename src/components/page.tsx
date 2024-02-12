@@ -9,7 +9,7 @@ import { BannerBlock } from "./blocks/banner";
 import { FooterBlock } from "./blocks/footer";
 import { PageHeaderBlock } from "./blocks/pageHeader";
 import { RiPagesLine } from "react-icons/ri";
-import { MapBlock } from "./contentBlockMap";
+import { MapBlock, Meta } from "./contentBlockMap";
 
 export const PageSchema = alinea.type("📃 Page", {
     title: alinea.text("Title"),
@@ -49,15 +49,15 @@ export const PageSchema = alinea.type("📃 Page", {
 
 export type Page = alinea.infer<typeof PageSchema>;
 
-export async function PageBlocks({page, parent} : {page: Page, parent: Page}) {
+export async function PageBlocks({page, parent, meta} : {page: Page, parent: Page, meta: Meta}) {
     const header = page?.header.length > 0 ? page?.header : parent?.header;
     const footer = page?.footer.length > 0 ? page?.footer : parent?.footer;
     
     return (
         <div className="">
-            {header?.map(block => <MapBlock key={uuidv4()} block={block} />)}
-            {page?.blocks?.map(block => <MapBlock key={uuidv4()} block={block} />)}            
-            {footer?.map(block => <MapBlock key={uuidv4()} block={block} />)}
+            {header?.map(block => <MapBlock key={uuidv4()} block={block} meta={meta} />)}
+            {page?.blocks?.map(block => <MapBlock key={uuidv4()} block={block} meta={meta} />)}            
+            {footer?.map(block => <MapBlock key={uuidv4()} block={block} meta={meta} />)}
         </div>
     )
 }

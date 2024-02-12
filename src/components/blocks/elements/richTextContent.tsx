@@ -22,10 +22,6 @@ export const RichTextBoxExtension = {
     Radio: RadioElement
 }
 
-// export const RichInputBoxExtension = {
-//     Input: InputElement    
-// }
-
 export function RichTextContent({
     content,
     h1,

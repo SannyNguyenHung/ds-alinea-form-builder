@@ -54,14 +54,21 @@
           "type": "Radio",
           "name": "ja",
           "text": "Ja",
-          "group": "rechtschutzversicherung"
+          "group": ""
         },
         {
           "id": "2buy3yBmkAMl5yIQFyqQJiNSBKG",
           "type": "Radio",
           "name": "nein",
           "text": "Nein",
-          "group": "rechtschutzversicherung"
+          "group": ""
+        },
+        {
+          "id": "2cEyAC6AGl1PsO0YJXtGNqRgX26",
+          "type": "Radio",
+          "name": "vielleicht",
+          "text": "Vielleicht",
+          "group": ""
         },
         {
           "id": "2buy8h54YpssKsIkMVibixu1ELB",

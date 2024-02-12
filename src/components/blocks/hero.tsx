@@ -1,6 +1,7 @@
 import alinea from "alinea"
 import { BasicBlock, Block } from "./block";
 import { RichTextContent, RichTextBox, RichTextBoxExtension } from "./elements/richTextContent";
+import { Meta } from "../contentBlockMap";
 
 export const HeroBlock = alinea.type("🦸 Hero", {
     ...BasicBlock,
@@ -9,11 +10,12 @@ export const HeroBlock = alinea.type("🦸 Hero", {
 
 export type HeroBlock = alinea.infer<typeof HeroBlock>;
 
-export function Hero({ block }: { block: HeroBlock }) {
+export function Hero({ block, meta }: { block: HeroBlock, meta: Meta }) {
 
     return (
         <Block
             block={block}
+            meta={meta}
             blockClassName="py-20 px-16 !pt-56 !pb-64"
             itemsClassName="ds-stack-16 container !pt-0 !pb-0"
         >

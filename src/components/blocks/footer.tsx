@@ -1,6 +1,7 @@
 import alinea from "alinea"
 import { BasicBlock, Block } from "./block";
 import { RichTextContent, RichTextBox, RichTextBoxExtension } from "./elements/richTextContent";
+import { Meta } from "../contentBlockMap";
 
 export const FooterBlock = alinea.type("🦶 Footer", {
     ...BasicBlock,
@@ -43,7 +44,7 @@ function getLinkColumns(block: FooterBlock) {
     return linkListColumnsArray;
 }
 
-export function Footer({ block }: { block: FooterBlock }) {
+export function Footer({ block, meta }: { block: FooterBlock, meta: Meta }) {
     const linkColumns = getLinkColumns(block);
 
     return (
@@ -51,6 +52,7 @@ export function Footer({ block }: { block: FooterBlock }) {
             block={block}
             blockClassName="text-base"
             itemsClassName="container !pt-48 !pb-48 !pr-0"
+            meta={meta}
         >
             <div className="flex flex-wrap items-start justify-between gap-y-32">
                 <div className="flex flex-col-reverse sm:flex-row gap-y-8 gap-x-16">

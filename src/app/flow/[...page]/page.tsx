@@ -1,5 +1,5 @@
-import { WorkflowEditor } from "@/workflow/workflow"
-import { getFlowDefinition, getWorkflowBranches } from "@/workflow/flow";
+import { WorkflowEditor } from "@/workflow/editor/workflow"
+import { getFlowDefinition, getWorkflowBranches } from "@/workflow/editor/flow";
 
 export const revalidate = 0;
 

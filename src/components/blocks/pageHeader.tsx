@@ -1,6 +1,7 @@
 import alinea from "alinea"
 import { BasicBlock, Block } from "./block";
 import { BlockBackgroundColors } from "./elements/colors";
+import { Meta } from "../contentBlockMap";
 
 export const PageHeaderBlock = alinea.type("🏁 Page Header", {
   ...BasicBlock,
@@ -10,12 +11,13 @@ export const PageHeaderBlock = alinea.type("🏁 Page Header", {
 
 export type PageHeaderBlock = alinea.infer<typeof PageHeaderBlock>;
 
-export function PageHeader({ block }: { block: PageHeaderBlock }) {
+export function PageHeader({ block, meta }: { block: PageHeaderBlock, meta: Meta }) {
   const background = (block.background ?? "bg-blue-100") + (block.background === "bg-blue-800" ? " text-white" : "");
   return (
     <Block
       blockClassName={background + " !pt-0 !pb-0"}
       itemsClassName=""
+      meta={meta}
       block={block}>
       <nav className="py-8 px-16 bg-blue-100 flex flex-wrap items-center text-base">
         <a href="/" aria-label="Startseite" className="focus:outline ds-link-01-bold">

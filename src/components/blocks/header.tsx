@@ -1,6 +1,7 @@
 import alinea from "alinea"
 import { BasicBlock, Block } from "./block";
 import { RichTextContent, RichTextBox, RichTextBoxExtension } from "./elements/richTextContent";
+import { Meta } from "../contentBlockMap";
 
 export const HeaderBlock = alinea.type("🤠 Header", {
     ...BasicBlock,
@@ -9,10 +10,11 @@ export const HeaderBlock = alinea.type("🤠 Header", {
 
 export type HeaderBlock = alinea.infer<typeof HeaderBlock>;
 
-export function Header({ block }: { block: HeaderBlock }) {
+export function Header({ block, meta }: { block: HeaderBlock, meta: Meta }) {
     return (
         <Block
             block={block}
+            meta={meta}
             blockClassName="py-20 px-16"
         >
             <RichTextContent
