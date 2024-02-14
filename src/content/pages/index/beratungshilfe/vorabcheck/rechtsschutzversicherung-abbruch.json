@@ -1,0 +1,57 @@
+{
+  "title": "Hinweis Rechtsschutzversicherung",
+  "slug": "rechtsschutzversicherung-abbruch",
+  "blocks": [
+    {
+      "id": "2cMAoT2XFsojOwnUhLDlbivZrYM",
+      "index": "Zz",
+      "type": "PageHeader",
+      "background": "bg-[#f9e5ec]",
+      "title": "Sie benötigen wahrscheinlich keine Beratungshilfe."
+    },
+    {
+      "id": "2cMAbWhqJ6DkyKyvo7fzVLugibe",
+      "index": "a0",
+      "type": "Input",
+      "background": "bg-blue-100",
+      "content": [
+        {
+          "type": "heading",
+          "textAlign": "left",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Klären Sie mit Ihrer Versicherung, ob sie dieses Anliegen bezahlt."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "Wenn Sie eine Rechtsschutzversicherung haben, die dieses Anliegen abdeckt, werden Sie keine Beratungshilfe bekommen."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "type": "text",
+              "text": "Wenn Ihre Rechtsschutzversicherung eine Selbstbeteiligung hat, können Sie unter Umständen dennoch Beratungshilfe bekommen. Klären Sie das mit Ihrem Amtsgericht."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "@alinea": {
+    "entryId": "2cMAVo4OgN9Z5oDxPLv7GjjmtWA",
+    "type": "FormPageSchema",
+    "index": "Zy"
+  }
+}

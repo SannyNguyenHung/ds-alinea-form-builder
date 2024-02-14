@@ -1,4 +1,4 @@
-import alinea, { TextDoc } from "alinea"
+import { Field, TextDoc } from "alinea"
 import { RichText } from "alinea/ui"
 import { ReactElement } from "react";
 import { TextElement, TextElementSchema } from "./TextElement";
@@ -6,13 +6,13 @@ import { ButtonElement, ButtonElementSchema } from "./ButtonElement";
 import { HintElement, HintElementSchema } from "./HintElement";
 import { RadioElement, RadioElementSchema } from "./RadioElement";
 
-export const RichTextBox = alinea.richText("Text", {
-    schema: alinea.schema({
+export const RichTextBox = Field.richText("Text", {
+    schema: {
         Text: TextElementSchema,
         Button: ButtonElementSchema,
         Hint: HintElementSchema,
         Radio: RadioElementSchema
-    }),
+    },
 })
 
 export const RichTextBoxExtension = {

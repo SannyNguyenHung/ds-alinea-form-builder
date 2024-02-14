@@ -1,22 +1,22 @@
-import alinea from "alinea"
+import { Config, Field, Infer} from "alinea"
 import { BasicBlock, Block } from "./block";
 import { RichTextContent, RichTextBox, RichTextBoxExtension } from "./elements/richTextContent";
 import { Meta } from "../contentBlockMap";
 
-export const FooterBlock = alinea.type("🦶 Footer", {
+export const FooterBlock = Config.type("🦶 Footer", { fields: {
     ...BasicBlock,
-    logo: alinea.object("Logo", {
-        fields: alinea.type("Parameters", {
-            title: alinea.text("Title"),
-            image: alinea.image("Image"),
-            alt: alinea.text("Alt Text"),
-        })
+    logo: Field.object("Logo", { 
+        fields: {
+            title: Field.text("Title"),
+            image: Field.image("Image"),
+            alt: Field.text("Alt Text"),
+        }
     }),
     content: RichTextBox,
-    linkList: alinea.link.multiple("Link List"),
-});
+    linkList: Field.link.multiple("Link List"),
+}});
 
-export type FooterBlock = alinea.infer<typeof FooterBlock>;
+export type FooterBlock = Infer<typeof FooterBlock>;
 
 function Logo({ block }: { block: FooterBlock }) {
     return (

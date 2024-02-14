@@ -1,15 +1,15 @@
-import alinea from "alinea"
+import { Config, Infer } from "alinea"
 import { BasicBlock, Block } from "./block";
 import { RichTextBox, RichTextContent, RichTextBoxExtension } from "./elements/richTextContent";
 import { Meta } from "../contentBlockMap";
 
 
-export const ContentBlock = alinea.type("📝 Text", {
+export const ContentBlock = Config.type("📝 Text", { fields: {
   ...BasicBlock,
   content: RichTextBox
-});
+}});
 
-export type ContentBlock = alinea.infer<typeof ContentBlock>;
+export type ContentBlock = Infer<typeof ContentBlock>;
 
 export function Content({ block, meta }: { block: ContentBlock, meta: Meta }) {
   return (

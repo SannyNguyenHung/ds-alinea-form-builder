@@ -1,24 +1,24 @@
-import alinea from "alinea"
+import { Config, Field, Infer } from "alinea"
 
-export const ButtonElementSchema = alinea.type("🔵 Button", {
-    text: alinea.text("Text"),
-    href: alinea.link("Link"),
+export const ButtonElementSchema = Config.type("🔵 Button", { fields: {
+    text: Field.text("Text"),
+    href: Field.link("Link"),
     // Make this selectable
-    apiFunction: alinea.text("Api Function"),
-    look: alinea.select("Look", {
+    apiFunction: Field.text("Api Function"),
+    look: Field.select("Look", { options: {
         "": "Primary",
         "ds-button-secondary": "Secondary",
         "ds-button-tertiary": "Tertiary",
         "ds-button-ghost": "Ghost",
-    }),
-    size: alinea.select("Size", {
+    }}),
+    size: Field.select("Size", { options: {
         "": "Default",
         "ds-button-large": "Large",
         "ds-button-small": "Small",
-    }),
-})
+    }}),
+}})
 
-export type ButtonElementSchema = alinea.infer<typeof ButtonElementSchema>;
+export type ButtonElementSchema = Infer<typeof ButtonElementSchema>;
 
 export function ButtonElement({ look, text, href, apiFunction, size }: ButtonElementSchema) {
     return (

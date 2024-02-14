@@ -1,14 +1,14 @@
-import alinea from "alinea"
+import { Config, Infer } from "alinea"
 import { BasicBlock, Block } from "./block";
 import { RichTextContent, RichTextBox, RichTextBoxExtension } from "./elements/richTextContent";
 import { Meta } from "../contentBlockMap";
 
-export const HeroBlock = alinea.type("🦸 Hero", {
+export const HeroBlock = Config.type("🦸 Hero", { fields: {
     ...BasicBlock,
     content: RichTextBox
-});
+}});
 
-export type HeroBlock = alinea.infer<typeof HeroBlock>;
+export type HeroBlock = Infer<typeof HeroBlock>;
 
 export function Hero({ block, meta }: { block: HeroBlock, meta: Meta }) {
 

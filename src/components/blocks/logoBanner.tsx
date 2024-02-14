@@ -1,21 +1,21 @@
-import alinea from "alinea"
+import { Config, Field, Infer } from "alinea"
 import { BasicBlock, Block } from "./block";
 import { RichTextContent, RichTextBox, RichTextBoxExtension } from "./elements/richTextContent";
 import { Meta } from "../contentBlockMap";
 
-export const LogoBannerBlock = alinea.type("🖼️ Logo Banner", {
+export const LogoBannerBlock = Config.type("🖼️ Logo Banner", { fields: {
     ...BasicBlock,
     content: RichTextBox,
-    logo: alinea.object("Logo", {
-        fields: alinea.type("Parameters", {
-            title: alinea.text("Title"),
-            image: alinea.image("Image"),
-            alt: alinea.text("Alt Text"),
-        })
-    })
+    logo: Field.object("Logo", {
+        fields: {
+            title: Field.text("Title"),
+            image: Field.image("Image"),
+            alt: Field.text("Alt Text"),
+        }
+    })}
 });
 
-export type LogoBannerBlock = alinea.infer<typeof LogoBannerBlock>;
+export type LogoBannerBlock = Infer<typeof LogoBannerBlock>;
 
 function Logo({ block }: { block: LogoBannerBlock }) {
     return (

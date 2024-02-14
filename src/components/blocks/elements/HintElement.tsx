@@ -1,14 +1,14 @@
-import alinea from "alinea"
+import { Config, Field, Infer } from "alinea"
 import { FaRegBell } from "react-icons/fa";
 
 
-export const HintElementSchema = alinea.type("⚠️ Hint", {
-    title: alinea.text("Title"),
-    text: alinea.text("Text"),
-});
+export const HintElementSchema = Config.type("⚠️ Hint", { fields: {
+    title: Field.text("Title"),
+    text: Field.text("Text"),
+}});
 
 
-export type HintElementSchema = alinea.infer<typeof HintElementSchema>;
+export type HintElementSchema = Infer<typeof HintElementSchema>;
 
 export function HintElement({ title, text }: HintElementSchema) {
 

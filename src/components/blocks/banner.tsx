@@ -1,14 +1,14 @@
-import alinea from "alinea"
+import { Config, Infer } from "alinea"
 import { BasicBlock, Block } from "./block";
 import { RichTextBox, RichTextContent, RichTextBoxExtension } from "./elements/richTextContent";
 import { Meta } from "../contentBlockMap";
 
-export const BannerBlock = alinea.type("🏳 Banner", {
+export const BannerBlock = Config.type("🏳 Banner", { fields: {
   ...BasicBlock,
   content: RichTextBox
-});
+}});
 
-export type BannerBlock = alinea.infer<typeof BannerBlock>;
+export type BannerBlock = Infer<typeof BannerBlock>;
 
 export function Banner({ block, meta }: { block: BannerBlock, meta: Meta }) {
   return (

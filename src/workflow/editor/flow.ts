@@ -20,7 +20,7 @@ export async function getFlowDefinition(page: string[] | undefined) {
 export async function getWorkflowBranches(page: FormPage) : Promise<Step | BranchedStep> {
 		const branches = await getFormBranches(page);
 
-		if(Object.entries(branches).length === 0) {
+		if(branches.length === 0) {
 			return {
 				id: uuidv4(),
 				componentType: "task",
@@ -35,7 +35,10 @@ export async function getWorkflowBranches(page: FormPage) : Promise<Step | Branc
 		  componentType: "switch",
 		  type: "parallel",
 		  name: page.title,
-		  properties: {},
-		  branches: await getFormBranches(page)
+		  properties: {
+			slug: page.slug,
+			branches: branches
+		  },
+		  branches: Object.assign({}, ...branches.map(branch => { return {[branch.text ?? "key"]: []} }))
 		}
 };

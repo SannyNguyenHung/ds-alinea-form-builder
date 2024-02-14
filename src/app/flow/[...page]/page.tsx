@@ -12,7 +12,6 @@ export default async function Flow({ params }: { params: { page: string[] | unde
     stepDefinitions.push(await getWorkflowBranches(entry.page));
   }
 
-  console.log(stepDefinitions);
   return (
     <WorkflowEditor flowDefinition={flow} steps={stepDefinitions} path={params.page?.join("/") ?? ""}></WorkflowEditor>
   )

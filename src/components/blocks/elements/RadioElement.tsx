@@ -1,12 +1,12 @@
-import alinea from "alinea"
+import { Config, Field, Infer } from "alinea"
 
-export const RadioElementSchema = alinea.type("🔘 Radio", {
-    name: alinea.text("Name"),
-    text: alinea.text("Text"),
-    group: alinea.text("Group"),
-})
+export const RadioElementSchema = Config.type("🔘 Radio", { fields: {
+    name: Field.text("Name"),
+    text: Field.text("Text"),
+    group: Field.text("Group"),
+}});
 
-export type RadioElementSchema = alinea.infer<typeof RadioElementSchema>;
+export type RadioElementSchema = Infer<typeof RadioElementSchema>;
   
 export function RadioElement({name, text, group} : RadioElementSchema) {
     return (

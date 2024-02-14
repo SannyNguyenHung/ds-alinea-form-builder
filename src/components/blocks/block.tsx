@@ -1,4 +1,4 @@
-import alinea from "alinea"
+import { Field, Config, Infer } from "alinea"
 import { ReactNode } from "react";
 import { BlockBackgroundColors } from "./elements/colors";
 import { Meta } from "../contentBlockMap";
@@ -17,8 +17,8 @@ export function Block({ block, blockClassName, itemsClassName, meta, children }:
     )
 }
 
-export const BasicBlock = alinea.type("Block", {
-    background: alinea.select("Background", BlockBackgroundColors),
-});
+export const BasicBlock = Config.type("Block", { fields: {
+    background: Field.select("Background", { options: BlockBackgroundColors}),
+}});
 
-export type BasicBlock = alinea.infer<typeof BasicBlock>;
+export type BasicBlock = Infer<typeof BasicBlock>;

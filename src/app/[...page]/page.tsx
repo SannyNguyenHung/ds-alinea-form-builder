@@ -16,7 +16,6 @@ export async function generateMetadata({ params }: { params: { page: string[] | 
 }
 
 export default async function Page({ params }: { params: { page: string[] | undefined } }) {
-  console.log("Page", params.page);
   const [page] = await cms.find(Query(PageSchema).where({ slug: params.page ? params.page[0] : "index" }));
   const parent = (await getPage(PageSchema, ["index"])).page as Page;
   const meta: Meta = {

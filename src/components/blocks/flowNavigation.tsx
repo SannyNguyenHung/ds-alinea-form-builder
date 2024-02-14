@@ -5,15 +5,17 @@ import { BlockBackgroundColors } from "./elements/colors";
 import { Meta } from "../contentBlockMap";
 
 
-export const CallToActionBlock = Config.type("💥 Call to action", { fields: {
-  ...BasicBlock,
-  actionBackground: Field.select("Action Background", { options: BlockBackgroundColors}),
-  content: RichTextBox
-}});
+export const FlowNavigationBlock = Config.type("💥 Call to action", {
+    fields: {
+        ...BasicBlock,
+        actionBackground: Field.select("Action Background",  {options: BlockBackgroundColors }),
+        content: RichTextBox
+    }
+});
 
-export type CallToActionBlock =Infer<typeof CallToActionBlock>;
+export type FlowNavigationBlock = Infer<typeof FlowNavigationBlock>;
 
-export function CallToAction({ block, meta }: { block: CallToActionBlock, meta: Meta }) {
+export function FlowNavigation({ block, meta }: { block: FlowNavigationBlock, meta: Meta }) {
   return (
     <Block
       blockClassName="call-to-action-block !pt-0 !pb-0 mt-16 mb-16"
