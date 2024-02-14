@@ -1,4 +1,4 @@
-import alinea from "alinea";
+import alinea, { Config } from "alinea";
 import { ContentBlock } from "./blocks/content";
 import { HeaderBlock } from "./blocks/header";
 import { HeroBlock } from "./blocks/hero";
@@ -17,13 +17,15 @@ export const PageSchema = alinea.type("📃 Page", {
         required: true,
     }),
     blocks: alinea.list("Blocks", {
-      schema: alinea.schema({
-        Banner: BannerBlock,
-        PageHeader: PageHeaderBlock,
-        Text: ContentBlock,
-        Hero: HeroBlock,
-        LogoBanner: LogoBannerBlock,
-        CallToAction: CallToActionBlock
+      schema: Config.schema({
+        types: {
+          Banner: BannerBlock,
+          PageHeader: PageHeaderBlock,
+          Text: ContentBlock,
+          Hero: HeroBlock,
+          LogoBanner: LogoBannerBlock,
+          CallToAction: CallToActionBlock
+        }
       })
     }),
     header: alinea.list("Header (parent)", {

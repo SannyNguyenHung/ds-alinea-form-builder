@@ -20,7 +20,7 @@ export default async function Page({ params }: { params: { page: string[] | unde
     const page = (await getPage(FormPageSchema, params.page ?? []))?.page as FormPage
     const parent = (await getPage(PageSchema, ["index"])).page as Page;
     const meta: Meta = {
-        slug: page.slug,
+        slug: page?.slug,
         type: "FormPage",
     }
 

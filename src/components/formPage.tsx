@@ -1,4 +1,4 @@
-import alinea from "alinea";
+import alinea, { Config } from "alinea";
 import { ContentBlock } from "./blocks/content";
 import { CallToActionBlock } from "./blocks/callToAction";
 import { v4 as uuidv4 } from "uuid";
@@ -9,28 +9,28 @@ import { Page } from "./page";
 import { MapBlock, Meta } from "./contentBlockMap";
 import { InputBlock } from "./blocks/input";
 
-export const FormPageSchema = alinea.type("📝 Form Page", {
-  title: alinea.text("Title"),
-  slug: alinea.path("Slug", {
-    required: true,
-  }),
-  blocks: alinea.list("Blocks", {
-    schema: alinea.schema({
-      Banner: BannerBlock,
-      PageHeader: PageHeaderBlock,
-      Text: ContentBlock,
-      CallToAction: CallToActionBlock,
-      Input: InputBlock
+export const FormPageSchema = Config.type("📝 Form Page", {
+  fields: {
+    title: alinea.text("Title"),
+    slug: alinea.path("Slug", {required: true}),
+    blocks: alinea.list("Blocks", {
+      schema: Config.schema({
+        types: {
+          Banner: BannerBlock,
+          PageHeader: PageHeaderBlock,
+          Text: ContentBlock,
+          CallToAction: CallToActionBlock,
+          Input: InputBlock
+        }
+      })
     })
-  }),
-  [alinea.meta]: {
-    contains: ["FormPageSchema", "FlowPageSchema", "PageSchema"],
-    isContainer: true,
-    entryUrl(entry) {
-      return `/form/${entry.parentPaths.join("/")}/${entry.path}`
-    },
-    icon: AiOutlineForm
-  }
+  },
+  isContainer: true,
+  contains: ["FormPageSchema", "FlowPageSchema", "PageSchema"],
+  entryUrl(entry) {
+    return `/form/${entry.parentPaths.join("/")}/${entry.path}`
+  },
+  icon: AiOutlineForm
 });
 
 export type FormPage = alinea.infer<typeof FormPageSchema>;
