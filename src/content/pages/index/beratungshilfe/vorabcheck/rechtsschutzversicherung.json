@@ -64,13 +64,6 @@
           "group": ""
         },
         {
-          "id": "2cPLT9RLzJ8OaPWQQXdq8TXHoZJ",
-          "type": "Radio",
-          "name": "vielleicht",
-          "text": "Vielleicht",
-          "group": ""
-        },
-        {
           "id": "2buy8h54YpssKsIkMVibixu1ELB",
           "type": "Button",
           "items": [
