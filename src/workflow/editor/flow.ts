@@ -1,5 +1,5 @@
 import { getFlowPageChildren } from "@/cms";
-import { FlowDefinition, SwitchStep } from "./model";
+import { FlowDefinition } from "../engine/model";
 import { existsSync, readFileSync } from "fs";
 import { FormPage, getFormBranches } from "@/components/formPage";
 import { v4 as uuidv4 } from "uuid";
@@ -39,6 +39,6 @@ export async function getWorkflowBranches(page: FormPage) : Promise<Step | Branc
 			slug: page.slug,
 			branches: branches
 		  },
-		  branches: Object.assign({}, ...branches.map(branch => { return {[branch.text ?? "key"]: []} }))
+		  branches: Object.assign({}, ...branches.map(branch => { return {[branch?.text ?? "key"]: []} }))
 		}
 };

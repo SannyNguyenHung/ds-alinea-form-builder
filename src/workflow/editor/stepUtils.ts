@@ -1,5 +1,5 @@
 import { Uid } from "sequential-workflow-designer";
-import { SwitchStep, TaskStep } from "./model";
+import { TaskStep } from "../engine/model";
 
 export function createTaskStep(name: string): TaskStep {
 	return {
@@ -8,19 +8,5 @@ export function createTaskStep(name: string): TaskStep {
 		type: "task",
 		name: name,
 		properties: {}
-	};
-}
-
-export function createSwitchStep(name: string): SwitchStep {
-	return {
-		id: Uid.next(),
-		componentType: "switch",
-		type: "switch",
-		name: name,
-		properties: {},
-		branches: {
-			true: [],
-			false: []
-		}
 	};
 }

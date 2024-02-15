@@ -64,12 +64,26 @@
           "group": ""
         },
         {
+          "id": "2cPLT9RLzJ8OaPWQQXdq8TXHoZJ",
+          "type": "Radio",
+          "name": "vielleicht",
+          "text": "Vielleicht",
+          "group": ""
+        },
+        {
           "id": "2buy8h54YpssKsIkMVibixu1ELB",
           "type": "Button",
-          "text": "Übernehmen & weiter",
-          "href": {},
-          "apiFunction": "next",
-          "size": "ds-button-large"
+          "items": [
+            {
+              "id": "2cNY3gb2KBjL6V6JKFtwoYbKpG0",
+              "index": "a0",
+              "type": "Button",
+              "text": "Übernehmen & weiter",
+              "href": {},
+              "apiFunction": "next",
+              "size": "ds-button-large"
+            }
+          ]
         }
       ]
     }
@@ -77,6 +91,6 @@
   "@alinea": {
     "entryId": "2bsfnpZCEb7V4nWhEZmWZbbSx5G",
     "type": "FormPageSchema",
-    "index": "a0"
+    "index": "Zx"
   }
 }

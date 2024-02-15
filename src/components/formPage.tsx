@@ -48,17 +48,19 @@ export async function FormPageBlocks({ page, parent, meta }: { page: FormPage, p
   )
 }
 
-const ExportTypes = ["Radio"]
+const ExportTypes = ["Input"]
+const ExportElementsTypes = ["Radio"]
 
 export async function getFormBranches(page: FormPage) {
   //const branches: Record<string, []> = {};
+
+  console.log(page.blocks);
 
   return page.blocks.filter(block => ExportTypes.includes(block.type)).flatMap(block => {
     const inputBlock = block as InputBlock;
     console.log("Content", inputBlock?.content);
     
-    return inputBlock?.content?.
-      filter(element => element.type === "Radio").
+    return inputBlock?.content?.filter(block => ExportElementsTypes.includes(block.type)).
       map(element => {
         return {
           group: ("group" in element ? element.group : "") as string | undefined,

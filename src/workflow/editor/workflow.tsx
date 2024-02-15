@@ -6,7 +6,7 @@ import { SequentialWorkflowDesigner, wrapDefinition } from "sequential-workflow-
 import { RootEditor } from "./rootEditor";
 import { StepEditor } from "./stepEditor";
 import { useSequentialWorkflowDesignerController } from "sequential-workflow-designer-react";
-import { FlowDefinition } from "./model";
+import { FlowDefinition } from "../engine/model";
 
 import "./flow.css";
 import "sequential-workflow-designer/css/designer.css";

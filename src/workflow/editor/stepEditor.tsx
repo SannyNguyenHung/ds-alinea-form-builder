@@ -1,26 +1,26 @@
 import { ChangeEvent } from "react";
 import { useStepEditor } from "sequential-workflow-designer-react";
-import { SwitchStep, TaskStep } from "./model";
+import { FlowStep, TaskStep } from "../engine/model";
 
 export function StepEditor() {
 	const { type, name, step, properties, isReadonly, setName, setProperty, notifyPropertiesChanged, notifyChildrenChanged } =
-		useStepEditor<TaskStep | SwitchStep>();
+		useStepEditor<TaskStep | FlowStep>();
 
 	function onNameChanged(e: ChangeEvent) {
 		setName((e.target as HTMLInputElement).value);
 	}
 
 	function onXChanged(e: ChangeEvent) {
-		setProperty("x", (e.target as HTMLInputElement).value);
+		//setProperty("x", (e.target as HTMLInputElement).value);
 	}
 
 	function onYChanged(e: ChangeEvent) {
-		properties["y"] = (e.target as HTMLInputElement).value;
+		//properties["y"] = (e.target as HTMLInputElement).value;
 		notifyPropertiesChanged();
 	}
 
 	function toggleExtraBranch() {
-		const switchStep = step as SwitchStep;
+		const switchStep = step as FlowStep;
 		if (switchStep.branches["extra"]) {
 			delete switchStep.branches["extra"];
 		} else {
@@ -42,14 +42,14 @@ export function StepEditor() {
 			<h4>Y Variable</h4>
 			<input type="text" value={properties.y || ""} readOnly={isReadonly} onChange={onYChanged} />
 
-			{type === "switch" && (
+			{/* {type === "switch" && (
 				<>
 					<h4>Extra branch</h4>
 					<button onClick={toggleExtraBranch} disabled={isReadonly}>
 						Toggle branch
 					</button>
 				</>
-			)}
+			)} */}
 		</>
 	);
 }

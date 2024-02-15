@@ -1,6 +1,6 @@
 import { ChangeEvent, FormEvent } from "react";
 import { WrappedDefinition, useRootEditor } from "sequential-workflow-designer-react";
-import { FlowDefinition } from "./model";
+import { FlowDefinition } from "../engine/model";
 
 export function RootEditor({path, definition}: {path: string, definition: WrappedDefinition}) {
 	const { properties, setProperty, isReadonly } = useRootEditor<FlowDefinition>();
