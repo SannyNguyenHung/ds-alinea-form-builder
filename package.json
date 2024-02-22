@@ -13,7 +13,7 @@
     "@digitalservice4germany/angie": "^1.1.1",
     "@digitalservice4germany/style-dictionary": "^2.0.0",
     "@rjsf/core": "^5.17.0",
-    "alinea": "^0.8.1",
+    "alinea": "^0.8.2",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
