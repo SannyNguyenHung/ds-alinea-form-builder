@@ -18,7 +18,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.0.1",
-    "sequential-workflow-designer-react": "^0.18.5",
+    "sequential-workflow-designer-react": "^0.19.2",
     "sequential-workflow-machine": "^0.5.2",
     "sequential-workflow-model": "^0.2.0",
     "ungit": "^1.5.25",
