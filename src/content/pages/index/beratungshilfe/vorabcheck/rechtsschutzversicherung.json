@@ -52,16 +52,18 @@
         {
           "id": "2buy2urZbw2RsVHVxiwLy6DcErU",
           "type": "Radio",
-          "name": "ja",
+          "name": "Rechtsschutzversicherung",
           "text": "Ja",
-          "group": ""
+          "value": "yes",
+          "required": "Fehler: Bitte treffen Sie eine Auswahl."
         },
         {
           "id": "2buy3yBmkAMl5yIQFyqQJiNSBKG",
           "type": "Radio",
-          "name": "nein",
+          "name": "Rechtsschutzversicherung",
           "text": "Nein",
-          "group": ""
+          "value": "no",
+          "required": "Fehler: Bitte treffen Sie eine Auswahl."
         },
         {
           "id": "2buy8h54YpssKsIkMVibixu1ELB",

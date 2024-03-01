@@ -36,13 +36,13 @@ export function StepEditor() {
 			<h4>Name</h4>
 			<input type="text" value={name} readOnly={isReadonly} onChange={onNameChanged} />
 
-			<h4>X Variable</h4>
+			{/* <h4>X Variable</h4>
 			<input type="text" value={properties.x || ""} readOnly={isReadonly} onChange={onXChanged} />
 
 			<h4>Y Variable</h4>
 			<input type="text" value={properties.y || ""} readOnly={isReadonly} onChange={onYChanged} />
 
-			{/* {type === "switch" && (
+			{type === "switch" && (
 				<>
 					<h4>Extra branch</h4>
 					<button onClick={toggleExtraBranch} disabled={isReadonly}>

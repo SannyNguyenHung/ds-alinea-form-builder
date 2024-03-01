@@ -12,6 +12,7 @@ export type Meta = {
     type: "Page" | "FlowPage" | "FormPage",
     slug: string,
     index?: string,
+    context?: any
   }
 
 // Refactor this to use a map

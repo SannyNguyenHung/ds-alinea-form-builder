@@ -665,14 +665,21 @@
         {
           "id": "2bBwgv9itrT2tqHpDylW1T5aBbj",
           "type": "Button",
-          "text": "Vorab-Check starten",
-          "href": {
-            "id": "2bjnZPsgUr1kjHQprQdYgtNAZKr",
-            "type": "entry",
-            "entry": "2bjkcdmzSnhleWThH1cPgaPZTkS"
-          },
-          "look": "",
-          "size": "ds-button-large"
+          "items": [
+            {
+              "id": "2d16Y4THvLclXBQQVY1ZYcKXhPB",
+              "index": "a0",
+              "type": "Button",
+              "text": "Vorab-Check starten",
+              "href": {
+                "id": "2d16bCKX2ohtlpHhuDo8uwcdypq",
+                "type": "entry",
+                "entry": "2bjnh4jMpRouBe4kmbQA7Nyb7qf"
+              },
+              "apiFunction": "",
+              "size": "ds-button-large"
+            }
+          ]
         }
       ]
     },

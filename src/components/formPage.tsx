@@ -54,7 +54,6 @@ const ExportElementsTypes = ["Radio"]
 export async function getFormBranches(page: FormPage) {
   //const branches: Record<string, []> = {};
 
-  console.log(page.blocks);
 
   return page.blocks.filter(block => ExportTypes.includes(block.type)).flatMap(block => {
     const inputBlock = block as InputBlock;

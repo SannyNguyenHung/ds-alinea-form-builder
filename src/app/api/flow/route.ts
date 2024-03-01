@@ -20,6 +20,8 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   const { method } = request;
 
+  console.log(request);
+
   const json: {
     path: string;
     definition: any; // WrappedDefinition<{properties: {alfa: string;};sequence: TaskStep[];}>

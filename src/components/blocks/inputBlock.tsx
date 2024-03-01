@@ -7,12 +7,15 @@ import { InputBlock } from "./input"
 import { Meta } from "../contentBlockMap"
 
 export function Input({ block, meta }: { block: InputBlock, meta: Meta}) {
-    async function onSubmit(event: FormEvent<HTMLFormElement>) {
+    async function sendFormData(event: FormEvent<HTMLFormElement>) {
 		event.preventDefault()
 
         const formData = new FormData(event.currentTarget)
 		const response = await fetch('/api/form', {
 			method: 'POST',
+            headers: {
+                'x-step-id': meta?.slug,
+            },
 			body: formData,
 		})
 		/// const result = await response.json()
@@ -28,7 +31,7 @@ export function Input({ block, meta }: { block: InputBlock, meta: Meta}) {
             blockClassName="!pt-0 !pb-0"
             itemsClassName="ds-stack-8 container !pt-0 !pb-0"
         >
-            <form onSubmit={onSubmit}>
+            <form onSubmit={sendFormData}>
                 <RichTextContent
                     content={block.content}
                     blocks={RichTextBoxExtension}
