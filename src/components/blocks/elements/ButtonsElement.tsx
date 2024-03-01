@@ -5,7 +5,7 @@ export const ButtonsElementSchema = Config.type("🔵 Buttons", { fields: {
         schema: {
             Button: Config.type("Button", { fields: {
                 text: Field.text("Text"),
-                href: Field.link("Link"),
+                link: Field.link("Link"),
                 // Make this selectable
                 apiFunction: Field.text("Api Function"),
                 look: Field.select("Look", { options: {
@@ -31,11 +31,11 @@ export function ButtonsElement({ items }: ButtonsElementSchema) {
                 { 
                     items?.map((item, index) => 
                         { return item.apiFunction ?
-                            <button key={`${item.id}-submit`} type="submit" name="_action" value={item.apiFunction} className={["ds-button", item.look, item.size].join(" ")}>
+                            <button key={`${item._id}-${index}-submit`} type="submit" name="_action" value={item.apiFunction} className={["ds-button", item.look, item.size].join(" ")}>
                                 <span className="ds-button-label">{item.text}</span>
                             </button> 
                             :
-                            <a key={`${item.id}-link`} href={item.href.url} className={["ds-button", item.look, item.size].join(" ")} role="button">
+                            <a key={`${item._id}-${index}-link`} href={item.link.href} className={["ds-button", item.look, item.size].join(" ")} role="button">
                                 <span className="ds-button-label">{item.text}</span>
                             </a>
                         }

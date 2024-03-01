@@ -16,9 +16,6 @@ export function RadioElement({name, text, value, required} : RadioElementSchema)
         register,
         formState: { errors },
       } = useForm();
-
-    
-    
     return (
         <div className="flex flex-wrap pt-8">
             <input type="radio" id={id} value={value} className="ds-radio"

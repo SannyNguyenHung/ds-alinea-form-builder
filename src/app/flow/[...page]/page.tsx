@@ -4,7 +4,8 @@ import { getFlowDefinition, getWorkflowBranches } from "@/workflow/editor/flow";
 export const revalidate = 0;
 
 export default async function Flow({ params }: { params: { page: string[] | undefined } }) {
-  const {flow, children} = await getFlowDefinition(params.page);
+  const flowId = params.page?.filter(page => page !== "index")
+  const {flow, children} = await getFlowDefinition(flowId);
 
   const stepDefinitions = []
   
@@ -13,6 +14,8 @@ export default async function Flow({ params }: { params: { page: string[] | unde
   }
 
   return (
-    <WorkflowEditor flowDefinition={flow} steps={stepDefinitions} path={params.page?.join("/") ?? ""}></WorkflowEditor>
+    <WorkflowEditor flowDefinition={flow} steps={stepDefinitions} path={
+      flowId?.join("/") ?? ""
+    }></WorkflowEditor>
   )
 }
