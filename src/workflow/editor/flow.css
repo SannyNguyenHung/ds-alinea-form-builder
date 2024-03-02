@@ -1,57 +1,60 @@
 body,
 h1 {
-	font: 13px/1.3em Arial, Verdana, Serif;
+  font:
+    13px/1.3em Arial,
+    Verdana,
+    Serif;
 }
 body {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
-	padding: 10px 5px 0;
-	background: #333;
+  padding: 10px 5px 0;
+  background: #333;
 }
 nav h1 {
-	display: inline-block;
-	margin: 0 15px;
-	padding: 0;
-	color: #fff;
+  display: inline-block;
+  margin: 0 15px;
+  padding: 0;
+  color: #fff;
 }
 nav button {
-	background: #999;
-	border: 0;
-	padding: 10px 15px;
-	margin: 0 5px;
-	cursor: pointer;
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
+  background: #999;
+  border: 0;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 nav button.selected {
-	background: #f9f9f9;
+  background: #f9f9f9;
 }
 nav button:hover {
-	opacity: 0.8;
+  opacity: 0.8;
 }
 nav .github {
-	margin: 0 5px;
-	color: #fff;
+  margin: 0 5px;
+  color: #fff;
 }
 nav .github:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 @media only screen and (max-width: 700px) {
-	nav h1 {
-		display: none;
-	}
+  nav h1 {
+    display: none;
+  }
 }
 
 .sqd-designer-react {
-	width: 100vw;
-	height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
 .sqd-editor {
-	padding: 10px;
+  padding: 10px;
 }
 input:read-only {
-	opacity: 0.35;
+  opacity: 0.35;
 }

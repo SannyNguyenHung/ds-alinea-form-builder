@@ -28,9 +28,9 @@ export const PageSchema = Config.type("📃 Page", {
           Text: ContentBlock,
           Hero: HeroBlock,
           LogoBanner: LogoBannerBlock,
-          CallToAction: CallToActionBlock
-        }
-      })
+          CallToAction: CallToActionBlock,
+        },
+      }),
     }),
     header: Field.list("Header (parent)", {
       schema: Config.schema({
@@ -38,8 +38,8 @@ export const PageSchema = Config.type("📃 Page", {
           Banner: BannerBlock,
           Text: ContentBlock,
           Header: HeaderBlock,
-        }
-      })
+        },
+      }),
     }),
     footer: Field.list("Footer (parent)", {
       schema: Config.schema({
@@ -47,23 +47,37 @@ export const PageSchema = Config.type("📃 Page", {
           Banner: BannerBlock,
           Text: ContentBlock,
           Footer: FooterBlock,
-        }
-      })
+        },
+      }),
     }),
-  }
+  },
 });
 
 export type Page = Infer<typeof PageSchema>;
 
-export async function PageBlocks({ page, parent, meta }: { page: Page, parent: Page, meta: Meta }) {
+export async function PageBlocks({
+  page,
+  parent,
+  meta,
+}: {
+  page: Page;
+  parent: Page;
+  meta: Meta;
+}) {
   const header = page?.header.length > 0 ? page?.header : parent?.header;
   const footer = page?.footer.length > 0 ? page?.footer : parent?.footer;
 
   return (
     <div className="">
-      {header?.map(block => <MapBlock key={uuidv4()} block={block} meta={meta} />)}
-      {page?.blocks?.map(block => <MapBlock key={uuidv4()} block={block} meta={meta} />)}
-      {footer?.map(block => <MapBlock key={uuidv4()} block={block} meta={meta} />)}
+      {header?.map((block) => (
+        <MapBlock key={uuidv4()} block={block} meta={meta} />
+      ))}
+      {page?.blocks?.map((block) => (
+        <MapBlock key={uuidv4()} block={block} meta={meta} />
+      ))}
+      {footer?.map((block) => (
+        <MapBlock key={uuidv4()} block={block} meta={meta} />
+      ))}
     </div>
-  )
+  );
 }

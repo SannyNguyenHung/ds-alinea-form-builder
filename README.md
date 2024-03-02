@@ -15,8 +15,8 @@ npm run designer
 
 ### `npm run dev` will make the following services available
 
-* [http://localhost:3000](http://localhost:3000) to see the app.
-* [http://localhost:4500](http://localhost:4500) to see alinea cms.
+- [http://localhost:3000](http://localhost:3000) to see the app.
+- [http://localhost:4500](http://localhost:4500) to see alinea cms.
 
 ### If you start with `npm run designer`
 
@@ -28,9 +28,9 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 ### Alinea doesn't load
 
-* Use a private window or clean your cache & cookies
-* Are there any errors in the logs?
-* Delete .next & node_modules folder
+- Use a private window or clean your cache & cookies
+- Are there any errors in the logs?
+- Delete .next & node_modules folder
 
 or
 
@@ -40,7 +40,7 @@ npm run build
 
 ## TODO
 
-* Form Pages beside Static Pages
-* Research for a component library (accessible, tested, documented, standardized blocks without content in another repo)
-* Research for a workflow (questionnaire flows, gather data from user - one thing per page, process data)
-* Research for theming
+- Form Pages beside Static Pages
+- Research for a component library (accessible, tested, documented, standardized blocks without content in another repo)
+- Research for a workflow (questionnaire flows, gather data from user - one thing per page, process data)
+- Research for theming

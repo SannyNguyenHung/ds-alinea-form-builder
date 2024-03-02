@@ -1,10 +1,11 @@
-import type { Config } from "tailwindcss"
+import type { Config } from "tailwindcss";
 
 const config: Config = {
   presets: [require("@digitalservice4germany/style-dictionary/tailwind")],
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/workflow/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -17,6 +18,6 @@ const config: Config = {
     },
   },
   plugins: [require("@digitalservice4germany/angie")],
-}
+};
 
-export default config
+export default config;

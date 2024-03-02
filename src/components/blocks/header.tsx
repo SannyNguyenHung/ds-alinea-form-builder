@@ -1,27 +1,31 @@
-import { Config, Infer } from "alinea"
+import { Config, Infer } from "alinea";
 import { BasicBlock, Block } from "./block";
-import { RichTextContent, RichTextBox, RichTextBoxExtension } from "./elements/richTextContent";
+import {
+  RichTextContent,
+  RichTextBox,
+  RichTextBoxExtension,
+} from "./elements/richTextContent";
 import { Meta } from "../contentBlockMap";
 
-export const HeaderBlock = Config.type("🤠 Header", { fields: {
+export const HeaderBlock = Config.type("🤠 Header", {
+  fields: {
     ...BasicBlock,
-    content: RichTextBox
-}});
+    content: RichTextBox,
+  },
+});
 
 export type HeaderBlock = Infer<typeof HeaderBlock>;
 
-export function Header({ block, meta }: { block: HeaderBlock, meta: Meta }) {
-    return (
-        <Block
-            block={block}
-            meta={meta}
-            blockClassName="py-20 px-16"
-        >
-            <RichTextContent
-                a={<a className="ds-label-01-bold no-underline hover:underline mr-8 text-black focus:outline active:underline active:decoration-4"></a>}
-                content={block.content}
-                blocks={RichTextBoxExtension}
-            />
-        </Block>
-    )
+export function Header({ block, meta }: { block: HeaderBlock; meta: Meta }) {
+  return (
+    <Block block={block} meta={meta} blockClassName="py-20 px-16">
+      <RichTextContent
+        a={
+          <a className="ds-label-01-bold no-underline hover:underline mr-8 text-black focus:outline active:underline active:decoration-4"></a>
+        }
+        content={block.content}
+        blocks={RichTextBoxExtension}
+      />
+    </Block>
+  );
 }

@@ -12,7 +12,7 @@ import { InputBlock } from "./blocks/input";
 export const FormPageSchema = Config.type("📝 Form Page", {
   fields: {
     title: Field.text("Title"),
-    slug: Field.path("Slug", {required: true}),
+    slug: Field.path("Slug", { required: true }),
     blocks: Field.list("Blocks", {
       schema: Config.schema({
         types: {
@@ -20,54 +20,71 @@ export const FormPageSchema = Config.type("📝 Form Page", {
           PageHeader: PageHeaderBlock,
           Text: ContentBlock,
           CallToAction: CallToActionBlock,
-          Input: InputBlock
-        }
-      })
-    })
+          Input: InputBlock,
+        },
+      }),
+    }),
   },
   isContainer: true,
   contains: ["FormPageSchema", "FlowPageSchema", "PageSchema"],
   entryUrl(entry) {
-    return `/form/${entry.parentPaths.join("/")}/${entry.path}`
+    return `/form/${entry.parentPaths.join("/")}/${entry.path}`;
   },
-  icon: AiOutlineForm
+  icon: AiOutlineForm,
 });
 
 export type FormPage = Infer<typeof FormPageSchema>;
 
-
-export async function FormPageBlocks({ page, parent, meta }: { page: FormPage, parent: Page, meta: Meta }) {
+export async function FormPageBlocks({
+  page,
+  parent,
+  meta,
+}: {
+  page: FormPage;
+  parent: Page;
+  meta: Meta;
+}) {
   return (
     <div className="!pt-0 !pb-0">
-      {parent?.header?.map(block => <MapBlock key={uuidv4()} block={block} meta={meta} />)}
+      {parent?.header?.map((block) => (
+        <MapBlock key={uuidv4()} block={block} meta={meta} />
+      ))}
       <div className="min-h-screen bg-blue-100">
-        {page?.blocks?.map(block => <MapBlock key={uuidv4()} block={block} meta={meta} />)}
+        {page?.blocks?.map((block) => (
+          <MapBlock key={uuidv4()} block={block} meta={meta} />
+        ))}
       </div>
-      {parent?.footer?.map(block => <MapBlock key={uuidv4()} block={block} meta={meta} />)}
+      {parent?.footer?.map((block) => (
+        <MapBlock key={uuidv4()} block={block} meta={meta} />
+      ))}
     </div>
-  )
+  );
 }
 
-const ExportTypes = ["Input"]
-const ExportElementsTypes = ["Radio"]
+const ExportTypes = ["Input"];
+const ExportElementsTypes = ["Radio"];
 
 export async function getFormBranches(page: FormPage) {
   //const branches: Record<string, []> = {};
 
+  return page.blocks
+    .filter((block) => ExportTypes.includes(block._type))
+    .flatMap((block) => {
+      const inputBlock = block as InputBlock;
+      console.log("Content", inputBlock?.content);
 
-  return page.blocks.filter(block => ExportTypes.includes(block.type)).flatMap(block => {
-    const inputBlock = block as InputBlock;
-    console.log("Content", inputBlock?.content);
-    
-    return inputBlock?.content?.filter(block => ExportElementsTypes.includes(block.type)).
-      map(element => {
-        return {
-          group: ("group" in element ? element.group : "") as string | undefined,
-          name: ("name" in element ? element.name : "") as string | undefined,
-          text: ("text" in element ? element.text : "") as string | undefined
-        }
-    })
-  })
+      return inputBlock?.content
+        ?.filter((block) => ExportElementsTypes.includes(block._type))
+        .map((element) => {
+          return {
+            group: ("group" in element ? element.group : "") as
+              | string
+              | undefined,
+            name: ("name" in element ? element.name : "") as string | undefined,
+            text: ("text" in element ? element.text : "") as string | undefined,
+          };
+        });
+    });
 
   //return branches;
 }

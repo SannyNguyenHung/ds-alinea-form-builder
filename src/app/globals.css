@@ -205,6 +205,6 @@ svg {
 }
 
 .call-to-action-block {
-  margin-left:clamp(1rem, 5vw, 3rem);
-  margin-right:clamp(1rem, 5vw, 3rem);
+  margin-left: clamp(1rem, 5vw, 3rem);
+  margin-right: clamp(1rem, 5vw, 3rem);
 }

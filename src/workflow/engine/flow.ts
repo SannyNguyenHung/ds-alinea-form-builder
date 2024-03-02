@@ -13,7 +13,7 @@
 //     return {}; // Initial activity state
 //   },
 //   handler: async (step: FlowStep, globalState: MyGlobalState, activityState: MyActivityState) => {
-    
+
 //     if (globalState.temperature < 0) {
 //       return interrupt();
 //     }
