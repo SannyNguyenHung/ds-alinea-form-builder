@@ -23,10 +23,12 @@ import "sequential-workflow-designer/css/designer-dark.css";
 
 export function WorkflowEditor({
   steps,
+  conditions,
   flowDefinition,
   path,
 }: {
   steps: Step[];
+  conditions: string[],
   flowDefinition: FlowDefinition;
   path: string;
 }) {
@@ -76,7 +78,7 @@ export function WorkflowEditor({
         validatorConfiguration={validatorConfiguration}
         controlBar={true}
         rootEditor={<RootEditor path={path} definition={definition} />}
-        stepEditor={<StepEditor />}
+        stepEditor={<StepEditor conditions={conditions} />}
         controller={controller}
       />
     </>

@@ -17,9 +17,12 @@ export default async function Flow({
     stepDefinitions.push(await getWorkflowBranches(entry.page));
   }
 
+  const conditions = ["hasValidSomething"]
+
   return (
     <WorkflowEditor
       flowDefinition={flow}
+      conditions={conditions}
       steps={stepDefinitions}
       path={flowId?.join("/") ?? ""}
     ></WorkflowEditor>
