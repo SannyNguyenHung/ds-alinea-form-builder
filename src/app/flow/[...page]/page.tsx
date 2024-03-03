@@ -8,7 +8,9 @@ export default async function Flow({
 }: {
   params: { page: string[] | undefined };
 }) {
+  console.log("Page", params.page)
   const flowId = params.page?.filter((page) => page !== "index");
+  console.log("Flow", flowId)
   const { flow, children } = await getFlowDefinition(flowId);
 
   const stepDefinitions = [];

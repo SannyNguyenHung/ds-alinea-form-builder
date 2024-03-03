@@ -5,7 +5,7 @@ import {
   RichTextContent,
   RichTextBoxExtension,
 } from "./elements/richTextContent";
-import { Meta } from "../contentBlockMap";
+import { Meta } from "../meta";
 
 export const BannerBlock = Config.type("🏳 Banner", {
   fields: {

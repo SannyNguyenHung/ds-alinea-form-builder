@@ -1,5 +1,5 @@
 import { getPage } from "@/cms";
-import { Meta } from "@/components/contentBlockMap";
+import { Meta } from "@/components/meta";
 import {
   FormPage,
   FormPageBlocks,
@@ -36,6 +36,7 @@ export default async function Page({
   const meta: Meta = {
     slug: page?.slug,
     type: "FormPage",
+    flowId: params.page?.slice(1, 3).join("/"),
   };
 
   return (

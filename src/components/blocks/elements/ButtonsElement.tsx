@@ -51,7 +51,7 @@ export function ButtonsElement({ items }: ButtonsElementSchema) {
         ) : (
           <a
             key={`${item._id}-${index}-link`}
-            href={item.link.href}
+            //href={item.link.href}
             className={["ds-button", item.look, item.size].join(" ")}
             role="button"
           >

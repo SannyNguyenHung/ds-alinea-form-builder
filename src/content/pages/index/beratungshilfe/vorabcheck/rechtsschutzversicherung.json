@@ -1,80 +1,82 @@
 {
+  "_id": "2bsfnpZCEb7V4nWhEZmWZbbSx5G",
+  "_type": "FormPageSchema",
+  "_index": "Zx",
+  "_i18nId": "2bsfnpZCEb7V4nWhEZmWZbbSx5G",
   "title": "Rechtsschutz­versicherung",
   "slug": "rechtsschutzversicherung",
   "blocks": [
     {
-      "id": "2bvFyjh0J55qqadQBBIkAkIlssQ",
-      "index": "Zz",
-      "type": "Text",
+      "_id": "2bvFyjh0J55qqadQBBIkAkIlssQ",
+      "_index": "Zz",
+      "_type": "Text",
       "background": "bg-blue-100",
       "content": [
         {
-          "id": "2bvG0gbzDykP5bS3vOSqOHa9aYQ",
-          "type": "Text",
+          "_type": "Text",
+          "_id": "2bvG0gbzDykP5bS3vOSqOHa9aYQ",
           "look": "ds-heading-02-reg",
           "text": "Haben Sie eine Rechtsschutz­versicherung für diese Angelegenheit?",
           "tag": "h1"
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Eine Rechtsschutzversicherung bezahlt Anwaltskosten. Je nach Bedingungen der Versicherung können unterschiedliche Tätigkeiten bezahlt werden."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "start",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Eine Rechtsschutzversicherung ist keine Pflicht-Versicherung. Sie müssen sie extra abgeschlossen haben."
             }
           ]
         },
         {
-          "id": "2bvG3ldnek3LyA8w2NyhPaYlHLT",
-          "type": "Hint",
+          "_type": "Hint",
+          "_id": "2bvG3ldnek3LyA8w2NyhPaYlHLT",
           "title": "Hinweis",
           "text": "Sie können den Vorab-Check unterbrechen und später fortsetzen. Ihre Daten werden 24 Stunden lang gespeichert."
         }
       ]
     },
     {
-      "id": "2buxv8UqfddtcG0DGigeRGNzhAr",
-      "index": "a0",
-      "type": "Input",
+      "_id": "2buxv8UqfddtcG0DGigeRGNzhAr",
+      "_index": "a0",
+      "_type": "Input",
       "background": "bg-blue-100",
       "content": [
         {
-          "id": "2buy2urZbw2RsVHVxiwLy6DcErU",
-          "type": "Radio",
-          "name": "Rechtsschutzversicherung",
+          "_type": "Radio",
+          "_id": "2buy2urZbw2RsVHVxiwLy6DcErU",
           "text": "Ja",
           "value": "yes",
           "required": "Fehler: Bitte treffen Sie eine Auswahl."
         },
         {
-          "id": "2buy3yBmkAMl5yIQFyqQJiNSBKG",
-          "type": "Radio",
-          "name": "Rechtsschutzversicherung",
+          "_type": "Radio",
+          "_id": "2buy3yBmkAMl5yIQFyqQJiNSBKG",
           "text": "Nein",
           "value": "no",
           "required": "Fehler: Bitte treffen Sie eine Auswahl."
         },
         {
-          "id": "2buy8h54YpssKsIkMVibixu1ELB",
-          "type": "Button",
+          "_type": "Button",
+          "_id": "2buy8h54YpssKsIkMVibixu1ELB",
           "items": [
             {
-              "id": "2cNY3gb2KBjL6V6JKFtwoYbKpG0",
-              "index": "a0",
-              "type": "Button",
+              "_id": "2cNY3gb2KBjL6V6JKFtwoYbKpG0",
+              "_index": "a0",
+              "_type": "Button",
               "text": "Übernehmen & weiter",
-              "href": {},
+              "link": {},
               "apiFunction": "next",
               "size": "ds-button-large"
             }
@@ -82,10 +84,5 @@
         }
       ]
     }
-  ],
-  "@alinea": {
-    "entryId": "2bsfnpZCEb7V4nWhEZmWZbbSx5G",
-    "type": "FormPageSchema",
-    "index": "Zx"
-  }
+  ]
 }

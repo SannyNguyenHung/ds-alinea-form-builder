@@ -1,29 +1,9 @@
 {
+  "_id": "2bjkcdmzSnhleWThH1cPgaPZTkS",
+  "_type": "FlowPageSchema",
+  "_index": "a0",
+  "_i18nId": "2bjkcdmzSnhleWThH1cPgaPZTkS",
+  "_root": "pages",
   "title": "Vorabcheck",
-  "slug": "vorabcheck",
-  "blocks": [
-    {
-      "id": "2bjl30ZwrrVGXJ7qWtI5b3X3VoZ",
-      "index": "a0",
-      "type": "Banner",
-      "background": "bg-blue-100",
-      "content": [
-        {
-          "type": "paragraph",
-          "textAlign": "left",
-          "content": [
-            {
-              "type": "text",
-              "text": "Hallo!"
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "@alinea": {
-    "entryId": "2bjkcdmzSnhleWThH1cPgaPZTkS",
-    "type": "FlowPageSchema",
-    "index": "a0"
-  }
+  "slug": "vorabcheck"
 }

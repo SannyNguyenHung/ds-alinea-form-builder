@@ -9,7 +9,8 @@ import { BannerBlock } from "./blocks/banner";
 import { FooterBlock } from "./blocks/footer";
 import { PageHeaderBlock } from "./blocks/pageHeader";
 import { RiPagesLine } from "react-icons/ri";
-import { MapBlock, Meta } from "./contentBlockMap";
+import { MapBlock } from "./contentBlockMap";
+import { Meta } from "./meta";
 
 export const PageSchema = Config.type("📃 Page", {
   contains: ["PageSchema", "FlowPageSchema", "FormPageSchema"],

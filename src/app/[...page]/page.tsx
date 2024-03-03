@@ -1,5 +1,5 @@
 import { cms, getPage } from "@/cms";
-import { Meta } from "@/components/contentBlockMap";
+import { Meta } from "@/components/meta";
 import { Page, PageBlocks, PageSchema } from "@/components/page";
 import { Query } from "alinea";
 import { Metadata } from "next";

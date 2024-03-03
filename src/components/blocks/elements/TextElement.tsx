@@ -4,7 +4,7 @@ export const TextElementSchema = Config.type("🔤 Text", {
   fields: {
     look: Field.select("Look", {
       options: {
-        default: "Default",
+        "default": "Default",
         "ds-heading-01-reg": "Heading 1",
         "ds-heading-02-reg": "Heading 2",
         "ds-heading-03-reg": "Heading 3",

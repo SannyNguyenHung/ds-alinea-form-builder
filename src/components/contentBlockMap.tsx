@@ -7,13 +7,8 @@ import { Hero } from "./blocks/hero";
 import { LogoBanner } from "./blocks/logoBanner";
 import { PageHeader } from "./blocks/pageHeader";
 import { Input } from "./blocks/inputBlock";
+import { Meta } from "./meta";
 
-export type Meta = {
-  type: "Page" | "FlowPage" | "FormPage";
-  slug: string;
-  index?: string;
-  context?: any;
-};
 
 // Refactor this to use a map
 export function MapBlock({ block, meta }: { block: any; meta: Meta }) {

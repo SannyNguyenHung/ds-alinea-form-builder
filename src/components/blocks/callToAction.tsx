@@ -6,7 +6,7 @@ import {
   RichTextBoxExtension,
 } from "./elements/richTextContent";
 import { BlockBackgroundColors } from "./elements/colors";
-import { Meta } from "../contentBlockMap";
+import { Meta } from "../meta";
 
 export const CallToActionBlock = Config.type("💥 Call to action", {
   fields: {

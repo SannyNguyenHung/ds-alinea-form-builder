@@ -1,7 +1,7 @@
 import { Config, Field, Infer } from "alinea";
 import { BasicBlock, Block } from "./block";
 import { BlockBackgroundColors } from "./elements/colors";
-import { Meta } from "../contentBlockMap";
+import { Meta } from "../meta";
 
 export const PageHeaderBlock = Config.type("🏁 Page Header", {
   fields: {

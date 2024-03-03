@@ -5,7 +5,7 @@ import {
   RichTextBox,
   RichTextBoxExtension,
 } from "./elements/richTextContent";
-import { Meta } from "../contentBlockMap";
+import { Meta } from "../meta";
 
 export const HeaderBlock = Config.type("🤠 Header", {
   fields: {

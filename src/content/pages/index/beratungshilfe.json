@@ -1,68 +1,68 @@
 {
+  "_id": "2bBwAne20pBUs4CCu67ld41b7Fl",
+  "_type": "PageSchema",
+  "_index": "Zv",
+  "_i18nId": "2bBwAne20pBUs4CCu67ld41b7Fl",
   "title": "Beratungshilfe",
   "slug": "beratungshilfe",
   "blocks": [
     {
-      "id": "2bBwCMFvQDH7nYzgvww3rMw7ZfN",
-      "index": "a0",
-      "type": "PageHeader",
+      "_id": "2bBwCMFvQDH7nYzgvww3rMw7ZfN",
+      "_index": "a0",
+      "_type": "PageHeader",
       "title": "Beratungs­hilfe"
     },
     {
-      "id": "2bBwDLVdO5VeFdn1sPonHXerbU4",
-      "index": "a1",
-      "type": "Text",
+      "_id": "2bBwDLVdO5VeFdn1sPonHXerbU4",
+      "_index": "a1",
+      "_type": "Text",
       "background": "bg-blue-100",
       "content": [
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Wenn Sie wenig Geld haben, kann der Staat die Kosten für eine Beratung bei eine:r Anwält:in Ihrer Wahl übernehmen."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Inhalt",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             }
           ]
         },
         {
-          "type": "bulletList",
+          "_type": "bulletList",
           "content": [
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "So funktioniert Beratungshilfe",
                       "marks": [
                         {
-                          "type": "link",
-                          "attrs": {
-                            "data-id": "2bBwKrH08Cnxh9Ra4U9Tdrp3k0U",
-                            "data-entry": null,
-                            "data-type": "url",
-                            "href": "#so-funktioniert-beratungshilfe",
-                            "target": "_self",
-                            "title": null
-                          }
+                          "_type": "link",
+                          "_id": "2bBwKrH08Cnxh9Ra4U9Tdrp3k0U",
+                          "_link": "url",
+                          "href": "#so-funktioniert-beratungshilfe",
+                          "target": "_self"
                         }
                       ]
                     }
@@ -71,26 +71,22 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Voraussetzungen im Vorab-Check prüfen",
                       "marks": [
                         {
-                          "type": "link",
-                          "attrs": {
-                            "data-id": "2bBwNYJ6xWi2oS7sjzggRsn5oHx",
-                            "data-entry": null,
-                            "data-type": "url",
-                            "href": "#vorabcheck",
-                            "target": "_self",
-                            "title": null
-                          }
+                          "_type": "link",
+                          "_id": "2bBwNYJ6xWi2oS7sjzggRsn5oHx",
+                          "_link": "url",
+                          "href": "#vorabcheck",
+                          "target": "_self"
                         }
                       ]
                     }
@@ -99,26 +95,22 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Andere Beratungsmöglichkeiten",
                       "marks": [
                         {
-                          "type": "link",
-                          "attrs": {
-                            "data-id": "2bBwOo88x34GTDcupFDG7WUtC93",
-                            "data-entry": null,
-                            "data-type": "url",
-                            "href": "#alternativen",
-                            "target": "_self",
-                            "title": null
-                          }
+                          "_type": "link",
+                          "_id": "2bBwOo88x34GTDcupFDG7WUtC93",
+                          "_link": "url",
+                          "href": "#alternativen",
+                          "target": "_self"
                         }
                       ]
                     }
@@ -131,17 +123,17 @@
       ]
     },
     {
-      "id": "2bBwUrlegBpu1GRcc7umxKkgxzR",
-      "index": "a2",
-      "type": "Banner",
+      "_id": "2bBwUrlegBpu1GRcc7umxKkgxzR",
+      "_index": "a2",
+      "_type": "Banner",
       "background": "bg-yellow-300",
       "content": [
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Diese Seite ist im Aufbau. Ein Online-Antrag ist derzeit noch nicht möglich, aber wir arbeiten daran."
             }
           ]
@@ -149,54 +141,53 @@
       ]
     },
     {
-      "id": "2bBwWhZIC38awfbAywNZEUcSsQT",
-      "index": "a3",
-      "type": "Text",
+      "_id": "2bBwWhZIC38awfbAywNZEUcSsQT",
+      "_index": "a3",
+      "_type": "Text",
       "content": [
         {
-          "type": "heading",
+          "_type": "heading",
           "textAlign": "start",
           "level": 2,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "So funktioniert Beratungshilfe"
             }
           ]
         },
         {
-          "type": "heading",
-          "textAlign": "left",
+          "_type": "heading",
           "level": 2,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Antragstellung"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Den Antrag können Sie mündlich im Amtsgericht, per Post, oder über Ihre:n Anwält:in stellen."
             }
           ]
         },
         {
-          "type": "bulletList",
+          "_type": "bulletList",
           "content": [
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Sie müssen den Antrag beim richtigen Amtsgericht stellen."
                     }
                   ]
@@ -204,14 +195,14 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "An vielen Amtsgerichten brauchen Sie für den mündlichen Antrag einen Termin."
                     }
                   ]
@@ -219,14 +210,14 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Eine digitale Antragstellung ist derzeit noch nicht möglich."
                     }
                   ]
@@ -236,71 +227,64 @@
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Informationen zur Antragstellung",
               "marks": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "https://service.justiz.de/beratungshilfe/antragstellung",
-                    "title": null
-                  }
+                  "_type": "link",
+                  "href": "https://service.justiz.de/beratungshilfe/antragstellung"
                 }
               ]
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "horizontalRule"
+          "_type": "horizontalRule"
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "heading",
-          "textAlign": "left",
+          "_type": "heading",
           "level": 2,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Prüfung im Amtsgericht"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Ein:e Mitarbeiter:in überprüft Ihren Anspruch. Wenn Sie berechtigt sind, bekommen Sie einen Beratungshilfeschein."
             }
           ]
         },
         {
-          "type": "bulletList",
+          "_type": "bulletList",
           "content": [
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Im Falle der Beantragung vor Ort kann das sofort passieren"
                     }
                   ]
@@ -308,14 +292,14 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Der Antrag per Post benötigt ein paar Tage Bearbeitungszeit."
                     }
                   ]
@@ -325,49 +309,48 @@
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "horizontalRule"
+          "_type": "horizontalRule"
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "heading",
-          "textAlign": "left",
+          "_type": "heading",
           "level": 2,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Anwaltssuche"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Sie müssen sich selbst eine:n Anwältin suchen."
             }
           ]
         },
         {
-          "type": "bulletList",
+          "_type": "bulletList",
           "content": [
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Alle Anwält:innen sind verpflichtet, Beratungshilfe zu gewähren."
                     }
                   ]
@@ -375,14 +358,14 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Je nach Fall kann es schwierig sein, passende Fachanwält:innen zu finden."
                     }
                   ]
@@ -392,71 +375,64 @@
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Informationen zur Anwaltssuche",
               "marks": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "https://service.justiz.de/beratungshilfe/anwaltssuche",
-                    "title": null
-                  }
+                  "_type": "link",
+                  "href": "https://service.justiz.de/beratungshilfe/anwaltssuche"
                 }
               ]
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "horizontalRule"
+          "_type": "horizontalRule"
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "heading",
-          "textAlign": "left",
+          "_type": "heading",
           "level": 2,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Beratung"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Die Beratung kann verschiedene Tätigkeiten beinhalten"
             }
           ]
         },
         {
-          "type": "bulletList",
+          "_type": "bulletList",
           "content": [
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Die Beratung kostet 15€, einige Anwält:innen erlassen aber diese Gebühr."
                     }
                   ]
@@ -464,14 +440,14 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Der Anwalt oder die Anwältin kann auch für Sie aktiv werden und z.B. Schreiben aufsetzen. Die Entscheidung darüber liegt bei den Anwält:innen selbst."
                     }
                   ]
@@ -479,14 +455,14 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Wenn nötig, können mit demselben Beratungshilfeschein mehrere Gespräche erfolgen."
                     }
                   ]
@@ -494,14 +470,14 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Beratungshilfe deckt die „außergerichtliche Vertretung“ ab. Falls es zu einem Verfahren kommt, gibt es die Prozesskostenhilfe."
                     }
                   ]
@@ -511,22 +487,16 @@
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Informationen zur Beratung",
               "marks": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "https://service.justiz.de/beratungshilfe/beratung",
-                    "title": null
-                  }
+                  "_type": "link",
+                  "href": "https://service.justiz.de/beratungshilfe/beratung"
                 }
               ]
             }
@@ -535,53 +505,53 @@
       ]
     },
     {
-      "id": "2bBwfW6ZlAc4KAeSKXkiP0c2B81",
-      "index": "a4",
-      "type": "CallToAction",
+      "_id": "2bBwfW6ZlAc4KAeSKXkiP0c2B81",
+      "_index": "a4",
+      "_type": "CallToAction",
       "actionBackground": "bg-blue-100",
       "content": [
         {
-          "type": "heading",
+          "_type": "heading",
           "textAlign": "start",
           "level": 2,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Voraussetzungen im Vorab-Check prüfen"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Die Voraussetzungen, um Beratungshilfe zu erhalten:"
             }
           ]
         },
         {
-          "type": "bulletList",
+          "_type": "bulletList",
           "content": [
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Bedürftigkeit",
                       "marks": [
                         {
-                          "type": "bold"
+                          "_type": "bold"
                         }
                       ]
                     },
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": ": Sie haben ein geringes Einkommen und wenig Ersparnisse oder Vermögen."
                     }
                   ]
@@ -589,23 +559,23 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Notwendigkeit",
                       "marks": [
                         {
-                          "type": "bold"
+                          "_type": "bold"
                         }
                       ]
                     },
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": ": Es ist ein juristisches Problem, bei dem nur eine:n Anwält:in helfen kann. Sie haben es versucht, aber können das Problem nicht anders lösen. Eine Person mit mehr Geld würde in der Angelegenheit selbst eine Beratung bezahlen."
                     }
                   ]
@@ -613,23 +583,23 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Alternativen geprüft",
                       "marks": [
                         {
-                          "type": "bold"
+                          "_type": "bold"
                         }
                       ]
                     },
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": ": Sie haben keine Rechtsschutzversicherung, die das Problem abdeckt. Sie haben versucht, eine andere Beratung zu finden (z.B. Jugendamt, Schuldnerberatung, Mieterverein, Studierendenwerk, Gewerkschaft)."
                     }
                   ]
@@ -637,23 +607,23 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Rechtlicher Status",
                       "marks": [
                         {
-                          "type": "bold"
+                          "_type": "bold"
                         }
                       ]
                     },
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": ": In dieser Angelegenheit haben Sie noch keine Beratungshilfe beantragt."
                     }
                   ]
@@ -663,19 +633,15 @@
           ]
         },
         {
-          "id": "2bBwgv9itrT2tqHpDylW1T5aBbj",
-          "type": "Button",
+          "_type": "Button",
+          "_id": "2bBwgv9itrT2tqHpDylW1T5aBbj",
           "items": [
             {
-              "id": "2d16Y4THvLclXBQQVY1ZYcKXhPB",
-              "index": "a0",
-              "type": "Button",
+              "_id": "2d16Y4THvLclXBQQVY1ZYcKXhPB",
+              "_index": "a0",
+              "_type": "Button",
               "text": "Vorab-Check starten",
-              "href": {
-                "id": "2d16bCKX2ohtlpHhuDo8uwcdypq",
-                "type": "entry",
-                "entry": "2bjnh4jMpRouBe4kmbQA7Nyb7qf"
-              },
+              "link": {},
               "apiFunction": "",
               "size": "ds-button-large"
             }
@@ -684,170 +650,149 @@
       ]
     },
     {
-      "id": "2bBwvNvSq67tftZfTDR5cpzLYeK",
-      "index": "a5",
-      "type": "Text",
+      "_id": "2bBwvNvSq67tftZfTDR5cpzLYeK",
+      "_index": "a5",
+      "_type": "Text",
       "content": [
         {
-          "type": "heading",
+          "_type": "heading",
           "textAlign": "start",
           "level": 2,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Andere Beratungsmöglichkeiten"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Neben der Beratungshilfe gibt es bei Rechtsproblemen andere Möglichkeiten für Menschen mit wenig Geld."
             }
           ]
         },
         {
-          "type": "heading",
-          "textAlign": "left",
+          "_type": "heading",
           "level": 4,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Kostengünstige Beratungsstellen",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Kostenlose oder günstige Rechtsberatungen werden von verschiedenen Organisationen angeboten."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Kostengünstige Beratungsstellen",
               "marks": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "https://service.justiz.de/beratungshilfe/kostenguenstigeBeratungsstellen",
-                    "title": null
-                  }
+                  "_type": "link",
+                  "href": "https://service.justiz.de/beratungshilfe/kostenguenstigeBeratungsstellen"
                 }
               ]
             }
           ]
         },
         {
-          "type": "heading",
-          "textAlign": "left",
+          "_type": "heading",
           "level": 4,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Prozesskostenhilfe",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Wenn in Ihrem Fall bereits ein Verfahren läuft, oder Sie eine Klage einreichen wollen, gibt es Prozesskostenhilfe."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Prozesskostenhilfe",
               "marks": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "https://service.justiz.de/beratungshilfe/prozesskostenhilfe",
-                    "title": null
-                  }
+                  "_type": "link",
+                  "href": "https://service.justiz.de/beratungshilfe/prozesskostenhilfe"
                 }
               ]
             }
           ]
         },
         {
-          "type": "heading",
-          "textAlign": "left",
+          "_type": "heading",
           "level": 4,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Ausnahmen in Hamburg und Bremen",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "In Hamburg und Bremen wird statt der Beratungshilfe die öffentliche Rechtsberatung durch Anwält:innen angeboten."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Die öffentlichen Rechtsberatungen in Hamburg und Bremen",
               "marks": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "https://service.justiz.de/beratungshilfe/oera",
-                    "title": null
-                  }
+                  "_type": "link",
+                  "href": "https://service.justiz.de/beratungshilfe/oera"
                 }
               ]
             }
@@ -856,49 +801,43 @@
       ]
     },
     {
-      "id": "2bBx1HMWUYAWVgnuHoA7ZZAkcCz",
-      "index": "a6",
-      "type": "Text",
+      "_id": "2bBx1HMWUYAWVgnuHoA7ZZAkcCz",
+      "_index": "a6",
+      "_type": "Text",
       "background": "bg-blue-100",
       "content": [
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Weitere Informationen",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             }
           ]
         },
         {
-          "type": "bulletList",
+          "_type": "bulletList",
           "content": [
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Zuständiges Amtsgericht",
                       "marks": [
                         {
-                          "type": "link",
-                          "attrs": {
-                            "data-id": null,
-                            "data-entry": null,
-                            "data-type": null,
-                            "href": "https://service.justiz.de/beratungshilfe/zustaendiges-gericht/suche?returnToHere=1",
-                            "title": null
-                          }
+                          "_type": "link",
+                          "href": "https://service.justiz.de/beratungshilfe/zustaendiges-gericht/suche?returnToHere=1"
                         }
                       ]
                     }
@@ -907,25 +846,19 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Benötigte Dokumente",
                       "marks": [
                         {
-                          "type": "link",
-                          "attrs": {
-                            "data-id": null,
-                            "data-entry": null,
-                            "data-type": null,
-                            "href": "https://service.justiz.de/beratungshilfe/antragstellung/dokumente",
-                            "title": null
-                          }
+                          "_type": "link",
+                          "href": "https://service.justiz.de/beratungshilfe/antragstellung/dokumente"
                         }
                       ]
                     }
@@ -939,10 +872,5 @@
     }
   ],
   "header": [],
-  "footer": [],
-  "@alinea": {
-    "entryId": "2bBwAne20pBUs4CCu67ld41b7Fl",
-    "type": "PageSchema",
-    "index": "Zv"
-  }
+  "footer": []
 }

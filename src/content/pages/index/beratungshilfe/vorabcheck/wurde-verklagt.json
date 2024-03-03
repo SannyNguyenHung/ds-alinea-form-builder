@@ -1,25 +1,29 @@
 {
+  "_id": "2bshF9uQbUxXEpGZZW4ng2mZuka",
+  "_type": "FormPageSchema",
+  "_index": "Zz",
+  "_i18nId": "2bshF9uQbUxXEpGZZW4ng2mZuka",
   "title": "Verklagt",
   "slug": "wurde-verklagt",
   "blocks": [
     {
-      "id": "2buEBPdmJfLVWsYsnnHdxcQZQ4W",
-      "index": "a0",
-      "type": "Text",
+      "_id": "2buEBPdmJfLVWsYsnnHdxcQZQ4W",
+      "_index": "a0",
+      "_type": "Text",
       "content": [
         {
-          "id": "2c9ajxsrv730vhG0OikqKTir4SM",
-          "type": "Text",
+          "_type": "Text",
+          "_id": "2c9ajxsrv730vhG0OikqKTir4SM",
           "look": "ds-heading-02-reg",
           "text": "Läuft in dieser Sache ein Gerichtsverfahren gegen Sie?",
           "tag": "h1"
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Wurden Sie beispielsweise verklagt, oder sind Sie in einem Scheidungsverfahren? Klagen werden üblicherweise in gelben Umschlägen verschickt. Sie werden immer von einem Gericht abgesendet. Sie enthalten ein „Aktenzeichen“ mit Zahlen und Buchstaben (zum Beispiel: 1 F 1/23)."
             }
           ]
@@ -27,30 +31,21 @@
       ]
     },
     {
-      "id": "2c9anFy1kUjRyUtGmb8vTT31C3b",
-      "index": "a1",
-      "type": "Input",
+      "_id": "2c9anFy1kUjRyUtGmb8vTT31C3b",
+      "_index": "a1",
+      "_type": "Input",
       "content": [
         {
-          "id": "2c9anpkiu7WVwLOgb9UHndw5c75",
-          "type": "Radio",
-          "name": "Ja",
-          "text": "Ja",
-          "group": ""
+          "_type": "Radio",
+          "_id": "2c9anpkiu7WVwLOgb9UHndw5c75",
+          "text": "Ja"
         },
         {
-          "id": "2c9asNGgapLETRhAmn7CXZz2XK0",
-          "type": "Radio",
-          "name": "Nein",
-          "text": "Nein",
-          "group": ""
+          "_type": "Radio",
+          "_id": "2c9asNGgapLETRhAmn7CXZz2XK0",
+          "text": "Nein"
         }
       ]
     }
-  ],
-  "@alinea": {
-    "entryId": "2bshF9uQbUxXEpGZZW4ng2mZuka",
-    "type": "FormPageSchema",
-    "index": "Zz"
-  }
+  ]
 }

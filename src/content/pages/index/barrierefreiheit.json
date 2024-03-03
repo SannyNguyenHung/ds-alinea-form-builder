@@ -1,154 +1,144 @@
 {
+  "_id": "2bBvc120X0MfHh3mlbK1OhP0bJn",
+  "_type": "PageSchema",
+  "_index": "Zw",
+  "_i18nId": "2bBvc120X0MfHh3mlbK1OhP0bJn",
   "title": "Barrierefreiheit",
   "slug": "barrierefreiheit",
   "blocks": [
     {
-      "id": "2bBvf611gI7vfudjVN0DgANf10b",
-      "index": "a0",
-      "type": "PageHeader",
+      "_id": "2bBvf611gI7vfudjVN0DgANf10b",
+      "_index": "a0",
+      "_type": "PageHeader",
       "title": "Erklärung zur Barrierefreiheit"
     },
     {
-      "id": "2bBvh8BRBOGGbbHSD8KH58lIhq9",
-      "index": "a1",
-      "type": "Text",
+      "_id": "2bBvh8BRBOGGbbHSD8KH58lIhq9",
+      "_index": "a1",
+      "_type": "Text",
       "content": [
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Diese Erklärung zur Barrierefreiheit gilt für die unter service.justiz.de veröffentlichte Website des Bundesministeriums der Justiz."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Als öffentliche Stelle im Sinne der Richtlinie (EU) 2016/2102 sind wir bemüht, unsere Websites und mobilen Anwendungen im Einklang mit den Bestimmungen des Behindertengleichstellungsgesetz "
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "(BGG)",
               "marks": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "https://www.gesetze-im-internet.de/bgg/BJNR146800002.html",
-                    "target": "_blank",
-                    "title": null
-                  }
+                  "_type": "link",
+                  "href": "https://www.gesetze-im-internet.de/bgg/BJNR146800002.html",
+                  "target": "_blank"
                 }
               ]
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": " und der Barrierefreie-Informationstechnik-Verordnung "
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "(BITV 2.0)",
               "marks": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "https://www.gesetze-im-internet.de/bitv_2_0/",
-                    "target": "_blank",
-                    "title": null
-                  }
+                  "_type": "link",
+                  "href": "https://www.gesetze-im-internet.de/bitv_2_0/",
+                  "target": "_blank"
                 }
               ]
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": " zur Umsetzung der Richtlinie (EU) 2016/2102 barrierefrei zugänglich zu machen."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "horizontalRule"
+          "_type": "horizontalRule"
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "heading",
-          "textAlign": "left",
+          "_type": "heading",
           "level": 2,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Wie barrierefrei ist das Angebot?"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Das Angebot ist weitgehend barrierefrei, basierend auf internen Tests. Es wurden verschiedene Maßnahmen ergriffen, um sicherzustellen, dass das Produkt benutzerfreundlich und zugänglich ist."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Im Sinne der agilen Produktentwicklung wird die Webseite kontinuierlich auf der Basis neuer Rechercheergebnisse und der Rückmeldung der Nutzer:innen weiterentwickelt."
             }
           ]
         },
         {
-          "type": "heading",
-          "textAlign": "left",
+          "_type": "heading",
           "level": 2,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Welche Bereiche sind nicht barrierefrei?"
             }
           ]
         },
         {
-          "type": "bulletList",
+          "_type": "bulletList",
           "content": [
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "PDF’s und andere Dateien:",
                       "marks": [
                         {
-                          "type": "bold"
+                          "_type": "bold"
                         }
                       ]
                     },
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": " PDFs können nicht barrierefrei angeboten werden, da sie bestimmte Merkmale und Funktionen enthalten, die von Text-zu-Sprache-Softwares oder Screenreadern nicht immer korrekt interpretiert werden können. Diese Hilfsmittel sind jedoch essentiell für Menschen mit Sehbehinderungen oder Lesestörungen, um digitale Inhalte zugänglich zu machen. PDFs sind oft als reines Bildformat oder als eingescannte Dokumente eingebettet, was bedeutet, dass der darin enthaltene Text nicht selektierbar oder bearbeitbar ist. Das erschwert die automatische Umwandlung in maschinenlesbaren Text und beeinträchtigt die Barrierefreiheit. Darüber hinaus könnten PDFs Schriftarten, Farbkombinationen oder Schriftgrößen verwenden, die für Menschen mit Sehbehinderungen schwer lesbar sind. Interaktive Elemente wie Formulare oder Hyperlinks müssen auch speziell für die Barrierefreiheit optimiert sein, um von Assistenz Technologien erkannt und bedient werden zu können, was in PDFs oft eine Herausforderung darstellt."
                     }
                   ]
@@ -156,23 +146,23 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Externe Links:",
                       "marks": [
                         {
-                          "type": "bold"
+                          "_type": "bold"
                         }
                       ]
                     },
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": " Externe Links können nicht immer barrierefrei angeboten werden, da sie auf Inhalte oder Ressourcen außerhalb des aktuellen Angebots verweisen, auf die wir keinen direkten Einfluss haben."
                     }
                   ]
@@ -182,229 +172,208 @@
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "horizontalRule"
+          "_type": "horizontalRule"
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "heading",
-          "textAlign": "left",
+          "_type": "heading",
           "level": 2,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Möchten Sie Barrieren melden (Feedback-Möglichkeit)?"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Sie möchten uns bestehende Barrieren melden oder Informationen zur Umsetzung der Barrierefreiheit erfragen? Bitte wenden Sie sich an die folgende Mailadresse: "
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "rastdigital@digitalservice.bund.de",
               "marks": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "mailto:rastdigital@digitalservice.bund.de",
-                    "title": null
-                  }
+                  "_type": "link",
+                  "href": "mailto:rastdigital@digitalservice.bund.de"
                 }
               ]
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "horizontalRule"
+          "_type": "horizontalRule"
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "heading",
-          "textAlign": "left",
+          "_type": "heading",
           "level": 2,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Datum der Erstellung bzw. der letzten Aktualisierung der Erklärung"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Diese Erklärung wurde am 23.08.2023 erstellt."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "horizontalRule"
+          "_type": "horizontalRule"
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "heading",
-          "textAlign": "left",
+          "_type": "heading",
           "level": 2,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Schlichtungsverfahren"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Beim Beauftragten der Bundesregierung für die Belange von Menschen mit Behinderungen gibt es eine Schlichtungsstelle gemäß § 16 BGG. Die Schlichtungsstelle hat die Aufgabe, Konflikte zwischen Menschen mit Behinderungen und öffentlichen Stellen des Bundes zu lösen."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Sie können die Schlichtungsstelle einschalten, wenn Sie mit den Antworten aus der oben genannten Kontaktmöglichkeit nicht zufrieden sind. Dabei geht es nicht darum, Gewinner oder Verlierer zu finden. Vielmehr ist es das Ziel, mit Hilfe der Schlichtungsstelle gemeinsam und außergerichtlich eine Lösung für ein Problem zu finden. Das Schlichtungsverfahren ist kostenlos. Sie brauchen auch keinen Rechtsbeistand."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Auf der Internetseite der Schlichtungsstelle finden Sie alle Informationen zum Schlichtungsverfahren. Dort können Sie nachlesen, wie ein Schlichtungsverfahren abläuft und wie Sie den Antrag auf Schlichtung stellen. Sie können den Antrag auch in leichter Sprache oder in deutscher Gebärdensprache stellen."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Sie erreichen die Schlichtungsstelle unter folgender Adresse:"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Schlichtungsstelle nach dem Behindertengleichstellungsgesetz bei dem Beauftragten der Bundesregierung für die Belange von Menschen mit Behinderungen",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "Mauerstraße 53"
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "10117 Berlin"
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "Telefon: 030 18 527 2805"
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "E-Mail: "
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "info@schlichtungsstelle-bgg.de",
               "marks": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "mailto:info@schlichtungsstelle-bgg.de",
-                    "title": null
-                  }
+                  "_type": "link",
+                  "href": "mailto:info@schlichtungsstelle-bgg.de"
                 }
               ]
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "Internet: "
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "www.schlichtungsstelle-bgg.de",
               "marks": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "https://www.schlichtungsstelle-bgg.de/",
-                    "target": "_blank",
-                    "title": null
-                  }
+                  "_type": "link",
+                  "href": "https://www.schlichtungsstelle-bgg.de/",
+                  "target": "_blank"
                 }
               ]
             }
@@ -414,10 +383,5 @@
     }
   ],
   "header": [],
-  "footer": [],
-  "@alinea": {
-    "entryId": "2bBvc120X0MfHh3mlbK1OhP0bJn",
-    "type": "PageSchema",
-    "index": "Zw"
-  }
+  "footer": []
 }

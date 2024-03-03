@@ -1,7 +1,7 @@
 import { Field, Config, Infer } from "alinea";
 import { ReactNode } from "react";
 import { BlockBackgroundColors } from "./elements/colors";
-import { Meta } from "../contentBlockMap";
+import { Meta } from "../meta";
 
 export function Block({
   block,

@@ -6,6 +6,10 @@ import { v4 as uuidv4 } from "uuid";
 import { BranchedStep, Step } from "sequential-workflow-designer";
 
 export async function getFlowDefinition(page: string[] | undefined) {
+  if (page === undefined) {
+    return { flow: { properties: {}, sequence: [] }, children: [] };
+  }
+
   const children = await getFlowPageChildren(page ?? []);
   const flowPath = page?.join("/") ?? "";
   const flowFolder = `${process.env.PWD}/src/content/flow/${flowPath}`;

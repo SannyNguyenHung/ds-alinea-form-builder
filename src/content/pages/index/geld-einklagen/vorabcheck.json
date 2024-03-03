@@ -1,9 +1,9 @@
 {
+  "_id": "2bjlxXTqJughaoh3NKQvGg44MiZ",
+  "_type": "FlowPageSchema",
+  "_index": "a0",
+  "_i18nId": "2bjlxXTqJughaoh3NKQvGg44MiZ",
+  "_root": "pages",
   "title": "Vorabcheck",
-  "slug": "vorabcheck",
-  "@alinea": {
-    "entryId": "2bjlxXTqJughaoh3NKQvGg44MiZ",
-    "type": "FlowPageSchema",
-    "index": "a0"
-  }
+  "slug": "vorabcheck"
 }

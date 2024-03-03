@@ -1,0 +1,34 @@
+{
+  "_id": "2dBdLn1lG1ghnE6lHy65NrUuw9U",
+  "_type": "FormPageSchema",
+  "_index": "Zw",
+  "_i18nId": "2dBdLn1lG1ghnE6lHy65NrUuw9U",
+  "title": "klage-eingereicht",
+  "slug": "klage-eingereicht",
+  "blocks": [
+    {
+      "_id": "2dBdNHmMTHJchAyCqh0K3FIfz38",
+      "_index": "a0",
+      "_type": "Text",
+      "content": [
+        {
+          "_type": "paragraph",
+          "textAlign": "left",
+          "content": [
+            {
+              "_type": "text",
+              "text": "asdfa"
+            }
+          ]
+        },
+        {
+          "_type": "Text",
+          "_id": "2bvG0gbzDykP5bS3vOSqOHa9aYQ",
+          "look": "ds-heading-02-reg",
+          "text": "Haben sie eine Kreditkarte?",
+          "tag": "h1"
+        }
+      ]
+    }
+  ]
+}

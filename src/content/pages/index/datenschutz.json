@@ -1,475 +1,458 @@
 {
+  "_id": "2bBsc8MRbAvnG7uGQ24X1CFDjL1",
+  "_type": "PageSchema",
+  "_index": "Zy",
+  "_i18nId": "2bBsc8MRbAvnG7uGQ24X1CFDjL1",
   "title": "Datenschutzbestimmung",
   "slug": "datenschutz",
   "blocks": [
     {
-      "id": "2bBse0UsmDTv78OJWb2VlEjRVmN",
-      "index": "a0",
-      "type": "PageHeader",
+      "_id": "2bBse0UsmDTv78OJWb2VlEjRVmN",
+      "_index": "a0",
+      "_type": "PageHeader",
       "title": "Datenschutzbestimmung"
     },
     {
-      "id": "2bBsq5iddAGwwz0OAm5qVElUtuR",
-      "index": "a1",
-      "type": "Text",
+      "_id": "2bBsq5iddAGwwz0OAm5qVElUtuR",
+      "_index": "a1",
+      "_type": "Text",
       "content": [
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Zuletzt aktualisiert: 19.12.2023"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Mit dem Online-Dienst Justiz-Services möchten wir es Ihnen, als rechtssuchende Person, einfacher machen Justizverwaltungsdienstleistungen zu beantragen."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Im Folgenden informieren wir Sie darüber, welche personenbezogenen Daten wir erheben, bei wem wir sie erheben und wozu Ihre Daten verarbeitet werden. Außerdem informieren wir Sie über Ihre Rechte in Datenschutzfragen und an wen Sie sich diesbezüglich wenden können."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Der Online-Dienst Justiz-Services wird im Auftrag des Bundesministeriums für Justiz (BMJ) von der DigitalService GmbH des Bundes entwickelt und betrieben. Zweck des Online-Dienstes ist es, Rechtssuchenden leicht verständliche Informationen rund um Anträge zu Justizverwaltungsdienstleistungen anzubieten. Sie finden hier viele leicht verständliche Informationen rund um Justizverwaltungsdienstleistungen. Zusätzlich können Sie in einem sogenannten Vorab-Check mit wenigen Angaben herausfinden, ob Sie eventuell Anspruch auf eine staatliche Leistung haben. Zudem können Sie ganz einfach das für Ihren Fall zuständige Amtsgericht finden."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Für die Umsetzung und Administration für den Online-Dienst Justiz-Service ist der DigitalServcie des Bundes GmbH als Auftragsverarbeiter beauftragt. DigitalService ist eine Bundes GmbH. Die Bundesrepublik Deutschland – vertreten durch das Bundesministerium des Innern und für Heimat – hält 100 Prozent der Anteile der GmbH."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "horizontalRule"
+          "_type": "horizontalRule"
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "heading",
-          "textAlign": "left",
+          "_type": "heading",
           "level": 2,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Wer ist Verantwortlicher?"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Verantwortliche Organisation",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Verantwortlich für die Verarbeitung von personenbezogenen Daten ist das"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Bundesministerium der Justiz"
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "Mohrenstraße 37"
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "10117 Berlin"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Vertreten durch:"
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "Bundesminister der Justiz"
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "E-Mail: "
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "poststelle@bmj.bund.de",
               "marks": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "mailto:poststelle@bmj.bund.de",
-                    "title": null
-                  }
+                  "_type": "link",
+                  "href": "mailto:poststelle@bmj.bund.de"
                 }
               ]
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Datenschutzbeauftragter",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "Fragen in datenschutzrechtlichen Angelegenheiten können Sie an die Datenschutzbeauftragte des BMJ richten. Diese erreichen Sie unter folgender Adresse:"
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "E-Mail: "
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "datenschutz@bmj.bund.de",
               "marks": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "mailto:datenschutz@bmj.bund.de",
-                    "title": null
-                  }
+                  "_type": "link",
+                  "href": "mailto:datenschutz@bmj.bund.de"
                 }
               ]
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "Telefon: +49 (0) 30 18 580 - 0"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Datenschutzansprechpartner des Auftragsverarbeiters",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "Des Weiteren können Sie datenschutzrechtliche Fragen auch an den Datenschutzbeauftragten des DigitalService richten. Diesen erreichen Sie unter folgender Adresse:"
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "E-Mail: "
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "datenschutz@digitalservice.bund.de",
               "marks": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "mailto:datenschutz@digitalservice.bund.de",
-                    "title": null
-                  }
+                  "_type": "link",
+                  "href": "mailto:datenschutz@digitalservice.bund.de"
                 }
               ]
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "horizontalRule"
+          "_type": "horizontalRule"
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "heading",
-          "textAlign": "left",
+          "_type": "heading",
           "level": 2,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Datenverarbeitungen bei Besuch der Internetseite"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Datenerfassung bei Aufruf der Internetseite",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "Wenn Sie diese Website aufrufen, verarbeiten wir die Daten Ihrer Anfrage, die konkret aufgerufene Seite, Ihre IP-Adresse, Ihren Browser und Browser-Metadaten kurzfristig auf unserem Server, um die Website korrekt auszuliefern."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Die Datenverarbeitung erfolgt auf Grundlage des Art. 6 Abs. 1 UAbs. 1 lit. e) DSGVO in Verbindung mit § 3 E-Government-Gesetz (EGovG) zur bedarfsorientierten Bereitstellung von Informationen zu den Aufgaben des Bundesministeriums der Justiz."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Einsatz von Cookies",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "Für den Betrieb unseres Dienstes setzen wir für die Funktion der Webseite notwendige Cookies. Diese Cookies enthalten keine personenbezogenen Daten. Diese essenziellen Cookies sind für den Betrieb der Website erforderlich und können nicht deaktiviert werden. Sie gewährleisten grundlegende Funktionen wie die Navigation auf der Seite und den Zugriff auf geschützte Bereiche. Dabei werden folgende Cookies gesetzt:"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Sitzungs-Cookie",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "Die maximale Länge einer Sitzung entspricht der vom Browser festgelegten Sitzungs-Länge und maximal 24 Stunden."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Consent-Cookie",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "Dieser Cookie speichert ihre Cookieeinstellungen und damit, ob sie dem Setzen eines Analyse-Cookies zugestimmt haben oder nicht."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Die Datenverarbeitung erfolgt auf Grundlage des § 25 Abs. 2 Nr. 2 TTDSG."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "horizontalRule"
+          "_type": "horizontalRule"
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "heading",
-          "textAlign": "left",
+          "_type": "heading",
           "level": 2,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Webanalyse"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Zur Verbesserung und Analyse des Nutzendenverhaltens setzen wir einen Produkt-Analyse-Tool (posthog.com) ein, das uns anonym erhobene Daten über die Nutzung unserer Website liefert. Dies hilft uns, das Nutzendenverhalten zu verstehen und unsere Inhalte und Dienstleistungen kontinuierlich zu verbessern."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Dafür wird ein Analyse-Cookie gesetzt. Die Verarbeitung erfolgt allerdings nur mit Ihrer Einwilligung. Rechtsgrundlage ist § 25 Abs. 1 TTDSG in Verbindung mit Art. 6 Abs. 1 UAbs. 1 lt. a) DSGVO. Durch die Einwilligung zur Verwendung des Analyse-Cookies helfen Sie uns, die Website für Sie und andere Nutzer:innen noch benutzerfreundlicher zu gestalten. Folgende Daten werden für die Analyse verarbeitet:"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Daten zum Nutzungsverhalten",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             }
           ]
         },
         {
-          "type": "bulletList",
+          "_type": "bulletList",
           "content": [
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Besuchte Seiten"
                     }
                   ]
@@ -477,14 +460,14 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Dauer des Besuchs"
                     }
                   ]
@@ -492,14 +475,14 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Bewegungs-, Klick- und Scrollverhalten"
                     }
                   ]
@@ -509,32 +492,32 @@
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Technische Daten",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             }
           ]
         },
         {
-          "type": "bulletList",
+          "_type": "bulletList",
           "content": [
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Betriebssystem"
                     }
                   ]
@@ -542,14 +525,14 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Browser und Browserversion"
                     }
                   ]
@@ -557,14 +540,14 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Gerätetyp"
                     }
                   ]
@@ -572,14 +555,14 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Bildschirmauflösung"
                     }
                   ]
@@ -589,32 +572,32 @@
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Selbsteingabe Standortdaten",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             }
           ]
         },
         {
-          "type": "bulletList",
+          "_type": "bulletList",
           "content": [
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Postleitzahl"
                     }
                   ]
@@ -624,32 +607,32 @@
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Metadaten",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             }
           ]
         },
         {
-          "type": "bulletList",
+          "_type": "bulletList",
           "content": [
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Zeitpunkt des Besuchs"
                     }
                   ]
@@ -659,32 +642,32 @@
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Verlaufsdaten",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             }
           ]
         },
         {
-          "type": "bulletList",
+          "_type": "bulletList",
           "content": [
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Verweisende Seite (von welcher Seite sind Sie auf diese Seite gekommen)"
                     }
                   ]
@@ -694,191 +677,175 @@
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Der Dienste-Anbieter PostHog erhebt Ihre IP-Adresse und wandelt diese sofort in ein anonymisiertes Format um. Ab diesem Zeitpunkt werden keine personenbezogenen Daten mehr verarbeitet. Aus den anonymisierten Daten können wir Rückschlüsse über das Nutzungsverhalten auf unserer Internetseite ziehen und erhalten Informationen über weitere technische Parameter (z. B. verwendeter Browser und die Version, Bildschirmauflösung des verwendeten Endgeräts, Betriebssystem)."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Posthog: "
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "https://posthog.com/privacy",
               "marks": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "https://posthog.com/privacy",
-                    "target": "_blank",
-                    "title": null
-                  }
+                  "_type": "link",
+                  "href": "https://posthog.com/privacy",
+                  "target": "_blank"
                 }
               ]
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "horizontalRule"
+          "_type": "horizontalRule"
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "heading",
-          "textAlign": "left",
+          "_type": "heading",
           "level": 2,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Anfragen an die angegebene Kontakt-E-Mail-Adresse"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Wir verarbeiten im Zusammenhang mit Anfragen an die durch uns angegebene Kontakt-E-Mail-Adresse "
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "feedback-justiz-services@digitalservice.bund.de",
               "marks": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "mailto:feedback-justiz-services@digitalservice.bund.de",
-                    "title": null
-                  }
+                  "_type": "link",
+                  "href": "mailto:feedback-justiz-services@digitalservice.bund.de"
                 }
               ]
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": " ausschließlich solche Daten, die notwendig sind, um mit Ihnen zu kommunizieren. Hierzu gehören insbesondere jene personenbezogenen Informationen (z. B. Name, Vorname, Anschrift, E-Mail-Adresse usw.), die wir unmittelbar von Ihnen selbst erhalten haben. Die Verarbeitung der Daten ist zur Wahrnehmung unserer Aufgaben erforderlich (Art. 6 Abs. 1 UAbs. 1 lit. e) DSGVO in Verbindung mit § 3 BDSG)."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "horizontalRule"
+          "_type": "horizontalRule"
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "heading",
-          "textAlign": "left",
+          "_type": "heading",
           "level": 2,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Werden personenbezogene Daten an Dritte weitergegeben?"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Personenbezogene Daten werden ausschließlich in Deutschland verarbeitet und nicht an Dritte weitergeleitet."
             }
           ]
         },
         {
-          "type": "heading",
-          "textAlign": "left",
+          "_type": "heading",
           "level": 2,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Wie lange und wo speichern wir Ihre Daten?"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Informationen, die Sie im Rahmen der Nutzung des Online-Dienstes selber eingeben, werden in Ihrem Browser in Form einer eindeutigen ID, die als Sitzungs-Cookie bezeichnet wird, gespeichert. Dieser Sitzungs-Cookie verweist auf einen Datensatz, der auf einer internen, gesicherten Datenbank abgelegt ist. Dort werden temporär Nutzerdaten für die nächsten 24 Stunden aufbewahrt. Nach Beendigung der Benutzersitzung wird der Sitzungs-Cookie entsprechend Ihren Browsereinstellungen gelöscht."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "horizontalRule"
+          "_type": "horizontalRule"
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "heading",
-          "textAlign": "left",
+          "_type": "heading",
           "level": 2,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Maßnahmen zur Einhaltung der Datensicherheit"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Wir ergreifen umfangreiche Maßnahmen, um die Sicherheit Ihrer Daten zu gewährleisten und unbefugten Zugriff zu verhindern. Hier sind einige der Schritte, die wir unternehmen:"
             }
           ]
         },
         {
-          "type": "bulletList",
+          "_type": "bulletList",
           "content": [
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Sicherheit der Übertragung und Speicherung: Die von Ihnen übermittelten Daten werden per HTTPS verschlüsselt an uns übermittelt und auf verschlüsselten Festplatten gespeichert. Dadurch wird sichergestellt, dass Ihre Informationen während der Übertragung und Speicherung geschützt sind."
                     }
                   ]
@@ -886,14 +853,14 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Schutz vor CSRF-Angriffen: Es wurden Schutzmechanismen implementiert, die gegen sogenannte CSRF (Cross-Site Request Forgery)-Angriffe schützen. Dies hilft sicherzustellen, dass nur autorisierte Anfragen von Ihrem Browser an unsere Plattform gesendet werden können."
                     }
                   ]
@@ -901,14 +868,14 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Zugriffskontrollen: Wir verwenden strikte Zugriffskontrollen, um sicherzustellen, dass nur autorisierte Personen Zugriff auf die Systeme und Daten haben. Dies umfasst die Verwendung von sicheren Authentifizierungsmethoden und Berechtigungsverwaltungssystemen."
                     }
                   ]
@@ -916,14 +883,14 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Überwachung und Auditing: Unsere Systeme werden kontinuierlich überwacht, um verdächtige Aktivitäten zu erkennen und zu verhindern. Wir führen auch regelmäßige interne & externe Audits durch, um sicherzustellen, dass alle Sicherheitsvorkehrungen ordnungsgemäß funktionstüchtig sind."
                     }
                   ]
@@ -931,14 +898,14 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Security Headers: Wir verwenden Sicherheitsheader, um zusätzlichen Schutz zu bieten. Diese Header können Sicherheitsrichtlinien für den Browser setzen und helfen, potenzielle Schwachstellen zu minimieren."
                     }
                   ]
@@ -946,14 +913,14 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Schulung der Mitarbeiter: Unsere Mitarbeiter werden regelmäßig zu Datenschutz- und Sicherheitsrichtlinien geschult, um sicherzustellen, dass sie die erforderlichen Maßnahmen ergreifen, um die Vertraulichkeit der Daten zu wahren."
                     }
                   ]
@@ -963,27 +930,27 @@
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Im Rahmen der Verwendung des Dienstes Posthog wurden weitere Maßnahmen zur Sicherheit der personenbezogenen Daten getroffen:"
             }
           ]
         },
         {
-          "type": "bulletList",
+          "_type": "bulletList",
           "content": [
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Speichern der Daten auf Servern in Deutschland"
                     }
                   ]
@@ -991,14 +958,14 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Beschränkte Zugriffsrechte auf die Daten"
                     }
                   ]
@@ -1006,14 +973,14 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Anonymisierung von IP-Adressen"
                     }
                   ]
@@ -1021,14 +988,14 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Wir sammeln nur Datenpunkte, die relevant sind für die weitere Produktentwicklung im Sinne der Nutzerfreundlichkeit und Erweiterung von Funktionen"
                     }
                   ]
@@ -1038,292 +1005,273 @@
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "horizontalRule"
+          "_type": "horizontalRule"
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left"
         },
         {
-          "type": "heading",
-          "textAlign": "left",
+          "_type": "heading",
           "level": 2,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Welche Rechte (Auskunftsrecht, Widerspruchsrecht usw.) haben Sie?"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Sie haben nach der Datenschutz-Grundverordnung verschiedene Rechte. Einzelheiten ergeben sich insbesondere aus Artikel 15 bis 18, 20 und 21 der Datenschutz-Grundverordnung."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Recht auf Auskunft Art. 15 DSGVO",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "Sie können Auskunft über Ihre von uns verarbeiteten personenbezogenen Daten verlangen. In Ihrem Auskunftsantrag sollten Sie Ihr Anliegen präzisieren, um uns das Zusammenstellen der erforderlichen Daten zu erleichtern. Daher sollten in dem Antrag möglichst Angaben zum konkreten Prozessschritt gemacht werden."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Recht auf Berichtigung Art. 16 DSGVO",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "Sollten die Sie betreffenden Angaben nicht (mehr) zutreffend sein, können Sie eine Berichtigung verlangen. Sollten Ihre Daten unvollständig sein, können Sie eine Vervollständigung verlangen."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Recht auf Löschung Art. 17 DSGVO",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "Sie können die Löschung Ihrer personenbezogenen Daten verlangen. Ihr Anspruch auf Löschung hängt u. a. davon ab, ob die Sie betreffenden Daten von uns zur Erfüllung unserer gesetzlichen Aufgaben noch benötigt werden."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Recht auf Einschränkung der Verarbeitung Art. 18 DSGVO",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "Sie haben das Recht, eine Einschränkung der Verarbeitung der Sie betreffenden Daten zu verlangen."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Recht auf Datenübertragbarkeit Art. 20 DSGVO",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "Sie haben das Recht, die Sie betreffenden personenbezogenen Daten, die Sie dem Verantwortlichen bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten. Außerdem haben Sie das Recht, diese Daten einem anderen Verantwortlichen zu übermitteln. Dies gilt jeweils nur, wenn die Verarbeitung auf einer Einwilligung beruht oder die Verarbeitung mittels automatisierter Verfahren erfolgt."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Recht auf Widerspruch Art. 21 DSGVO",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit der Verarbeitung der Sie betreffenden Daten zu widersprechen."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Recht auf Beschwerde Art. 77 DSGVO",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "Wenn Sie der Auffassung sind, dass wir Ihrem Anliegen nicht oder nicht in vollem Umfang nachgekommen sind, können Sie bei dem Bundesbeauftragten für Datenschutz und Informationssicherheit Beschwerde einlegen."
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Bundesbeauftragter für Datenschutz und Informationsfreiheit",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "Graurheindorfer Str. 153 - 53117 Bonn"
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "Telefon: +49 (0)228-997799-0"
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "Fax: +49 (0)228-997799-5550"
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "E-Mail: "
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "poststelle@bfdi.bund.de",
               "marks": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "mailto:poststelle@bfdi.bund.de",
-                    "title": null
-                  }
+                  "_type": "link",
+                  "href": "mailto:poststelle@bfdi.bund.de"
                 }
               ]
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "De-Mail: "
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "poststelle@bfdi.de-mail.de",
               "marks": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "mailto:poststelle@bfdi.de-mail.de",
-                    "title": null
-                  }
+                  "_type": "link",
+                  "href": "mailto:poststelle@bfdi.de-mail.de"
                 }
               ]
             },
             {
-              "type": "hardBreak"
+              "_type": "hardBreak"
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "Online-Beschwerde: "
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "formulare.bfdi.bund.de",
               "marks": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "https://www.bfdi.bund.de/DE/Service/Kontakt/kontakt_node.html",
-                    "target": "_blank",
-                    "title": null
-                  }
+                  "_type": "link",
+                  "href": "https://www.bfdi.bund.de/DE/Service/Kontakt/kontakt_node.html",
+                  "target": "_blank"
                 }
               ]
             }
@@ -1333,10 +1281,5 @@
     }
   ],
   "header": [],
-  "footer": [],
-  "@alinea": {
-    "entryId": "2bBsc8MRbAvnG7uGQ24X1CFDjL1",
-    "type": "PageSchema",
-    "index": "Zy"
-  }
+  "footer": []
 }

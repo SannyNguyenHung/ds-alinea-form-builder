@@ -1,30 +1,34 @@
 {
+  "_id": "2abWtgqlRAWO0v8BZpIcPnENTED",
+  "_type": "PageSchema",
+  "_index": "Zz",
+  "_i18nId": "2abWtgqlRAWO0v8BZpIcPnENTED",
+  "_root": "pages",
   "title": "Justiz-Services",
   "slug": "index",
   "blocks": [
     {
-      "id": "2ai6jZfdINXy1tc0PqLbqLYP5zg",
-      "index": "a0",
-      "type": "Hero",
+      "_type": "Hero",
+      "_id": "2ai6jZfdINXy1tc0PqLbqLYP5zg",
+      "_index": "a0",
       "background": "bg-blue-800",
       "content": [
         {
-          "type": "heading",
-          "textAlign": "left",
+          "_type": "heading",
           "level": 1,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Justiz-Services"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Rechtsinformationen und digitale Anwendungen, die bei der Lösung von Rechtsproblemen helfen"
             }
           ]
@@ -32,17 +36,17 @@
       ]
     },
     {
-      "id": "2amfh9HVodTeoJoarAD3ZBS58Jp",
-      "index": "a1",
-      "type": "Banner",
+      "_type": "Banner",
+      "_id": "2amfh9HVodTeoJoarAD3ZBS58Jp",
+      "_index": "a1",
       "background": "bg-yellow-300",
       "content": [
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Diese Seite befindet sich im Aufbau."
             }
           ]
@@ -50,33 +54,32 @@
       ]
     },
     {
-      "id": "2aio8z8Mg6RQn2IN0OrSdKgn1qx",
-      "index": "a2",
-      "type": "LogoBanner",
+      "_type": "LogoBanner",
+      "_id": "2aio8z8Mg6RQn2IN0OrSdKgn1qx",
+      "_index": "a2",
       "background": "bg-white",
       "content": [
         {
-          "type": "heading",
-          "textAlign": "left",
+          "_type": "heading",
           "level": 2,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Ein Pilotprojekt des Bundesministeriums der Justiz und der Justizministerien der Länder.",
               "marks": [
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "In diesem Projekt geht es darum, den Zugang zum Recht zu verbessern. Beratungshilfe ist der erste Service, weitere Funktionen und Services werden mit der Zeit ergänzt."
             }
           ]
@@ -85,52 +88,52 @@
       "logo": {
         "title": "IM AUFTRAG DES",
         "image": {
-          "id": "2aioAdGWtblbtpuk4hVES88MRsU",
-          "type": "image",
-          "entry": "2aio6gK9Onw5z9W2sRUm277kYig"
+          "_type": "image",
+          "_id": "2aioAdGWtblbtpuk4hVES88MRsU",
+          "_entry": "2aio6gK9Onw5z9W2sRUm277kYig"
         }
       }
     },
     {
-      "id": "2ajvyMraq5cT4K5BvydTvkOcRzH",
-      "index": "a3",
-      "type": "CallToAction",
+      "_type": "CallToAction",
+      "_id": "2ajvyMraq5cT4K5BvydTvkOcRzH",
+      "_index": "a3",
       "background": "bg-white",
       "actionBackground": "bg-blue-100",
       "content": [
         {
-          "type": "heading",
+          "_type": "heading",
           "textAlign": "start",
           "level": 2,
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Beratungshilfe"
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "start",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Wenn Sie wenig Geld haben, kann das Amtsgericht die Kosten für eine Beratung bei einer Anwältin oder einem Anwalt Ihrer Wahl übernehmen."
             }
           ]
         },
         {
-          "type": "bulletList",
+          "_type": "bulletList",
           "content": [
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Überprüfen Sie im Vorab-Check, ob Sie für Beratungshilfe berechtigt sind"
                     }
                   ]
@@ -138,14 +141,14 @@
               ]
             },
             {
-              "type": "listItem",
+              "_type": "listItem",
               "content": [
                 {
-                  "type": "paragraph",
+                  "_type": "paragraph",
                   "textAlign": "left",
                   "content": [
                     {
-                      "type": "text",
+                      "_type": "text",
                       "text": "Erfahren Sie, welche Unterlagen Sie für einen Antrag benötigen"
                     }
                   ]
@@ -155,46 +158,32 @@
           ]
         },
         {
-          "id": "2amZ2uwCrd4XXI0kUqEXSljBpV6",
-          "type": "Button",
-          "text": "Zur Beratungshilfe",
-          "href": {
-            "id": "2bBwn6nKuFE1LSUk86qyzD2NsXw",
-            "type": "entry",
-            "entry": "2bBwAne20pBUs4CCu67ld41b7Fl"
-          },
-          "look": "",
-          "size": "ds-button-large"
+          "_type": "Button",
+          "_id": "2amZ2uwCrd4XXI0kUqEXSljBpV6"
         }
       ]
     },
     {
-      "id": "2ajxnA9ujRKeuiFEwfZ7lANjhGZ",
-      "index": "a4",
-      "type": "Text",
+      "_type": "Text",
+      "_id": "2ajxnA9ujRKeuiFEwfZ7lANjhGZ",
+      "_index": "a4",
       "content": [
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Für Angelegenheiten, für die Sie auf dieser Seite keine Hilfe finden, schauen Sie bitte auf "
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "www.justiz.dewww.justiz.de",
               "marks": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "https://www.justiz.de/",
-                    "target": "_blank",
-                    "title": null
-                  }
+                  "_type": "link",
+                  "href": "https://www.justiz.de/",
+                  "target": "_blank"
                 }
               ]
             }
@@ -205,31 +194,25 @@
   ],
   "header": [
     {
-      "id": "2amjHzE8P8EPnmmqJ8KvF31QUnx",
-      "index": "a0",
-      "type": "Header",
+      "_type": "Header",
+      "_id": "2amjHzE8P8EPnmmqJ8KvF31QUnx",
+      "_index": "a0",
       "background": "bg-white",
       "content": [
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Justiz-Services",
               "marks": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "https://service.justiz.de/",
-                    "title": null
-                  }
+                  "_type": "link",
+                  "href": "https://service.justiz.de/"
                 },
                 {
-                  "type": "bold"
+                  "_type": "bold"
                 }
               ]
             }
@@ -240,44 +223,38 @@
   ],
   "footer": [
     {
-      "id": "2bBv1QPbCM8bdP3H6YRHFcPtlNf",
-      "index": "a0",
-      "type": "Text",
+      "_type": "Text",
+      "_id": "2bBv1QPbCM8bdP3H6YRHFcPtlNf",
+      "_index": "a0",
       "background": "bg-blue-300",
       "content": [
         {
-          "id": "2bBv456lYFVqk4aufl7W7rEhZdl",
-          "type": "Text",
+          "_type": "Text",
+          "_id": "2bBv456lYFVqk4aufl7W7rEhZdl",
           "look": "ds-label-01-bold",
           "text": "Haben Sie Fragen oder Anmerkungen?",
           "tag": "h2"
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Diese Seite ist im Aufbau. Schreiben Sie uns an "
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "feedback-justiz-services@digitalservice.bund.de",
               "marks": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "mailto:feedback-justiz-services@digitalservice.bund.de?subject=Datenschutzbestimmung%20-%20Justiz-Services",
-                    "title": null
-                  }
+                  "_type": "link",
+                  "href": "mailto:feedback-justiz-services@digitalservice.bund.de?subject=Datenschutzbestimmung%20-%20Justiz-Services"
                 }
               ]
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": ", wenn Ihnen etwas fehlt, oder etwas nicht funktioniert. Ihr Feedback trägt dazu bei, Informationen und Gestaltung der Webseite für alle Nutzenden zu verbessern."
             }
           ]
@@ -285,66 +262,54 @@
       ]
     },
     {
-      "id": "2arAOC9YdtuVtTB8IsdglId7Loo",
-      "index": "a1",
-      "type": "Footer",
+      "_type": "Footer",
+      "_id": "2arAOC9YdtuVtTB8IsdglId7Loo",
+      "_index": "a1",
       "logo": {
         "image": {
-          "id": "2b6R03tsimi6BYr03uEYRllhJo0",
-          "type": "image",
-          "entry": "2aio6gK9Onw5z9W2sRUm277kYig"
+          "_type": "image",
+          "_id": "2b6R03tsimi6BYr03uEYRllhJo0",
+          "_entry": "2aio6gK9Onw5z9W2sRUm277kYig"
         }
       },
       "content": [
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Ein Online Dienst der "
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "DigitalService GmbH des Bundes",
               "marks": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "https://digitalservice.bund.de/",
-                    "target": "_blank",
-                    "title": null
-                  }
+                  "_type": "link",
+                  "href": "https://digitalservice.bund.de/",
+                  "target": "_blank"
                 }
               ]
             }
           ]
         },
         {
-          "type": "paragraph",
+          "_type": "paragraph",
           "textAlign": "left",
           "content": [
             {
-              "type": "text",
+              "_type": "text",
               "text": "Im Auftrag des "
             },
             {
-              "type": "text",
+              "_type": "text",
               "text": "Bundesministerium der Justiz",
               "marks": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "data-id": null,
-                    "data-entry": null,
-                    "data-type": null,
-                    "href": "https://www.bmj.de/",
-                    "target": "_blank",
-                    "title": null
-                  }
+                  "_type": "link",
+                  "href": "https://www.bmj.de/",
+                  "target": "_blank"
                 }
               ]
             }
@@ -353,44 +318,38 @@
       ],
       "linkList": [
         {
-          "id": "2bE3SLxK7ZKhf2fagghUxHjqFM3",
-          "index": "a0",
-          "type": "entry",
-          "entry": "2b8gxhNDaofTfSzR0dAeZCR6fp2"
+          "_type": "entry",
+          "_id": "2bE3SLxK7ZKhf2fagghUxHjqFM3",
+          "_index": "a0",
+          "_entry": "2b8gxhNDaofTfSzR0dAeZCR6fp2"
         },
         {
-          "id": "2bE3SODwCibjfccAejU2d0Im4zQ",
-          "index": "a1",
-          "type": "entry",
-          "entry": "2bBsc8MRbAvnG7uGQ24X1CFDjL1"
+          "_type": "entry",
+          "_id": "2bE3SODwCibjfccAejU2d0Im4zQ",
+          "_index": "a1",
+          "_entry": "2bBsc8MRbAvnG7uGQ24X1CFDjL1"
         },
         {
-          "id": "2b6S0A9aGNFvMRTENr2AkBHvBlV",
-          "index": "a2",
-          "type": "url",
-          "url": "/cookie",
-          "title": "Cookie-Einstellungen",
-          "target": "_blank"
+          "_type": "url",
+          "_id": "2b6S0A9aGNFvMRTENr2AkBHvBlV",
+          "_index": "a2",
+          "_url": "/cookie",
+          "_title": "Cookie-Einstellungen",
+          "_target": "_blank"
         },
         {
-          "id": "2bE3SLO7c6dxDNEB1RA7iOhpKHQ",
-          "index": "a3",
-          "type": "entry",
-          "entry": "2bBuhNPvSsELZp61jvL0vZyBHF7"
+          "_type": "entry",
+          "_id": "2bE3SLO7c6dxDNEB1RA7iOhpKHQ",
+          "_index": "a3",
+          "_entry": "2bBuhNPvSsELZp61jvL0vZyBHF7"
         },
         {
-          "id": "2bE3SMpDGwFcWRH33gVAB5mNPli",
-          "index": "a4",
-          "type": "entry",
-          "entry": "2bBvc120X0MfHh3mlbK1OhP0bJn"
+          "_type": "entry",
+          "_id": "2bE3SMpDGwFcWRH33gVAB5mNPli",
+          "_index": "a4",
+          "_entry": "2bBvc120X0MfHh3mlbK1OhP0bJn"
         }
       ]
     }
-  ],
-  "@alinea": {
-    "entryId": "2abWtgqlRAWO0v8BZpIcPnENTED",
-    "type": "PageSchema",
-    "index": "Zz",
-    "root": "pages"
-  }
+  ]
 }

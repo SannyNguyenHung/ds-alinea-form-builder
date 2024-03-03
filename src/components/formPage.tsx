@@ -6,8 +6,9 @@ import { BannerBlock } from "./blocks/banner";
 import { PageHeaderBlock } from "./blocks/pageHeader";
 import { AiOutlineForm } from "react-icons/ai";
 import { Page } from "./page";
-import { MapBlock, Meta } from "./contentBlockMap";
+import { MapBlock } from "./contentBlockMap";
 import { InputBlock } from "./blocks/input";
+import { Meta } from "./meta";
 
 export const FormPageSchema = Config.type("📝 Form Page", {
   fields: {
