@@ -8,6 +8,8 @@ import { LogoBanner } from "./blocks/logoBanner";
 import { PageHeader } from "./blocks/pageHeader";
 import { Input } from "./blocks/inputBlock";
 import { Meta } from "./meta";
+import { FormHeader } from "./blocks/formHeader";
+import { YesNoSubmit } from "./blocks/yesNoSubmit";
 
 
 // Refactor this to use a map
@@ -29,8 +31,12 @@ export function MapBlock({ block, meta }: { block: any; meta: Meta }) {
       return <Footer block={block} meta={meta} />;
     case "PageHeader":
       return <PageHeader block={block} meta={meta} />;
+    case "FormHeader":
+      return <FormHeader block={block} meta={meta} />;
     case "Input":
       return <Input block={block} meta={meta} />;
+    case "YesNoSubmit":
+      return <YesNoSubmit block={block} meta={meta} />;
   }
 
   return <>Error: Block not found</>;

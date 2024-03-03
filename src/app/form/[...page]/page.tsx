@@ -16,12 +16,18 @@ export async function generateMetadata({
 }: {
   params: { page: string[] | undefined };
 }): Promise<Metadata> {
-  const title =
-    (await getPage(FormPageSchema, params.page ?? []))?.page?.title ?? "";
-
-  return {
-    title,
-  };
+  try {
+    const title =
+      (await getPage(FormPageSchema, params.page ?? []))?.page?.title ?? "";
+    return {
+      title,
+    };
+  } catch (e) {
+    console.error(e);
+    return {
+      title: "Error",
+    };
+  }
 }
 
 export default async function Page({

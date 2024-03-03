@@ -44,7 +44,7 @@ type CmsPageSchema =
 export async function getPage(schema: CmsPageSchema, path: string[]) {
   const entrySlug = path.reverse()[0];
   const pagePath = path.reverse().slice(0, path.length - 1);
-
+  console.log("Path", pagePath, entrySlug);
   const pages = await cms.find(
     Query(schema).where({ slug: entrySlug }).select({
       page: schema,

@@ -3,32 +3,43 @@
   "_type": "FormPageSchema",
   "_index": "Zw",
   "_i18nId": "2dBdLn1lG1ghnE6lHy65NrUuw9U",
-  "title": "klage-eingereicht",
+  "title": "Klage eingereicht",
   "slug": "klage-eingereicht",
   "blocks": [
     {
-      "_id": "2dBdNHmMTHJchAyCqh0K3FIfz38",
-      "_index": "a0",
-      "_type": "Text",
+      "_id": "2dC2YIZm6DErrl6Wc4MseLrS8mg",
+      "_index": "Zz",
+      "_type": "FormHeader",
       "content": [
         {
-          "_type": "paragraph",
-          "textAlign": "left",
+          "_type": "heading",
+          "textAlign": "start",
+          "level": 1,
           "content": [
             {
               "_type": "text",
-              "text": "asdfa"
+              "text": "Haben Sie in dieser Sache bereits selbst ein Gerichtsverfahren begonnen?"
             }
           ]
         },
         {
-          "_type": "Text",
-          "_id": "2bvG0gbzDykP5bS3vOSqOHa9aYQ",
-          "look": "ds-heading-02-reg",
-          "text": "Haben sie eine Kreditkarte?",
-          "tag": "h1"
+          "_type": "paragraph",
+          "textAlign": "start",
+          "content": [
+            {
+              "_type": "text",
+              "text": "Haben Sie in dieser Angelegenheit schriftlich eine Klage oder einen Antrag bei einem Gericht eingereicht? Sie können auch eine Anwaltskanzlei damit beauftragen."
+            }
+          ]
         }
       ]
+    },
+    {
+      "_id": "2dC6GOBNHq2wm88OIdDI4Scebnx",
+      "_index": "a0",
+      "_type": "YesNoSubmit",
+      "yesLabel": "Ja",
+      "noLabel": "Nein"
     }
   ]
 }

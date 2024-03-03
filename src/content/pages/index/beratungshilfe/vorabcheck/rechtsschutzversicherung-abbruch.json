@@ -1,23 +1,33 @@
 {
-  "_id": "2cMAVo4OgN9Z5oDxPLv7GjjmtWA",
+  "_id": "2dCCLBO2e3xMn9dWSoU9fKJTFZD",
   "_type": "FormPageSchema",
-  "_index": "Zy",
-  "_i18nId": "2cMAVo4OgN9Z5oDxPLv7GjjmtWA",
-  "title": "Hinweis Rechtsschutzversicherung",
+  "_index": "Zu",
+  "_i18nId": "2dCCLBO2e3xMn9dWSoU9fKJTFZD",
+  "title": "Abbruch",
   "slug": "rechtsschutzversicherung-abbruch",
   "blocks": [
     {
-      "_id": "2cMAoT2XFsojOwnUhLDlbivZrYM",
-      "_index": "Zz",
-      "_type": "PageHeader",
+      "_id": "2dCCM0CZlXSVETVBF8gl1e6U6xc",
+      "_index": "a0",
+      "_type": "Banner",
       "background": "bg-[#f9e5ec]",
-      "title": "Sie benötigen wahrscheinlich keine Beratungshilfe."
+      "content": [
+        {
+          "_type": "heading",
+          "level": 2,
+          "content": [
+            {
+              "_type": "text",
+              "text": "Sie benötigen wahrscheinlich keine Beratungshilfe."
+            }
+          ]
+        }
+      ]
     },
     {
-      "_id": "2cMAbWhqJ6DkyKyvo7fzVLugibe",
-      "_index": "a0",
-      "_type": "Input",
-      "background": "bg-blue-100",
+      "_id": "2dCCNrJfsQXbSXkupcfYetEVAbp",
+      "_index": "a1",
+      "_type": "Text",
       "content": [
         {
           "_type": "heading",

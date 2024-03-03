@@ -8,9 +8,9 @@
   "slug": "index",
   "blocks": [
     {
-      "_type": "Hero",
       "_id": "2ai6jZfdINXy1tc0PqLbqLYP5zg",
       "_index": "a0",
+      "_type": "Hero",
       "background": "bg-blue-800",
       "content": [
         {
@@ -36,9 +36,9 @@
       ]
     },
     {
-      "_type": "Banner",
       "_id": "2amfh9HVodTeoJoarAD3ZBS58Jp",
       "_index": "a1",
+      "_type": "Banner",
       "background": "bg-yellow-300",
       "content": [
         {
@@ -54,9 +54,9 @@
       ]
     },
     {
-      "_type": "LogoBanner",
       "_id": "2aio8z8Mg6RQn2IN0OrSdKgn1qx",
       "_index": "a2",
+      "_type": "LogoBanner",
       "background": "bg-white",
       "content": [
         {
@@ -88,16 +88,16 @@
       "logo": {
         "title": "IM AUFTRAG DES",
         "image": {
-          "_type": "image",
           "_id": "2aioAdGWtblbtpuk4hVES88MRsU",
+          "_type": "image",
           "_entry": "2aio6gK9Onw5z9W2sRUm277kYig"
         }
       }
     },
     {
-      "_type": "CallToAction",
       "_id": "2ajvyMraq5cT4K5BvydTvkOcRzH",
       "_index": "a3",
+      "_type": "CallToAction",
       "background": "bg-white",
       "actionBackground": "bg-blue-100",
       "content": [
@@ -159,14 +159,29 @@
         },
         {
           "_type": "Button",
-          "_id": "2amZ2uwCrd4XXI0kUqEXSljBpV6"
+          "_id": "2amZ2uwCrd4XXI0kUqEXSljBpV6",
+          "items": [
+            {
+              "_id": "2dBzxNnnCyHHgYQeVtMUx9x5LNp",
+              "_index": "a0",
+              "_type": "Button",
+              "text": "Zur Beratungshilfe",
+              "link": {
+                "_id": "2dC00UkcjVB93NwWMMjdLlV7BEb",
+                "_type": "entry",
+                "_entry": "2bBwAne20pBUs4CCu67ld41b7Fl"
+              },
+              "apiFunction": "",
+              "size": "ds-button-large"
+            }
+          ]
         }
       ]
     },
     {
-      "_type": "Text",
       "_id": "2ajxnA9ujRKeuiFEwfZ7lANjhGZ",
       "_index": "a4",
+      "_type": "Text",
       "content": [
         {
           "_type": "paragraph",
@@ -194,9 +209,9 @@
   ],
   "header": [
     {
-      "_type": "Header",
       "_id": "2amjHzE8P8EPnmmqJ8KvF31QUnx",
       "_index": "a0",
+      "_type": "Header",
       "background": "bg-white",
       "content": [
         {
@@ -223,9 +238,9 @@
   ],
   "footer": [
     {
-      "_type": "Text",
       "_id": "2bBv1QPbCM8bdP3H6YRHFcPtlNf",
       "_index": "a0",
+      "_type": "Text",
       "background": "bg-blue-300",
       "content": [
         {
@@ -262,13 +277,13 @@
       ]
     },
     {
-      "_type": "Footer",
       "_id": "2arAOC9YdtuVtTB8IsdglId7Loo",
       "_index": "a1",
+      "_type": "Footer",
       "logo": {
         "image": {
-          "_type": "image",
           "_id": "2b6R03tsimi6BYr03uEYRllhJo0",
+          "_type": "image",
           "_entry": "2aio6gK9Onw5z9W2sRUm277kYig"
         }
       },
@@ -318,35 +333,35 @@
       ],
       "linkList": [
         {
-          "_type": "entry",
           "_id": "2bE3SLxK7ZKhf2fagghUxHjqFM3",
           "_index": "a0",
+          "_type": "entry",
           "_entry": "2b8gxhNDaofTfSzR0dAeZCR6fp2"
         },
         {
-          "_type": "entry",
           "_id": "2bE3SODwCibjfccAejU2d0Im4zQ",
           "_index": "a1",
+          "_type": "entry",
           "_entry": "2bBsc8MRbAvnG7uGQ24X1CFDjL1"
         },
         {
-          "_type": "url",
           "_id": "2b6S0A9aGNFvMRTENr2AkBHvBlV",
           "_index": "a2",
+          "_type": "url",
           "_url": "/cookie",
           "_title": "Cookie-Einstellungen",
           "_target": "_blank"
         },
         {
-          "_type": "entry",
           "_id": "2bE3SLO7c6dxDNEB1RA7iOhpKHQ",
           "_index": "a3",
+          "_type": "entry",
           "_entry": "2bBuhNPvSsELZp61jvL0vZyBHF7"
         },
         {
-          "_type": "entry",
           "_id": "2bE3SMpDGwFcWRH33gVAB5mNPli",
           "_index": "a4",
+          "_type": "entry",
           "_entry": "2bBvc120X0MfHh3mlbK1OhP0bJn"
         }
       ]

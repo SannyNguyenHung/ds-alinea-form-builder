@@ -3,12 +3,13 @@ import { ContentBlock } from "./blocks/content";
 import { CallToActionBlock } from "./blocks/callToAction";
 import { v4 as uuidv4 } from "uuid";
 import { BannerBlock } from "./blocks/banner";
-import { PageHeaderBlock } from "./blocks/pageHeader";
+import { FormHeaderBlock } from "./blocks/formHeader";
 import { AiOutlineForm } from "react-icons/ai";
 import { Page } from "./page";
 import { MapBlock } from "./contentBlockMap";
 import { InputBlock } from "./blocks/input";
 import { Meta } from "./meta";
+import { YesNoSubmitBlock } from "./blocks/yesNoSubmit";
 
 export const FormPageSchema = Config.type("📝 Form Page", {
   fields: {
@@ -18,10 +19,11 @@ export const FormPageSchema = Config.type("📝 Form Page", {
       schema: Config.schema({
         types: {
           Banner: BannerBlock,
-          PageHeader: PageHeaderBlock,
+          FormHeader: FormHeaderBlock,
           Text: ContentBlock,
           CallToAction: CallToActionBlock,
           Input: InputBlock,
+          YesNoSubmit: YesNoSubmitBlock,
         },
       }),
     }),
@@ -68,24 +70,27 @@ const ExportElementsTypes = ["Radio"];
 export async function getFormBranches(page: FormPage) {
   //const branches: Record<string, []> = {};
 
-  return page.blocks
-    .filter((block) => ExportTypes.includes(block._type))
-    .flatMap((block) => {
-      const inputBlock = block as InputBlock;
-      console.log("Content", inputBlock?.content);
+  const inputBranches = page.blocks
+  .filter((block) => ExportTypes.includes(block._type))
+  .flatMap((block) => {
+    const inputBlock = block as InputBlock;
+    console.log("Content", inputBlock?.content);
 
-      return inputBlock?.content
-        ?.filter((block) => ExportElementsTypes.includes(block._type))
-        .map((element) => {
-          return {
-            group: ("group" in element ? element.group : "") as
-              | string
-              | undefined,
-            name: ("name" in element ? element.name : "") as string | undefined,
-            text: ("text" in element ? element.text : "") as string | undefined,
-          };
-        });
-    });
+    return inputBlock?.content
+      ?.filter((block) => ExportElementsTypes.includes(block._type))
+      .map((element) => {
+        return {
+          name: ("name" in element ? element.name : "") as string | undefined,
+          text: ("text" in element ? element.text : "") as string | undefined,
+        };
+      });
+  });
 
-  //return branches;
+  page.blocks.filter((block) => block._type === "YesNoSubmit").forEach((block) => {
+    inputBranches.push({name: "Yes",text: ("yesLabel" in block ? block.yesLabel : "") as string | undefined});
+    inputBranches.push({name: "No", text: ("noLabel" in block ? block.noLabel : "") as string | undefined});
+  });
+  
+
+  return inputBranches;
 }

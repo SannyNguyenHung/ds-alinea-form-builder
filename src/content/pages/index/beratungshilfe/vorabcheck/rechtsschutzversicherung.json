@@ -7,17 +7,19 @@
   "slug": "rechtsschutzversicherung",
   "blocks": [
     {
-      "_id": "2bvFyjh0J55qqadQBBIkAkIlssQ",
-      "_index": "Zz",
-      "_type": "Text",
-      "background": "bg-blue-100",
+      "_id": "2dC2fN6UwLcOcxAmkWMxlAkpEGZ",
+      "_index": "Zy",
+      "_type": "FormHeader",
       "content": [
         {
-          "_type": "Text",
-          "_id": "2bvG0gbzDykP5bS3vOSqOHa9aYQ",
-          "look": "ds-heading-02-reg",
-          "text": "Haben Sie eine Rechtsschutz­versicherung für diese Angelegenheit?",
-          "tag": "h1"
+          "_type": "heading",
+          "level": 1,
+          "content": [
+            {
+              "_type": "text",
+              "text": "Haben Sie eine Rechtsschutz­versicherung für diese Angelegenheit?"
+            }
+          ]
         },
         {
           "_type": "paragraph",
