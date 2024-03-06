@@ -14,17 +14,15 @@ export function Input({ block, meta }: { block: InputBlock; meta: Meta }) {
     event.preventDefault();
 
     const formData = new FormData(event.currentTarget);
-    const requestHeaders: HeadersInit = new Headers();
-    requestHeaders.set("x-step-id", meta?.slug);
-    requestHeaders.set("x-flow-id", meta?.flowId ?? "");
-
     const response = await fetch("/api/form", {
       method: "POST",
-      headers: requestHeaders,
       body: formData,
+      redirect: "follow"
+    }).then((response) => {
+      if (response.redirected) {
+        //router.push(response.url)
+      }
     });
-
-    console.log(response);
   }
 
   return (
@@ -39,6 +37,8 @@ export function Input({ block, meta }: { block: InputBlock; meta: Meta }) {
           content={block.content}
           blocks={RichTextBoxExtension}
         />
+        <input type="hidden" name="step-id" value={meta?.slug} />
+        <input type="hidden" name="flow-id" value={meta?.flowId} />
       </form>
     </Block>
   );

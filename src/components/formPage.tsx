@@ -80,17 +80,16 @@ export async function getFormBranches(page: FormPage) {
       ?.filter((block) => ExportElementsTypes.includes(block._type))
       .map((element) => {
         return {
-          name: ("name" in element ? element.name : "") as string | undefined,
+          name: ("value" in element ? element.value : "") as string | undefined,
           text: ("text" in element ? element.text : "") as string | undefined,
         };
       });
   });
-
-  page.blocks.filter((block) => block._type === "YesNoSubmit").forEach((block) => {
-    inputBranches.push({name: "Yes",text: ("yesLabel" in block ? block.yesLabel : "") as string | undefined});
-    inputBranches.push({name: "No", text: ("noLabel" in block ? block.noLabel : "") as string | undefined});
-  });
   
+  page.blocks.filter((block) => block._type === "YesNoSubmit").forEach((block) => {
+    inputBranches.push({name: "yes", text: ("yesLabel" in block ? block.yesLabel : "") as string | undefined});
+    inputBranches.push({name: "no", text: ("noLabel" in block ? block.noLabel : "") as string | undefined});
+  });
 
   return inputBranches;
 }

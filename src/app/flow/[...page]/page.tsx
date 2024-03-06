@@ -1,5 +1,6 @@
 import { WorkflowEditor } from "@/workflow/editor/workflow";
-import { getFlowDefinition, getWorkflowBranches } from "@/workflow/editor/flow";
+import { getFlowConfiguration } from "@/workflow/engine/flow";
+import { getWorkflowBranches } from "@/workflow/editor/flow";
 
 export const revalidate = 0;
 
@@ -8,10 +9,10 @@ export default async function Flow({
 }: {
   params: { page: string[] | undefined };
 }) {
-  console.log("Page", params.page)
   const flowId = params.page?.filter((page) => page !== "index");
+  console.log("Page", params)
   console.log("Flow", flowId)
-  const { flow, children } = await getFlowDefinition(flowId);
+  const { flow, children } = await getFlowConfiguration(flowId);
 
   const stepDefinitions = [];
 

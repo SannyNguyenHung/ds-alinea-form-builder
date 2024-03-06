@@ -641,7 +641,11 @@
               "_index": "a0",
               "_type": "Button",
               "text": "Vorab-Check starten",
-              "link": {},
+              "link": {
+                "_id": "2dI0K9XJ79oKPAd6ZT2301xgqgn",
+                "_type": "entry",
+                "_entry": "2bjkcdmzSnhleWThH1cPgaPZTkS"
+              },
               "apiFunction": "",
               "size": "ds-button-large"
             }

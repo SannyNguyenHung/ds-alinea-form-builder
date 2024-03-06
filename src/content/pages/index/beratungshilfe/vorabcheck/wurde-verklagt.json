@@ -38,12 +38,14 @@
         {
           "_type": "Radio",
           "_id": "2c9anpkiu7WVwLOgb9UHndw5c75",
-          "text": "Ja"
+          "text": "Ja",
+          "value": "yes"
         },
         {
           "_type": "Radio",
           "_id": "2c9asNGgapLETRhAmn7CXZz2XK0",
-          "text": "Nein"
+          "text": "Nein",
+          "value": "no"
         }
       ]
     }

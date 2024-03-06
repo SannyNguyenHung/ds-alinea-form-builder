@@ -15,8 +15,6 @@ export function StepEditor({ conditions }: { conditions: string[] }) {
 		notifyChildrenChanged,
 	} = useStepEditor<TaskStep | FlowStep>();
 
-	console.log("step", step);
-
 	function onNameChanged(e: ChangeEvent) {
 		setName((e.target as HTMLInputElement).value);
 	}
@@ -41,7 +39,6 @@ export function StepEditor({ conditions }: { conditions: string[] }) {
 	}
 
 	const stepHasBranches = "branches" in step;
-	console.log(stepHasBranches);
 
 	return (
 		<div className="flex flex-col">

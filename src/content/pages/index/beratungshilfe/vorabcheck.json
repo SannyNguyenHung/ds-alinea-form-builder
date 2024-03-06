@@ -3,7 +3,7 @@
   "_type": "FlowPageSchema",
   "_index": "a0",
   "_i18nId": "2bjkcdmzSnhleWThH1cPgaPZTkS",
-  "_root": "pages",
   "title": "Vorabcheck",
-  "slug": "vorabcheck"
+  "slug": "vorabcheck",
+  "startPage": {}
 }
